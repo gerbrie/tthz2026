@@ -1,0 +1,23 @@
+uuid: 2a2ece25-2cd6-448c-b5e7-f0a529383a97
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_opacity
+    - paragraphs.paragraphs_type.w3css_webform
+  module:
+    - options
+_core:
+  default_config_hash: WWljM6rCHyTP1k057Lm8x3goUN0yK3UmtmlLOWkzF28
+id: paragraph.w3css_webform.w3css_display_opacity
+field_name: w3css_display_opacity
+entity_type: paragraph
+bundle: w3css_webform
+label: 'Background Color Opacity'
+description: 'Change the opacity for the background color.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

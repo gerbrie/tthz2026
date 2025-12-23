@@ -1,0 +1,23 @@
+uuid: 647052b4-eede-4d03-b0f7-aabfc6cee61e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_content_body
+    - paragraphs.paragraphs_type.w3css_card
+  module:
+    - text
+_core:
+  default_config_hash: yXqcvWUprMmoq1zewsoZUUBE1xAk0166dae2K8w0bFI
+id: paragraph.w3css_card.w3css_content_body
+field_name: w3css_content_body
+entity_type: paragraph
+bundle: w3css_card
+label: 'Content Body'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

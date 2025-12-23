@@ -1,0 +1,27 @@
+uuid: 6d8fc31f-edd6-441c-8c63-c6d0db283091
+langcode: nl
+status: true
+dependencies:
+  module:
+    - aggregator
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: drupal8_w3css_subtheme_aggregatorfeed
+theme: drupal8_w3css_subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: aggregator_feed_block
+settings:
+  id: aggregator_feed_block
+  label: Sporza
+  label_display: visible
+  provider: aggregator
+  block_count: 3
+  feed: '7'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

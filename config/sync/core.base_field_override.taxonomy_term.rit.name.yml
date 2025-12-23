@@ -1,0 +1,18 @@
+uuid: 80acd6ef-02ef-4161-b577-42e8844bffb7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.rit
+id: taxonomy_term.rit.name
+field_name: name
+entity_type: taxonomy_term
+bundle: rit
+label: Naam
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

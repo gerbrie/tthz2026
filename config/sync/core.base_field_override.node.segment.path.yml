@@ -1,0 +1,20 @@
+uuid: a152b080-e86f-441e-bc6d-55552e301808
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.segment
+  module:
+    - path
+id: node.segment.path
+field_name: path
+entity_type: node
+bundle: segment
+label: URL-alias
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,19 @@
+uuid: c18480f0-b985-43fd-a614-1db6486d308e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_info
+    - node.type.sponsors
+id: node.sponsors.field_info
+field_name: field_info
+entity_type: node
+bundle: sponsors
+label: info
+description: 'extra info over het segment'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

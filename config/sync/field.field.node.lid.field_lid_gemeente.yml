@@ -1,0 +1,19 @@
+uuid: b62f0a88-d838-46cc-b92d-98bb8b2f2073
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lid_gemeente
+    - node.type.lid
+id: node.lid.field_lid_gemeente
+field_name: field_lid_gemeente
+entity_type: node
+bundle: lid
+label: Gemeente
+description: 'Postcode Gemeente'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 99a0cd54-502a-4f97-8bf9-a485c857c832
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_hover_text
+    - paragraphs.paragraphs_type.w3css_hero
+  module:
+    - options
+_core:
+  default_config_hash: E-AmZSLNnhjr8k7XGI6dALW6MU58al24E-5bVi4N6FI
+id: paragraph.w3css_hero.w3css_display_hover_text
+field_name: w3css_display_hover_text
+entity_type: paragraph
+bundle: w3css_hero
+label: 'Text Color Hover'
+description: 'The w3-hover-text-color classes define the text hover color for the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

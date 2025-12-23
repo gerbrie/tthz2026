@@ -1,0 +1,20 @@
+uuid: e1de579c-c587-4e98-b0e6-1a597ad8877e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_webform
+id: comment.comment_node_webform.uid
+field_name: uid
+entity_type: comment
+bundle: comment_node_webform
+label: Gebruikers-ID
+description: 'De gebruikers-ID van de reactie-auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

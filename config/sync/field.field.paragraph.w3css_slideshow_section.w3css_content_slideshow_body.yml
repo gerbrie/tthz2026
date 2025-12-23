@@ -1,0 +1,25 @@
+uuid: 553649ac-49c5-43f7-b6fc-961d342a1baf
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_content_slideshow_body
+    - paragraphs.paragraphs_type.w3css_slideshow_section
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: eDqBq0VymC3mVScFlZPsQtpBDFAaoqkqA0Dc0CdaMao
+id: paragraph.w3css_slideshow_section.w3css_content_slideshow_body
+field_name: w3css_content_slideshow_body
+entity_type: paragraph
+bundle: w3css_slideshow_section
+label: 'Slideshow Section Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions

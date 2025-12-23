@@ -1,0 +1,17 @@
+_core:
+  default_config_hash: 4FhrEwOM9yJ8neEoN77sxroTRBUXqRwap0KSJtFnYJs
+abs_urls: false
+admin_theme: true
+roles_profiles:
+  authenticated:
+    public: admin
+    private: admin
+  administrator:
+    public: admin
+    private: admin
+  bestuur:
+    public: member
+    private: member
+  editor:
+    public: member
+    private: member

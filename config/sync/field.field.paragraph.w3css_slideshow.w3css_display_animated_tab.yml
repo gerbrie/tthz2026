@@ -1,0 +1,23 @@
+uuid: 42f98465-133f-44fc-9144-0718c2713b53
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_animated_tab
+    - paragraphs.paragraphs_type.w3css_slideshow
+  module:
+    - options
+_core:
+  default_config_hash: 2uXW_5Oqjnkk9zVFVVgFIyoQVw69HTLRakpq0650uOU
+id: paragraph.w3css_slideshow.w3css_display_animated_tab
+field_name: w3css_display_animated_tab
+entity_type: paragraph
+bundle: w3css_slideshow
+label: 'Animated Slide'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

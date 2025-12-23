@@ -1,0 +1,17 @@
+third_party_settings:
+  field_group:
+    w3css_tab_content:
+      label: Content
+    w3css_tab_display:
+      label: Display
+    w3css_tabs_wrapper:
+      label: 'Tabs Wrapper'
+content:
+  w3css_content_left_column:
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+  w3css_content_right_column:
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs

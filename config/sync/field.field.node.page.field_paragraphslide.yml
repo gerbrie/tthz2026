@@ -1,0 +1,49 @@
+uuid: 87c729fa-4952-4c4d-940d-fd766f7893fe
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphslide
+    - node.type.page
+    - paragraphs.paragraphs_type.w3css_slideshow
+  module:
+    - entity_reference_revisions
+id: node.page.field_paragraphslide
+field_name: field_paragraphslide
+entity_type: node
+bundle: page
+label: paragraphslide
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      w3css_slideshow: w3css_slideshow
+    negate: 0
+    target_bundles_drag_drop:
+      w3css_hero:
+        weight: 8
+        enabled: false
+      w3css_image:
+        weight: 9
+        enabled: false
+      w3css_shared:
+        weight: 10
+        enabled: false
+      w3css_simple:
+        weight: 11
+        enabled: false
+      w3css_slideshow:
+        weight: 12
+        enabled: true
+      w3css_slideshow_section:
+        weight: 13
+        enabled: false
+      w3css_webform:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

@@ -111,3 +111,4 @@ Thumbs.db
 !/web/profiles/custom
 !/config/sync
 
+/.gitattributes

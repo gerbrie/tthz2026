@@ -1,0 +1,33 @@
+uuid: b227d896-9c3c-4b29-8408-4cdac2435c3e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.menu-editor-menu
+  module:
+    - system
+    - user
+  theme:
+    - drupal8_w3css_subtheme
+id: drupal8_w3css_subtheme_editormenu
+theme: drupal8_w3css_subtheme
+region: footer_first
+weight: -14
+provider: null
+plugin: 'system_menu_block:menu-editor-menu'
+settings:
+  id: 'system_menu_block:menu-editor-menu'
+  label: Bestuurszone
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      bestuur: bestuur

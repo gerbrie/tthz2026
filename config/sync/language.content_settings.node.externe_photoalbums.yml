@@ -1,0 +1,18 @@
+uuid: 93387339-2108-4772-b767-ef3db9e32e1e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.externe_photoalbums
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.externe_photoalbums
+target_entity_type_id: node
+target_bundle: externe_photoalbums
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: 10025de6-6578-421c-b819-59f1ad654861
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.vergadering
+id: node.vergadering.promote
+field_name: promote
+entity_type: node
+bundle: vergadering
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

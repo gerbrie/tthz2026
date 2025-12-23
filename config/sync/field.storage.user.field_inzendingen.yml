@@ -1,0 +1,24 @@
+uuid: 3eb6d1b9-eae0-481d-961c-f5dc53c87896
+langcode: nl
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - user
+    - webform
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: user.field_inzendingen
+field_name: field_inzendingen
+entity_type: user
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

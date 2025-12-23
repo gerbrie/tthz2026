@@ -1,0 +1,23 @@
+uuid: dccd5d9d-5e5d-42d7-a858-1479c481fc39
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_route
+    - node.type.calendar
+  module:
+    - link
+id: node.calendar.field_route
+field_name: field_route
+entity_type: node
+bundle: calendar
+label: Route
+description: 'Voer hier de link in naar de route, bvb https://ridewithgps.com/routes/32134325'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

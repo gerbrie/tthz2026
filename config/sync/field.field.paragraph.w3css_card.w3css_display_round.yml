@@ -1,0 +1,23 @@
+uuid: f53d2374-5909-4315-a02c-1b2e180c20af
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_round
+    - paragraphs.paragraphs_type.w3css_card
+  module:
+    - options
+_core:
+  default_config_hash: 1nz-jFzUfVCYftF9je4_ipoIAhaAFnIFKafNiMwczqA
+id: paragraph.w3css_card.w3css_display_round
+field_name: w3css_display_round
+entity_type: paragraph
+bundle: w3css_card
+label: 'Round Corners'
+description: 'The w3-round-size classes add rounded corners to the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

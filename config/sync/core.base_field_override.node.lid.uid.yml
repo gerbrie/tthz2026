@@ -1,0 +1,20 @@
+uuid: 88046b57-0e95-4c95-a54f-531b86417a46
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.lid
+id: node.lid.uid
+field_name: uid
+entity_type: node
+bundle: lid
+label: 'Geschreven door'
+description: 'De gebruikersnaam van de auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

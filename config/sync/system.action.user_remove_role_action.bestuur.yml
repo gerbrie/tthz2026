@@ -1,0 +1,14 @@
+uuid: f4ded58a-00f3-41e4-aaa9-4b185fb5a08c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.bestuur
+  module:
+    - user
+id: user_remove_role_action.bestuur
+label: 'De rol bestuur verwijderen van de geselecteerde gebruikers(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bestuur

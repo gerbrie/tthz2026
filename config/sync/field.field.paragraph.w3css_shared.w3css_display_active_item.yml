@@ -1,0 +1,23 @@
+uuid: 521ec888-73cc-406d-9a1b-be0dd572c53a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_active_item
+    - paragraphs.paragraphs_type.w3css_shared
+  module:
+    - options
+_core:
+  default_config_hash: l0V3Js4eSgPw0a8MpZxTm3JBa8A_YbEFjDD8Uao9-nU
+id: paragraph.w3css_shared.w3css_display_active_item
+field_name: w3css_display_active_item
+entity_type: paragraph
+bundle: w3css_shared
+label: w3css_display_active_item
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

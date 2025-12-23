@@ -1,0 +1,18 @@
+uuid: 1e0594dc-2bc1-41b2-9047-0ab34eae731c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.calendar
+id: node.calendar.title
+field_name: title
+entity_type: node
+bundle: calendar
+label: 'Naam rit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

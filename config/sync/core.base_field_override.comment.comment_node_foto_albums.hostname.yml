@@ -1,0 +1,18 @@
+uuid: 959c4aa5-fb61-4a99-b236-d1153ffb2f75
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_foto_albums
+id: comment.comment_node_foto_albums.hostname
+field_name: hostname
+entity_type: comment
+bundle: comment_node_foto_albums
+label: Hostnaam
+description: 'De hostnaam van de schrijver van de reactie.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultHostname'
+settings: {  }
+field_type: string

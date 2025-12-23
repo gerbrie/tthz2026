@@ -1,0 +1,29 @@
+uuid: 107ba571-95e7-456a-aced-ab8f6497495b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.kalenderblok
+  module:
+    - system
+    - views
+  theme:
+    - tthz10
+id: views_block__kalenderblok_block_1_2
+theme: tthz10
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'views_block:kalenderblok-block_1'
+settings:
+  id: 'views_block:kalenderblok-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

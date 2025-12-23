@@ -1,0 +1,5 @@
+label: Prev/Next
+description: 'Check this box to display prev and next navigation buttons on the both sides.'
+settings:
+  on_label: 'On'
+  off_label: 'Off'

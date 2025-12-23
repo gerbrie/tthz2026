@@ -1,0 +1,18 @@
+uuid: 8d25a47e-a94f-4e8d-94f6-86c33e2da643
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.changed
+field_name: changed
+entity_type: node
+bundle: news
+label: Gewijzigd
+description: 'Het tijdstip waarop de node voor het laatst werd bewerkt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

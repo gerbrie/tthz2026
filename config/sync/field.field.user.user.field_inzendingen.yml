@@ -1,0 +1,25 @@
+uuid: e8531155-4cf0-478b-b32a-349ac304fbb6
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_inzendingen
+  module:
+    - user
+    - webform
+id: user.user.field_inzendingen
+field_name: field_inzendingen
+entity_type: user
+bundle: user
+label: Inzendingen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

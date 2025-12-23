@@ -1,0 +1,29 @@
+uuid: ccdd67d3-5237-458a-90b3-214690beeb9c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.kalenderblok
+  module:
+    - system
+    - views
+  theme:
+    - drupal8_w3css_theme
+id: views_block__kalenderblok_block_1_3
+theme: drupal8_w3css_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:kalenderblok-block_1'
+settings:
+  id: 'views_block:kalenderblok-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,22 @@
+uuid: 513fdad4-c999-4d19-b045-8e2cfe17bc27
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_samenvatting
+    - node.type.vergadering
+  module:
+    - text
+id: node.vergadering.field_samenvatting
+field_name: field_samenvatting
+entity_type: node
+bundle: vergadering
+label: Samenvatting
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

@@ -1,0 +1,23 @@
+uuid: 3e5791f7-a64a-42aa-99c5-6b6b232e5eca
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_bg_color
+    - paragraphs.paragraphs_type.w3css_image
+  module:
+    - options
+_core:
+  default_config_hash: C7a-tgaUDzt9DUkAv6Lxb_U3EdJyeEpg2yLtBp2P0NE
+id: paragraph.w3css_image.w3css_display_bg_color
+field_name: w3css_display_bg_color
+entity_type: paragraph
+bundle: w3css_image
+label: 'Background Colors'
+description: 'The w3-color classes set the background color for any HTML element.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

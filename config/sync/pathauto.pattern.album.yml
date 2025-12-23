@@ -1,0 +1,22 @@
+uuid: 636abafd-925e-44cd-bf8e-7b83f2871fea
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: album
+label: Album
+type: 'canonical_entities:node'
+pattern: 'Albums/[node:title]'
+selection_criteria:
+  859480a8-c1c3-4028-a3c4-a507237474d4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 859480a8-c1c3-4028-a3c4-a507237474d4
+    context_mapping:
+      node: node
+    bundles:
+      photos: photos
+selection_logic: and
+weight: -5
+relationships: {  }

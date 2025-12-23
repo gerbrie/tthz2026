@@ -1,0 +1,22 @@
+uuid: 71ed2eb7-73bc-4272-9d46-bc997f3fe616
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.rit
+id: taxonomy_term.rit.status
+field_name: status
+entity_type: taxonomy_term
+bundle: rit
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,28 @@
+uuid: e2150104-5438-4a51-854b-08d1557f1163
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_externe_photoalbums
+    - field.field.comment.comment_node_externe_photoalbums.comment_body
+  module:
+    - text
+id: comment.comment_node_externe_photoalbums.default
+targetEntityType: comment
+bundle: comment_node_externe_photoalbums
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

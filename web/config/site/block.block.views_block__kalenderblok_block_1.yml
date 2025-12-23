@@ -1,0 +1,24 @@
+uuid: d5a360dd-ef27-4352-9c31-1fef4b2cec41
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.kalenderblok
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__kalenderblok_block_1
+theme: bartik
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:kalenderblok-block_1'
+settings:
+  id: 'views_block:kalenderblok-block_1'
+  label: Binnenkort
+  label_display: visible
+  provider: views
+  views_label: Binnenkort
+  items_per_page: none
+visibility: {  }

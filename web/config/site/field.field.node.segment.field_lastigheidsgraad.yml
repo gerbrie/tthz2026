@@ -1,0 +1,26 @@
+uuid: 0d0b16ff-cbe9-4942-b2de-bf7f2490d4a4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lastigheidsgraad
+    - node.type.segment
+    - taxonomy.vocabulary.moeilijkheidsgraad
+id: node.segment.field_lastigheidsgraad
+field_name: field_lastigheidsgraad
+entity_type: node
+bundle: segment
+label: Lastigheidsgraad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      moeilijkheidsgraad: moeilijkheidsgraad
+    sort:
+      field: _none
+field_type: entity_reference

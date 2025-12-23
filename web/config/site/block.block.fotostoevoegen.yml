@@ -1,0 +1,30 @@
+uuid: 0efa3f78-e3cc-4859-bd63-201e5df8ec96
+langcode: nl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c6268951-740f-4b8c-b81f-1d5e8571a314'
+  module:
+    - block_content
+    - system
+  theme:
+    - tthz10
+id: fotostoevoegen
+theme: tthz10
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'block_content:c6268951-740f-4b8c-b81f-1d5e8571a314'
+settings:
+  id: 'block_content:c6268951-740f-4b8c-b81f-1d5e8571a314'
+  label: "Foto's toevoegen"
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/node/*/photos'

@@ -1,0 +1,87 @@
+uuid: 6ac4c034-1db8-49a8-84bc-a6fa9f4f35f9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lid.comment_node_lid
+    - field.field.node.lid.field_bestuur
+    - field.field.node.lid.field_functie
+    - field.field.node.lid.field_image
+    - field.field.node.lid.field_lid_adres
+    - field.field.node.lid.field_lid_email
+    - field.field.node.lid.field_lid_gemeente
+    - field.field.node.lid.field_lid_telefoon
+    - node.type.lid
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          a5de9949-4d35-452b-9101-94c12f863748:
+            uuid: a5de9949-4d35-452b-9101-94c12f863748
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: ''
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          9b4ddf21-3bcf-46f1-940b-63555e860ea5:
+            uuid: 9b4ddf21-3bcf-46f1-940b-63555e860ea5
+            region: content
+            configuration:
+              id: 'extra_field_block:node:lid:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: node.lid.teaser
+targetEntityType: node
+bundle: lid
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  comment_node_lid: true
+  field_bestuur: true
+  field_functie: true
+  field_lid_adres: true
+  field_lid_email: true
+  field_lid_gemeente: true
+  field_lid_telefoon: true
+  langcode: true

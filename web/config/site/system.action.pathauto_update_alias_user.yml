@@ -1,0 +1,16 @@
+uuid: 154936a2-e631-4019-958b-e70c8279ad3b
+langcode: nl
+status: true
+dependencies:
+  module:
+    - pathauto
+  enforced:
+    module:
+      - user
+_core:
+  default_config_hash: x_ok_ZsfA4Xk4B_hVW3O4-3PcNoK57nXLz_Dlletidg
+id: pathauto_update_alias_user
+label: 'URL-alias bijwerken'
+type: user
+plugin: pathauto_update_alias
+configuration: {  }

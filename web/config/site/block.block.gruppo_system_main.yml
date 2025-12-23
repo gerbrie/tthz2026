@@ -1,0 +1,20 @@
+uuid: ce33e5df-7450-4512-89ba-7dce6beeab30
+langcode: nl
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - gruppo
+id: gruppo_system_main
+theme: gruppo
+region: ''
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ae99da13-246f-4738-9c57-7218634147de
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - tthz9
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: tthz9_local_tasks
+theme: tthz9
+region: header
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

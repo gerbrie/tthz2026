@@ -1,0 +1,14 @@
+uuid: 12a5d2ce-f79f-4458-91cf-41d4eae73f3b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.album_editor
+  module:
+    - user
+id: user_add_role_action.album_editor
+label: 'De rol album editor toewijzen aan de geselecteerde gebruiker(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: album_editor

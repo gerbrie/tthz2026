@@ -1,0 +1,28 @@
+langcode: nl
+server_url: ''
+preview_callback_url: /__refresh
+path_mapping: ''
+incrementalbuild_url: ''
+build_published: true
+preview_entity_types:
+  aggregator_feed: aggregator_feed
+  aggregator_item: aggregator_item
+  block_content: block_content
+  comment: comment
+  consumer: consumer
+  contact_message: contact_message
+  feeds_subscription: feeds_subscription
+  feeds_feed: feeds_feed
+  file: file
+  media: media
+  menu_link_content: menu_link_content
+  node: node
+  path_alias: path_alias
+  redirect: redirect
+  shortcut: shortcut
+  oauth2_token: oauth2_token
+  taxonomy_term: taxonomy_term
+  user: user
+  webform_submission: webform_submission
+secret_key: ''
+legacy_preview_url: 0

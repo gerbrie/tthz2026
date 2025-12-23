@@ -1,0 +1,32 @@
+uuid: 6227f8da-5f21-41b6-9057-b0d833c74b8a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.header.field_headerfoto
+    - image.style.slick_media
+    - node.type.header
+  module:
+    - image
+    - user
+id: node.header.default
+targetEntityType: node
+bundle: header
+mode: default
+content:
+  field_headerfoto:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: slick_media
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

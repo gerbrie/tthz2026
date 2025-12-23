@@ -1,0 +1,20 @@
+uuid: 1a98603b-2248-4369-a969-dc69b5617aa0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_sponsors
+id: comment.comment_node_sponsors.name
+field_name: name
+entity_type: comment
+bundle: comment_node_sponsors
+label: Naam
+description: 'De naam van de schrijver van de reactie.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

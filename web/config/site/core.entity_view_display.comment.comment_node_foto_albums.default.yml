@@ -1,0 +1,28 @@
+uuid: 70360f53-4cdf-46bb-a7b2-afa29203006f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_foto_albums
+    - field.field.comment.comment_node_foto_albums.comment_body
+  module:
+    - text
+id: comment.comment_node_foto_albums.default
+targetEntityType: comment
+bundle: comment_node_foto_albums
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

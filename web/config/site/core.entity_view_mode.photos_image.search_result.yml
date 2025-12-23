@@ -1,0 +1,12 @@
+uuid: 716330f7-fb39-47c9-8262-07ec05e857e2
+langcode: nl
+status: false
+dependencies:
+  module:
+    - photos
+_core:
+  default_config_hash: mXEgdTEWvwPSuCsvvKuQXJgzjoU18dH6tC1tgSTSReo
+id: photos_image.search_result
+label: 'Search result highlighting input'
+targetEntityType: photos_image
+cache: true

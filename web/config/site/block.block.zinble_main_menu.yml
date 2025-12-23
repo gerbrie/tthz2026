@@ -1,0 +1,27 @@
+uuid: dfa79d46-386d-4a49-84de-fffe60cc306e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - zinble
+_core:
+  default_config_hash: nzYS_XeFVrJTv1P_S53vqFv9ugy4N2Kn_23ciHaFW5I
+id: zinble_main_menu
+theme: zinble
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

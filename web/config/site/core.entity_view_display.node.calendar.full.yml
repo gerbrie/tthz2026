@@ -1,0 +1,223 @@
+uuid: 49f895cc-5bba-4913-9d92-b0b0460ef0f4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.calendar.body
+    - field.field.node.calendar.comment_node_calendar
+    - field.field.node.calendar.field_calendar_date
+    - field.field.node.calendar.field_gpx
+    - field.field.node.calendar.field_route
+    - field.field.node.calendar.field_segmenten
+    - field.field.node.calendar.field_vertrek
+    - field.field.node.calendar.layout_builder__layout
+    - node.type.calendar
+  module:
+    - datetime
+    - ds
+    - file
+    - layout_builder
+    - layout_discovery
+    - link
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          97353f55-df70-44fd-a1d3-c8aacc07a090:
+            uuid: 97353f55-df70-44fd-a1d3-c8aacc07a090
+            region: second
+            configuration:
+              id: 'field_block:node:calendar:field_gpx'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: file_default
+                label: inline
+                settings:
+                  use_description_as_link_text: false
+                third_party_settings:
+                  ds:
+                    ds_limit: ''
+            weight: 1
+            additional: {  }
+          b741c603-7ded-4068-86d4-1a51eb72f9a4:
+            uuid: b741c603-7ded-4068-86d4-1a51eb72f9a4
+            region: second
+            configuration:
+              id: 'field_block:node:calendar:field_segmenten'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: inline
+                settings:
+                  trim_length: 30
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: '0'
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          c01fd26a-a4fa-4325-aa7a-f8999334ba93:
+            uuid: c01fd26a-a4fa-4325-aa7a-f8999334ba93
+            region: second
+            configuration:
+              id: 'field_block:node:calendar:field_route'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: inline
+                settings:
+                  trim_length: 30
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: _blank
+                third_party_settings:
+                  ds:
+                    ds_limit: ''
+            weight: 2
+            additional: {  }
+          f18908a9-da21-4521-a374-c88b3436adee:
+            uuid: f18908a9-da21-4521-a374-c88b3436adee
+            region: first
+            configuration:
+              id: 'field_block:node:calendar:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          9d9feb88-0265-46d5-8468-6281ec230a42:
+            uuid: 9d9feb88-0265-46d5-8468-6281ec230a42
+            region: first
+            configuration:
+              id: 'field_block:node:calendar:field_vertrek'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          b149cd0f-a124-433c-8e61-52e08640e663:
+            uuid: b149cd0f-a124-433c-8e61-52e08640e663
+            region: first
+            configuration:
+              id: 'field_block:node:calendar:field_calendar_date'
+              label: 'Datum rit'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: datetime_default
+                label: hidden
+                settings:
+                  timezone_override: Europe/Brussels
+                  format_type: medium
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components: {  }
+        third_party_settings: {  }
+id: node.calendar.full
+targetEntityType: node
+bundle: calendar
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_calendar_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: Europe/Brussels
+      format_type: long
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_gpx:
+    type: file_default
+    label: inline
+    settings:
+      use_description_as_link_text: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 3
+    region: content
+  field_route:
+    type: link
+    label: inline
+    settings:
+      trim_length: 30
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 4
+    region: content
+  field_segmenten:
+    type: link
+    label: inline
+    settings:
+      trim_length: 30
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_vertrek:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  comment_node_calendar: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

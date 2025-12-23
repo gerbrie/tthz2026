@@ -1,0 +1,25 @@
+uuid: ecf7b247-897c-4245-a997-d4628e1fa952
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tthz10
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: tthz10_branding
+theme: tthz10
+region: header
+weight: -12
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

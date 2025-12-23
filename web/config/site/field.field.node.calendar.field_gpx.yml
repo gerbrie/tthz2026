@@ -1,0 +1,27 @@
+uuid: 2850b99d-e299-486f-90fc-5a9deb48253f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gpx
+    - node.type.calendar
+  module:
+    - file
+id: node.calendar.field_gpx
+field_name: field_gpx
+entity_type: node
+bundle: calendar
+label: GPS-bestand
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: gpx
+  file_extensions: 'fit gpx tcx'
+  max_filesize: ''
+  description_field: false
+field_type: file

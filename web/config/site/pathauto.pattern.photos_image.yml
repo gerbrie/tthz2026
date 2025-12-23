@@ -1,0 +1,14 @@
+uuid: 6f91b15b-d602-40f5-9728-c710b31fa6a5
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lIsoIGpaZbQ_T13EzYnfZ5ZK9BxmeHTyYw3-g0ygmXQ
+id: photos_image
+label: Photo
+type: 'canonical_entities:photos_image'
+pattern: 'photos/[photos_image:album_id:entity:title]/[photos_image:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

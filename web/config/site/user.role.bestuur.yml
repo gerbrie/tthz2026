@@ -1,0 +1,24 @@
+uuid: 5fb8f6d3-d9b3-4c22-a6ce-7f35c01cb4d9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.calendar
+    - node.type.events
+    - node.type.externe_photoalbums
+  module:
+    - node
+    - system
+id: bestuur
+label: bestuur
+weight: 3
+is_admin: null
+permissions:
+  - 'access site in maintenance mode'
+  - 'create calendar content'
+  - 'create events content'
+  - 'delete any calendar content'
+  - 'delete any events content'
+  - 'edit any calendar content'
+  - 'edit any events content'
+  - 'edit any externe_photoalbums content'

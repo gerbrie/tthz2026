@@ -1,0 +1,248 @@
+uuid: 6c421a8c-1f98-42a1-8999-c49f8f6d4c69
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_lid.default
+    - field.field.node.lid.comment_node_lid
+    - field.field.node.lid.field_bestuur
+    - field.field.node.lid.field_functie
+    - field.field.node.lid.field_image
+    - field.field.node.lid.field_lid_adres
+    - field.field.node.lid.field_lid_email
+    - field.field.node.lid.field_lid_gemeente
+    - field.field.node.lid.field_lid_telefoon
+    - node.type.lid
+  module:
+    - comment
+    - image
+    - layout_builder
+    - layout_discovery
+    - options
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          0d726f7c-e9f8-47ab-b69a-5d007baccf81:
+            uuid: 0d726f7c-e9f8-47ab-b69a-5d007baccf81
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: ''
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          7d77193c-b910-4680-96ac-a970c4fec318:
+            uuid: 7d77193c-b910-4680-96ac-a970c4fec318
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_bestuur'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: list_default
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          cf347074-11ee-4b2a-b2eb-6a4b4ef2c7cf:
+            uuid: cf347074-11ee-4b2a-b2eb-6a4b4ef2c7cf
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_lid_adres'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: inline
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          42634d28-c9ca-4d13-9fcf-144a85586544:
+            uuid: 42634d28-c9ca-4d13-9fcf-144a85586544
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_lid_gemeente'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: inline
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          ada05fde-701a-4421-929a-0b529ee9a8f6:
+            uuid: ada05fde-701a-4421-929a-0b529ee9a8f6
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_lid_telefoon'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: inline
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          9bcbfb28-7108-4691-b9fb-30b36409fb0f:
+            uuid: 9bcbfb28-7108-4691-b9fb-30b36409fb0f
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_functie'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: inline
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          33281028-a7b7-4638-b67b-47eeea0b1f76:
+            uuid: 33281028-a7b7-4638-b67b-47eeea0b1f76
+            region: content
+            configuration:
+              id: 'field_block:node:lid:field_lid_email'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: inline
+                settings: {  }
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          0b383b91-e80c-4f95-87a7-dd5d06ca6ec7:
+            uuid: 0b383b91-e80c-4f95-87a7-dd5d06ca6ec7
+            region: content
+            configuration:
+              id: 'field_block:node:lid:comment_node_lid'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: comment_default
+                label: hidden
+                settings:
+                  view_mode: default
+                  pager_id: 0
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+          b3291b8c-6ea2-4ab5-bd85-a2d4659c1695:
+            uuid: b3291b8c-6ea2-4ab5-bd85-a2d4659c1695
+            region: content
+            configuration:
+              id: 'extra_field_block:node:lid:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 8
+            additional: {  }
+        third_party_settings: {  }
+id: node.lid.default
+targetEntityType: node
+bundle: lid
+mode: default
+content:
+  comment_node_lid:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_bestuur:
+    type: list_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_functie:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lid_adres:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_lid_email:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_lid_gemeente:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_lid_telefoon:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

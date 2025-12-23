@@ -1,0 +1,18 @@
+uuid: a97e60f9-800e-4d1a-8891-512bbffbacf1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.segment
+id: node.segment.changed
+field_name: changed
+entity_type: node
+bundle: segment
+label: Gewijzigd
+description: 'Het tijdstip waarop de node voor het laatst werd bewerkt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

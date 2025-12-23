@@ -1,0 +1,12 @@
+uuid: 3172a17b-8631-48d5-8e91-ffdc211323d0
+langcode: nl
+status: true
+dependencies:
+  module:
+    - photos
+_core:
+  default_config_hash: jV5aspUIO0UwKS7zfCEwtItI9tddSWC9fro4oU1Iq_0
+id: photos_image.sort
+label: Sorteren
+targetEntityType: photos_image
+cache: true

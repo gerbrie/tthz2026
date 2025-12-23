@@ -1,0 +1,22 @@
+uuid: d9a5a6e9-5522-4f4e-ba17-37189e4f3b3b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.header
+id: node.header.sticky
+field_name: sticky
+entity_type: node
+bundle: header
+label: 'Vastgeplakt bovenaan de lijst'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

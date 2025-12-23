@@ -1,0 +1,25 @@
+uuid: 1aa1a75e-dbb9-4c11-9adc-19e5dd7b7ba0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_content_middle_column
+    - paragraphs.paragraphs_type.w3css_three_columns
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: TMgbKLvFCSmfaN0kTzRnw1KjkAxb_S9P6kuCKM_3Y3I
+id: paragraph.w3css_three_columns.w3css_content_middle_column
+field_name: w3css_content_middle_column
+entity_type: paragraph
+bundle: w3css_three_columns
+label: 'Middle Column'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions

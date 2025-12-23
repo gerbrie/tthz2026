@@ -1,0 +1,15 @@
+uuid: abd8873a-2539-4961-93bc-6aef2d336a07
+langcode: nl
+status: true
+dependencies: {  }
+name: 100w
+label: 100W
+effects:
+  508b50fe-3865-44bb-8fef-085b217436f4:
+    uuid: 508b50fe-3865-44bb-8fef-085b217436f4
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: null
+      upscale: false

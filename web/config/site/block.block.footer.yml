@@ -1,0 +1,25 @@
+uuid: ec83a9c5-15ef-4ce6-85a3-c76fcc33d1a0
+langcode: nl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:767968da-4ec5-4940-a680-93e036cc64aa'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: footer
+theme: bartik
+region: footer_fifth
+weight: -9
+provider: null
+plugin: 'block_content:767968da-4ec5-4940-a680-93e036cc64aa'
+settings:
+  id: 'block_content:767968da-4ec5-4940-a680-93e036cc64aa'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

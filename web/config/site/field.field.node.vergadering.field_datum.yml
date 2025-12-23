@@ -1,0 +1,21 @@
+uuid: da1a6823-7d74-4845-94c3-e09ce27e5a89
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_datum
+    - node.type.vergadering
+  module:
+    - datetime
+id: node.vergadering.field_datum
+field_name: field_datum
+entity_type: node
+bundle: vergadering
+label: Datum
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

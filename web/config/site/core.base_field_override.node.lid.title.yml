@@ -1,0 +1,18 @@
+uuid: 14c36fed-47b3-4ce9-855e-63c3109aef32
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.lid
+id: node.lid.title
+field_name: title
+entity_type: node
+bundle: lid
+label: 'Voornaam en achternaam'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

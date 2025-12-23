@@ -1,0 +1,20 @@
+uuid: 559ec71f-1709-468f-a4a2-4eef43a9bca7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.externe_photoalbums
+id: node.externe_photoalbums.menu_link
+field_name: menu_link
+entity_type: node
+bundle: externe_photoalbums
+label: Menulink
+description: 'Berekende menulink van de node (alleen beschikbaar tijdens het opslaan).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

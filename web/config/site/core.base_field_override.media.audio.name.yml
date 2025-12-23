@@ -1,0 +1,20 @@
+uuid: 0c5b5b52-2810-409e-b091-3c71d49177df
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.audio
+id: media.audio.name
+field_name: name
+entity_type: media
+bundle: audio
+label: Naam
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

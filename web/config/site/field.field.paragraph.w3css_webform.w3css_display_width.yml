@@ -1,0 +1,23 @@
+uuid: 618844b8-18b0-475a-a5e5-b820c9e0c169
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_width
+    - paragraphs.paragraphs_type.w3css_webform
+  module:
+    - options
+_core:
+  default_config_hash: xhe1NbSyhjkBHTkPNYeS8uT2-dATgYdEmjldVwrZogY
+id: paragraph.w3css_webform.w3css_display_width
+field_name: w3css_display_width
+entity_type: paragraph
+bundle: w3css_webform
+label: Width
+description: 'Change the HTML wrapper width for this paragraph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

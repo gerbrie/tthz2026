@@ -1,0 +1,46 @@
+uuid: 3e44a7f7-43f7-4eb2-9dc2-9df284905f28
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_externe_photoalbums.default
+    - field.field.node.externe_photoalbums.comment_node_externe_photoalbums
+    - field.field.node.externe_photoalbums.field_extern_album_url
+    - node.type.externe_photoalbums
+  module:
+    - comment
+    - link
+    - user
+id: node.externe_photoalbums.default
+targetEntityType: node
+bundle: externe_photoalbums
+mode: default
+content:
+  comment_node_externe_photoalbums:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_extern_album_url:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

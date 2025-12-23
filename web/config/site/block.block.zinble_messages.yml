@@ -1,0 +1,22 @@
+uuid: c6169dea-d180-415c-b431-9193af27ca42
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zinble
+_core:
+  default_config_hash: BNLCA4Juw2CvhxJFsQsVfx3Dnt_vAggz-cQQUC9gjnQ
+id: zinble_messages
+theme: zinble
+region: messages
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

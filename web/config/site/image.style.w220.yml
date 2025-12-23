@@ -1,0 +1,15 @@
+uuid: 3ef308c5-e596-430b-b073-fe11310b80ec
+langcode: nl
+status: true
+dependencies: {  }
+name: w220
+label: w220
+effects:
+  858ffb16-183f-4116-b27e-9e2d1d9737fd:
+    uuid: 858ffb16-183f-4116-b27e-9e2d1d9737fd
+    id: image_scale
+    weight: 1
+    data:
+      width: 220
+      height: null
+      upscale: false

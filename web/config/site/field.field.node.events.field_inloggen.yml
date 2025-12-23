@@ -1,0 +1,28 @@
+uuid: ca5cd00d-46dd-456b-8cc1-ffd6a1c124ba
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inloggen
+    - node.type.events
+  module:
+    - link
+id: node.events.field_inloggen
+field_name: field_inloggen
+entity_type: node
+bundle: events
+label: Inschrijven
+description: 'Veld wordt getoond wanneer user niet ingelogd is'
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/user/login'
+    title: 'Inloggen voor inschrijvingsformulier'
+    options: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

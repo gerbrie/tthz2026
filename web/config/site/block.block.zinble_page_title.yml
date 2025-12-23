@@ -1,0 +1,27 @@
+uuid: 375d75e7-dd19-415c-b349-f98ff729298c
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zinble
+_core:
+  default_config_hash: 8dQI3uWRw5J8dIcjqAy-8VkvnB1UhIPtaM1Z2AGrqqo
+id: zinble_page_title
+theme: zinble
+region: banner
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

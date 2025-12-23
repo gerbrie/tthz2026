@@ -1,0 +1,113 @@
+# -----------------------------
+# Drupal 11 .gitignore
+# Composer setup with docroot = web/
+# -----------------------------
+
+# -----------------------------
+# Composer-managed dependencies
+# -----------------------------
+/vendor
+/composer.phar
+
+# -----------------------------
+# Drupal core (installed in web/)
+# -----------------------------
+/web/core
+
+# -----------------------------
+# Contrib modules, themes, profiles
+# (managed by Composer)
+# -----------------------------
+/web/modules/contrib
+/web/themes/contrib
+/web/profiles/contrib
+
+# -----------------------------
+# User-generated & runtime files
+# -----------------------------
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/*/tmp
+/web/sites/*/php
+/web/sites/*/translations
+
+# -----------------------------
+# Sensitive configuration
+# -----------------------------
+/web/sites/*/settings.php
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+/web/sites/*/services.local.yml
+/web/sites/*/development.services.yml
+
+# -----------------------------
+# Environment-specific config sync
+# (keep shared config, ignore local overrides)
+# -----------------------------
+/config/*/local
+
+# -----------------------------
+# Drush
+# -----------------------------
+/drush/contrib
+/drush/sites
+
+# -----------------------------
+# Frontend tooling (if used)
+# -----------------------------
+/node_modules
+/npm-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+/dist
+/build
+
+# -----------------------------
+# Testing
+# -----------------------------
+/phpunit.xml
+/.phpunit.result.cache
+/test-output
+
+# -----------------------------
+# IDEs & OS files
+# -----------------------------
+.idea
+.vscode
+*.swp
+*.swo
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Backups & archives
+# -----------------------------
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+
+# -----------------------------
+# Composer cache
+# -----------------------------
+.cache
+
+# -----------------------------
+# Files you WANT in Git
+# -----------------------------
+!/composer.json
+!/composer.lock
+!/web/.htaccess
+!/web/sites/*/settings.example.php
+!/web/modules/custom
+!/web/themes/custom
+!/web/profiles/custom
+!/config/sync
+

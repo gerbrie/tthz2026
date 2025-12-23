@@ -1,0 +1,20 @@
+uuid: 66e9b6ca-a9ec-4f2d-a569-6280f81571f1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.uid
+field_name: uid
+entity_type: media
+bundle: video
+label: 'Geschreven door'
+description: 'Gebruikers-ID van de auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

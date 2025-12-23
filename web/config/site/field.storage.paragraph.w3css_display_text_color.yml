@@ -1,0 +1,113 @@
+uuid: 4d33957f-6f02-4897-bfdf-6b22d787fe63
+langcode: nl
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: DEyktJ8dCQYYMexXrDkbiJVlPcLyp1_hbBDrvqvkaEE
+id: paragraph.w3css_display_text_color
+field_name: w3css_display_text_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: w3-text-red
+      label: Rood
+    -
+      value: w3-text-pink
+      label: Roze
+    -
+      value: w3-text-purple
+      label: Paars
+    -
+      value: w3-text-deep-purple
+      label: 'Deep Purple'
+    -
+      value: w3-text-indigo
+      label: indigo
+    -
+      value: w3-text-blue
+      label: Blauw
+    -
+      value: w3-text-light-blue
+      label: Lichtblauw
+    -
+      value: w3-text-cyan
+      label: Cyan
+    -
+      value: w3-text-aqua
+      label: Aqua
+    -
+      value: w3-text-teal
+      label: Groenblauw
+    -
+      value: w3-text-green
+      label: Groen
+    -
+      value: w3-text-light-green
+      label: 'Light Green'
+    -
+      value: w3-text-lime
+      label: Limoen
+    -
+      value: w3-text-sand
+      label: Sand
+    -
+      value: w3-text-khaki
+      label: Khaki
+    -
+      value: w3-text-yellow
+      label: Geel
+    -
+      value: w3-text-amber
+      label: Amber
+    -
+      value: w3-text-orange
+      label: Oranje
+    -
+      value: w3-text-deep-orange
+      label: 'Deep Orange'
+    -
+      value: w3-text-blue-gray
+      label: 'Blue Gray'
+    -
+      value: w3-text-brown
+      label: Bruin
+    -
+      value: w3-text-light-gray
+      label: 'Light Gray'
+    -
+      value: w3-text-gray
+      label: Grijs
+    -
+      value: w3-text-dark-gray
+      label: 'Dark Gray'
+    -
+      value: w3-text-black
+      label: Zwart
+    -
+      value: w3-text-white
+      label: Wit
+    -
+      value: w3-text-pale-red
+      label: 'Pale Red'
+    -
+      value: w3-text-pale-yellow
+      label: 'Pale Yellow'
+    -
+      value: w3-text-pale-green
+      label: 'Pale Green'
+    -
+      value: w3-text-pale-blue
+      label: 'Pale Blue'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

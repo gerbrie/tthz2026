@@ -1,0 +1,20 @@
+uuid: aebb6403-5799-4122-9b6a-63fb44b354bb
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.calendar
+  module:
+    - path
+id: node.calendar.path
+field_name: path
+entity_type: node
+bundle: calendar
+label: URL-alias
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

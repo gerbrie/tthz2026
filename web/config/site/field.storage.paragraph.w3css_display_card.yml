@@ -1,0 +1,29 @@
+uuid: 1cd17896-7264-450b-9905-4264ed865492
+langcode: nl
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: aQY2BC5bHx2H42SHPW4zZCKR7ltE6T7xDAkqvmxvL-Y
+id: paragraph.w3css_display_card
+field_name: w3css_display_card
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: w3-card-2
+      label: '2px bordered shadow'
+    -
+      value: w3-card-4
+      label: '4px bordered shadow'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

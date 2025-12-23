@@ -1,0 +1,26 @@
+uuid: cb8dcdc2-d276-421e-b01e-bd051340ff86
+langcode: nl
+status: true
+dependencies:
+  config:
+    - crop.type.mycrop
+  module:
+    - crop
+name: mythumbnailcropstyle
+label: MyThumbnailCropStyle
+effects:
+  f546a38f-13bd-40d4-82f5-6faafeda898c:
+    uuid: f546a38f-13bd-40d4-82f5-6faafeda898c
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mycrop
+      automatic_crop_provider: null
+  d623fa68-01c7-43ad-9a87-3974397bde31:
+    uuid: d623fa68-01c7-43ad-9a87-3974397bde31
+    id: image_scale
+    weight: 2
+    data:
+      width: 100
+      height: 100
+      upscale: false

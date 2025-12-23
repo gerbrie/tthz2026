@@ -1,0 +1,11 @@
+uuid: 5e3fc071-8746-45f6-a91b-8bdda17d0a7a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.photomedia
+id: media.photomedia
+target_entity_type_id: media
+target_bundle: photomedia
+default_langcode: site_default
+language_alterable: false

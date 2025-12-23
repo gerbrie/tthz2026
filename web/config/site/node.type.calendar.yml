@@ -1,0 +1,23 @@
+uuid: 9a1c0068-8439-4447-bd36-935a6fd7874a
+langcode: nl
+status: true
+dependencies:
+  module:
+    - gatsby
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  gatsby:
+    preview: false
+    target: window
+    iframe: false
+name: Kalender
+type: calendar
+description: 'De ritten kalender'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,8 @@
+uuid: ca222bd0-59f7-41ac-addb-fe2ed9d78d8d
+langcode: nl
+status: true
+dependencies: {  }
+id: menu-editor-menu
+label: 'Editor menu'
+description: ''
+locked: false

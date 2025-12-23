@@ -1,0 +1,33 @@
+uuid: af897ba0-d678-41f6-a051-3756e43eebae
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+    - photos
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: drupal8_w3css_subtheme_photoinformation
+theme: drupal8_w3css_subtheme
+region: sidebar_first
+weight: -15
+provider: null
+plugin: photos_information
+settings:
+  id: photos_information
+  label: 'Photo Information'
+  label_display: '0'
+  provider: photos
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      photos: photos
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/photos/*'

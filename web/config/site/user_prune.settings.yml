@@ -1,0 +1,25 @@
+_core:
+  default_config_hash: Llt58xcLanHKBZUHlT10KHCOZogqLUPFPhnn3JHbS7s
+langcode: nl
+year_select: 0
+month_select: 0
+day_select: 0
+user_number_select: 25
+user_status: blocked
+user_never_logged_in: false
+user_with_comment: false
+delete_users_on_cron: true
+message: Hello
+user_roles_checkbox:
+  administrator: administrator
+  bestuur: 0
+  editor: 0
+  leden: 0
+  riteditor: 0
+  gatsby_client: 0
+  album_editor: 0
+submit: 'Instellingen opslaan'
+form_build_id: form-WsSD79jfRnryZVB0iMfHau3hRkSNvPKcXXO4fnkleOA
+form_token: _d1P7POlO-vumcNctixJ6ol8no9Qb6hSqjoDekpmueo
+form_id: user_prune_settings_form
+op: 'Instellingen opslaan'

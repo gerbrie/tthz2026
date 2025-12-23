@@ -1,0 +1,22 @@
+uuid: a85b13cc-97e3-4fa6-905a-0117e6c32f7d
+langcode: nl
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - tthz9
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: tthz9_help
+theme: tthz9
+region: header
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

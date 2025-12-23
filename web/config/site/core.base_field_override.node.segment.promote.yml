@@ -1,0 +1,22 @@
+uuid: 496f6112-c81b-42ef-bc51-e783fb4d70dd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.segment
+id: node.segment.promote
+field_name: promote
+entity_type: node
+bundle: segment
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

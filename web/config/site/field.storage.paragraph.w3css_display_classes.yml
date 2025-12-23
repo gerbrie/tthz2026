@@ -1,0 +1,23 @@
+uuid: a57197f6-5978-4cd5-8e79-43ec5a08fe24
+langcode: nl
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 8aU_3W3agcJ5C3Fmyu5HjBaU9_i-C0wxbtSaxq6ThJE
+id: paragraph.w3css_display_classes
+field_name: w3css_display_classes
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

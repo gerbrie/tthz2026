@@ -1,0 +1,26 @@
+uuid: 1bd0ec82-400d-42b1-801a-6d173f3e1361
+langcode: nl
+status: true
+dependencies:
+  config:
+    - crop.type.mycrop
+  module:
+    - crop
+name: my_large_cropstyle
+label: MyLargeCropStyle
+effects:
+  0c14b752-9968-470f-beb6-4dc29c41d7ea:
+    uuid: 0c14b752-9968-470f-beb6-4dc29c41d7ea
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: mycrop
+      automatic_crop_provider: null
+  105a73bc-d5e5-4a6e-98e7-e548a16f391f:
+    uuid: 105a73bc-d5e5-4a6e-98e7-e548a16f391f
+    id: image_scale
+    weight: 2
+    data:
+      width: 480
+      height: 480
+      upscale: false

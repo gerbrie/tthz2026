@@ -1,0 +1,23 @@
+uuid: 6eaebd56-4497-4792-86c1-874d385dbde3
+langcode: nl
+status: true
+dependencies:
+  module:
+    - gatsby
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  gatsby:
+    preview: false
+    target: window
+    iframe: false
+name: Evenementen
+type: events
+description: 'Evenementen die onder de header op de homepagina worden getoond (max 4)'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,18 @@
+uuid: e012995c-e75f-4391-b3a5-9c875d570e61
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_news
+id: comment.comment_node_news.homepage
+field_name: homepage
+entity_type: comment
+bundle: comment_node_news
+label: Homepagina
+description: 'Het website-adres van de schrijver die heeft gereageerd.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

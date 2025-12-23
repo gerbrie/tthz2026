@@ -1,0 +1,19 @@
+uuid: ede499b8-2e75-4536-b1f6-69d79330c38a
+langcode: und
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_routeroute
+field_name: field_routeroute
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

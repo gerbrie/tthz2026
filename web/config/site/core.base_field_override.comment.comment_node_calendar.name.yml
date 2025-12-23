@@ -1,0 +1,20 @@
+uuid: 44b8b8b4-108c-44f4-ae72-b59491caa86e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_calendar
+id: comment.comment_node_calendar.name
+field_name: name
+entity_type: comment
+bundle: comment_node_calendar
+label: Naam
+description: 'De naam van de schrijver van de reactie.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

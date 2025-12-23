@@ -1,0 +1,16 @@
+uuid: a42fe120-8fa9-4be4-a105-a1a519ca89b1
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Foto albums'
+type: foto_albums
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,63 @@
+uuid: 5c235bdd-bb03-41ea-8836-33064c83101b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.vergadering.field_aanwezigen
+    - field.field.node.vergadering.field_agendapunten
+    - field.field.node.vergadering.field_bijlage
+    - field.field.node.vergadering.field_datum
+    - node.type.vergadering
+  module:
+    - datetime
+    - ds
+    - file
+    - key_value_field
+    - text
+    - user
+id: node.vergadering.default
+targetEntityType: node
+bundle: vergadering
+mode: default
+content:
+  field_aanwezigen:
+    type: text_default
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_agendapunten:
+    type: key_value
+    label: hidden
+    settings:
+      value_only: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 2
+    region: content
+  field_bijlage:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_datum:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  langcode: true

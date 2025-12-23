@@ -1,0 +1,23 @@
+uuid: 16190ebb-5158-4118-838e-df9a3045e3e7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - node.type.calendar
+  module:
+    - filter
+    - node
+    - system
+id: riteditor
+label: riteditor
+weight: 6
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'delete any calendar content'
+  - 'delete own calendar content'
+  - 'edit any calendar content'
+  - 'edit own calendar content'
+  - 'use text format filtered_html'
+  - 'view the administration theme'

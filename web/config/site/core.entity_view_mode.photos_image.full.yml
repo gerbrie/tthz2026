@@ -1,0 +1,12 @@
+uuid: c9b9f1dc-cc01-408c-83eb-f800d4a71e71
+langcode: nl
+status: true
+dependencies:
+  module:
+    - photos
+_core:
+  default_config_hash: 9sBsRXH4DclmP7bLzvAdKMx0aobAMhNG0FVqa00Q7bo
+id: photos_image.full
+label: 'Full content'
+targetEntityType: photos_image
+cache: true

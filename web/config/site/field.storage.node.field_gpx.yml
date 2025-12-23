@@ -1,0 +1,23 @@
+uuid: ce9993d9-1702-404f-a9f0-cb307c921e71
+langcode: und
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_gpx
+field_name: field_gpx
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

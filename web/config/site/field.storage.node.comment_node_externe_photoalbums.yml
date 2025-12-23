@@ -1,0 +1,20 @@
+uuid: 8772c581-ba8c-47ba-ae31-89ef5082015f
+langcode: nl
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.comment_node_externe_photoalbums
+field_name: comment_node_externe_photoalbums
+entity_type: node
+type: comment
+settings:
+  comment_type: comment_node_externe_photoalbums
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

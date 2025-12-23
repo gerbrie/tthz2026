@@ -1,0 +1,33 @@
+uuid: 9589c106-272d-46e4-931c-106781ece9af
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.foto_albums
+  module:
+    - image
+id: node.foto_albums.field_image
+field_name: field_image
+entity_type: node
+bundle: foto_albums
+label: Afbeeldingen
+description: 'Meerdere foto''s uploaden kan, om de albums in volume te beperken (werkbaarheid) zou ik eerder kiezen, als het om een groot aantal foto''s gaat, om te werken met bijvoorbeeld deel1 - deel 2 etc'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: 'albums/[random:number]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 800x600
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image: 0
+field_type: image

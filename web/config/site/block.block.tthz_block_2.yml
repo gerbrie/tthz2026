@@ -1,0 +1,30 @@
+uuid: 4c78f034-01a9-46ae-8e3e-93416a91d493
+langcode: nl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:86f8df21-0a1a-4368-820e-3600712286d0'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: tthz_block_2
+theme: bartik
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'block_content:86f8df21-0a1a-4368-820e-3600712286d0'
+settings:
+  id: 'block_content:86f8df21-0a1a-4368-820e-3600712286d0'
+  label: 'De ritgegevens'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /segment

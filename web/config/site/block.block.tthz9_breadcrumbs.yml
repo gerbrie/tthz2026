@@ -1,0 +1,22 @@
+uuid: 894526cb-45ea-4ffe-8fce-11bd80f40c6d
+langcode: nl
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tthz9
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: tthz9_breadcrumbs
+theme: tthz9
+region: bottom_first
+weight: -9
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

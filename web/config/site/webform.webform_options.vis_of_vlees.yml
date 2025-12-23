@@ -1,0 +1,12 @@
+uuid: a39caa1c-acd8-4b07-9b0b-d0e385742438
+langcode: nl
+status: true
+dependencies: {  }
+id: vis_of_vlees
+label: 'Vis of vlees'
+category: ''
+likert: false
+options: |-
+  Vlees: Vlees
+  Vis: Vis
+  Vegetarisch: Vegetarisch

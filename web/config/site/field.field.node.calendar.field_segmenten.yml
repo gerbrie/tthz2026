@@ -1,0 +1,23 @@
+uuid: 687b54f0-0408-4094-b4ba-6ee44704e6a6
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_segmenten
+    - node.type.calendar
+  module:
+    - link
+id: node.calendar.field_segmenten
+field_name: field_segmenten
+entity_type: node
+bundle: calendar
+label: Segmenten
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

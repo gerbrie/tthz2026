@@ -1,0 +1,23 @@
+uuid: 20a34172-f79c-451e-8b98-2cf344b65b69
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.foto_albums
+  module:
+    - text
+id: node.foto_albums.body
+field_name: body
+entity_type: node
+bundle: foto_albums
+label: Info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

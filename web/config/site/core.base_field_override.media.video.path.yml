@@ -1,0 +1,20 @@
+uuid: ee7279b7-c00a-44cf-9f50-d3ec28bc92cc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.video
+  module:
+    - path
+id: media.video.path
+field_name: path
+entity_type: media
+bundle: video
+label: URL-alias
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

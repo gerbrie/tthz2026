@@ -1,0 +1,22 @@
+uuid: 448a13b0-dcdc-4503-9d94-3f2f568294d5
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: kalender4
+label: kalender
+type: 'canonical_entities:node'
+pattern: 'kalender/[node:field_calendar_date]'
+selection_criteria:
+  d3ff1bba-7c79-456d-bac5-a175d147db5a:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d3ff1bba-7c79-456d-bac5-a175d147db5a
+    context_mapping:
+      node: node
+    bundles:
+      calendar: calendar
+selection_logic: and
+weight: -5
+relationships: {  }

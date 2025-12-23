@@ -1,0 +1,13 @@
+uuid: bc16d94a-fe2c-4528-a7b8-f44548e84ed4
+langcode: nl
+status: true
+dependencies: {  }
+name: webp_groot
+label: 'Webp groot'
+effects:
+  2fbad120-de29-4fae-b817-b3d81c4ab2be:
+    uuid: 2fbad120-de29-4fae-b817-b3d81c4ab2be
+    id: image_convert
+    weight: 1
+    data:
+      extension: webp

@@ -1,0 +1,19 @@
+uuid: cee96832-3c8c-4d73-9921-48a6854a0faf
+langcode: nl
+status: true
+dependencies: {  }
+id: gatsby_client
+name: gatsby_client
+description: 'Gatsby Client'
+grant_types:
+  authorization_code:
+    status: true
+  client_credentials:
+    status: true
+  refresh_token:
+    status: true
+umbrella: false
+parent: null
+granularity: role
+permission: null
+role: gatsby_client

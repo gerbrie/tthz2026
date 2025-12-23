@@ -1,0 +1,4 @@
+settings:
+  label: 'Demo: Event Registration System'
+  type: webform
+  progress_bar_message: '[total]/[limit]'

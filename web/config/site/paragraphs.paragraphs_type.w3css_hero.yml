@@ -1,0 +1,12 @@
+uuid: 78edd3b9-56c9-4ed8-982d-c96947847924
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: m7mTBPaZo7l63HKA7QcCrTon4RZmL5JjQxNAt9m5gTA
+id: w3css_hero
+label: Hero
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

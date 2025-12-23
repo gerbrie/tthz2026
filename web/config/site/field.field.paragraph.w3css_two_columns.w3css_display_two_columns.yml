@@ -1,0 +1,25 @@
+uuid: 5702da0d-3bf4-4c12-b2dd-31c8b72cc279
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_two_columns
+    - paragraphs.paragraphs_type.w3css_two_columns
+  module:
+    - options
+_core:
+  default_config_hash: ezZdLKkB3zW2ym0eBkp7FS-rJHppu2Zzy1_jXB2Btqw
+id: paragraph.w3css_two_columns.w3css_display_two_columns
+field_name: w3css_display_two_columns
+entity_type: paragraph
+bundle: w3css_two_columns
+label: 'Layout Style'
+description: 'Select the layout style fro the two columns.'
+required: false
+translatable: true
+default_value:
+  -
+    value: l6-l6
+default_value_callback: ''
+settings: {  }
+field_type: list_string

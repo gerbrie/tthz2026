@@ -1,0 +1,23 @@
+uuid: 266e94b2-129d-47ad-8d73-461a8fb75003
+langcode: nl
+status: true
+dependencies: {  }
+name: crop_sponsor
+label: 'Crop sponsor'
+effects:
+  2fa46538-62e9-4794-9472-2a46b62d96c2:
+    uuid: 2fa46538-62e9-4794-9472-2a46b62d96c2
+    id: image_crop
+    weight: -9
+    data:
+      width: 250
+      height: 150
+      anchor: center-center
+  78907fee-0bea-4f3f-b9f5-9a74a5b540ee:
+    uuid: 78907fee-0bea-4f3f-b9f5-9a74a5b540ee
+    id: image_scale
+    weight: -10
+    data:
+      width: 400
+      height: 200
+      upscale: false

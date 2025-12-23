@@ -1,0 +1,47 @@
+uuid: 513c5d3e-718f-4508-bf40-4d0d4828d44d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.article_with_paragraphs.field_body_paragraph
+    - field.field.node.article_with_paragraphs.field_image
+    - node.type.article_with_paragraphs
+  module:
+    - ds
+    - entity_reference_revisions
+    - image
+    - user
+id: node.article_with_paragraphs.default
+targetEntityType: node
+bundle: article_with_paragraphs
+mode: default
+content:
+  field_body_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

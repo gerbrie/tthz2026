@@ -1,0 +1,23 @@
+uuid: 68a5b1be-6af6-4e9a-b743-860c18902132
+langcode: nl
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - tthz9
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: tthz9_search
+theme: tthz9
+region: header
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

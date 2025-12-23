@@ -1,0 +1,26 @@
+uuid: 016c773f-aea6-47e3-8339-2ad0639321a1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_functie
+    - node.type.lid
+    - taxonomy.vocabulary.functie
+id: node.lid.field_functie
+field_name: field_functie
+entity_type: node
+bundle: lid
+label: Functie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      functie: functie
+    sort:
+      field: _none
+field_type: entity_reference

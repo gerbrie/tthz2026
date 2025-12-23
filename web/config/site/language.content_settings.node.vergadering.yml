@@ -1,0 +1,11 @@
+uuid: 08174fe7-0f09-4c7c-ba0d-bb9c629552c0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.vergadering
+id: node.vergadering
+target_entity_type_id: node
+target_bundle: vergadering
+default_langcode: site_default
+language_alterable: false

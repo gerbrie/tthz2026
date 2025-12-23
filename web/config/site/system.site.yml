@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: nl
+uuid: d2f23e9c-3c8d-4dee-9c0d-eb269426b608
+name: 'TTHZ Cycling Team'
+mail: info@tthz-cycling-team.be
+slogan: ''
+page:
+  403: /
+  404: /
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: nl

@@ -1,0 +1,18 @@
+uuid: 99969a25-14b7-4552-93f9-90a0d438169f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_calendar
+id: comment.comment_node_calendar.mail
+field_name: mail
+entity_type: comment
+bundle: comment_node_calendar
+label: E-mail
+description: 'Het e-mailadres van de auteur van de reactie.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

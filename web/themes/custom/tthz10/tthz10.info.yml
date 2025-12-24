@@ -2,7 +2,7 @@ name: TTHZ10 theme
 core: '8.x'
 type: theme
 base theme: drupal8_w3css_theme
-core_version_requirement: ^8 || ^9 || ^10
+core_version_requirement: ^8 || ^9 || ^10 || ^11
 description: 'TTHZ theme gebaseerd op d8w3css'
 libraries:
   - tthz10/d8w3css-subtheme-global
@@ -41,6 +41,6 @@ features:
   slogan: true
 
 # Information added by Drupal.org packaging script on 2022-07-03
-version: '2.0.5'
+version: '2.0.16'
 project: 'd8w3css'
 datestamp: 1656879681

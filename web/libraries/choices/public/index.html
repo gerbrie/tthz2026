@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width,initial-scale=1,user-scalable=no"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
     />
     <title>Choices</title>
     <meta
@@ -33,7 +33,7 @@
     <link
       rel="mask-icon"
       href="assets/images/safari-pinned-tab.svg"
-      color="#00bcd4"
+      color="#005F75"
     />
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <meta
@@ -47,12 +47,12 @@
     <!-- End ignore these -->
 
     <!-- Optional includes -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces6%2CArray.prototype.includes%2Cfetch%2CCustomEvent%2CElement.prototype.closest"></script>
+    <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&features=Array.from%2CArray.prototype.find%2CArray.prototype.includes%2CSymbol%2CSymbol.iterator%2CDOMTokenList%2CObject.assign%2CCustomEvent%2CElement.prototype.classList%2CElement.prototype.closest%2CElement.prototype.dataset%2CElement.prototype.replaceChildren%2Cfetch"></script>
     <!-- End optional includes -->
 
     <!-- Choices includes -->
     <link rel="stylesheet" href="assets/styles/choices.min.css" />
-    <script src="assets/scripts/choices.min.js"></script>
+    <script src="assets/scripts/choices.js"></script>
     <!-- End Choices includes -->
 
     <!--[if lt IE 9]>
@@ -74,7 +74,7 @@
           <img
             src="assets/images/logo.svg"
             alt="Choices.js logo"
-            class="logo__img hidden-ie"
+            class="logo-img hidden-ie"
           />
           <h1 class="visible-ie">Choices.js</h1>
         </a>
@@ -95,6 +95,13 @@
             <a href="https://ES6.io/friend/JOHNSON">ES6.io</a> for great
             tutorials! 💪🏼</strong
           >
+        </p>
+        <p class="h4 text-center">
+          <strong>Sponsored by:</strong>
+          <br />
+          <a href="https://wanderermaps.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn.shopify.com/s/files/1/0614/3357/7715/files/Logo_BlackWithBackground_150x.png?v=1644802773" alt="Wanderer Maps logo">
+          </a>
         </p>
         <hr />
 
@@ -288,7 +295,9 @@
         <hr />
 
         <h2>Single select input</h2>
-        <label for="choices-single-default">Default</label>
+        <label id="choices-single-default-label" for="choices-single-default"
+          >Default</label
+        >
         <select
           class="form-control"
           data-trigger
@@ -431,9 +440,18 @@
             data-custom-properties="This option is fantastic"
             >Label Three</option
           >
+          <option
+            value="Dropdown item 4"
+            data-custom-properties="{ 'description': 'foo' }"
+            >Label Four</option
+          >
         </select>
 
-        <label for="choices-single-no-sorting">Options without sorting</label>
+        <label
+          id="choices-single-no-sorting-label"
+          for="choices-single-no-sorting"
+          >Options without sorting</label
+        >
         <select
           class="form-control"
           name="choices-single-no-sorting"
@@ -459,6 +477,7 @@
           <option value="Michigan">Michigan</option>
         </select>
 
+        <div data-test-hook="custom-templates">
         <label for="choices-single-custom-templates">Custom templates</label>
         <select
           class="form-control"
@@ -470,6 +489,7 @@
           <option value="Ember">Ember</option>
           <option value="Vue">Vue</option>
         </select>
+        </div>
 
         <p>
           Below is an example of how you could have two select inputs depend on
@@ -501,7 +521,8 @@
         <hr />
         <h2>Form interaction</h2>
         <p>Change the values and press reset to restore to initial state.</p>
-        <form>
+        <form data-test-hook="reset-form" style="margin-bottom:0">
+          <div data-test-hook="reset-simple">
           <label for="reset-simple">Change me!</label>
           <select class="form-control" name="reset-simple" id="reset-simple">
             <option value="Option 1">Option 1</option>
@@ -510,6 +531,7 @@
             <option value="Option 4">Option 4</option>
             <option value="Option 5">Option 5</option>
           </select>
+          </div>
 
           <label for="reset-multiple">And me!</label>
           <select
@@ -534,6 +556,7 @@
         for (i = 0; i < genericExamples.length; ++i) {
           var element = genericExamples[i];
           new Choices(element, {
+            allowHTML: true,
             placeholderValue: 'This is a placeholder set in the config',
             searchPlaceholderValue: 'This is a search placeholder',
           });
@@ -542,6 +565,7 @@
         var textRemove = new Choices(
           document.getElementById('choices-text-remove-button'),
           {
+            allowHTML: true,
             delimiter: ',',
             editItems: true,
             maxItemCount: 5,
@@ -550,12 +574,14 @@
         );
 
         var textUniqueVals = new Choices('#choices-text-unique-values', {
+          allowHTML: true,
           paste: false,
           duplicateItemsAllowed: false,
           editItems: true,
         });
 
         var texti18n = new Choices('#choices-text-i18n', {
+          allowHTML: true,
           paste: false,
           duplicateItemsAllowed: false,
           editItems: true,
@@ -572,6 +598,7 @@
         });
 
         var textEmailFilter = new Choices('#choices-text-email-filter', {
+          allowHTML: true,
           editItems: true,
           addItemFilter: function(value) {
             if (!value) {
@@ -585,6 +612,7 @@
         }).setValue(['joe@bloggs.com']);
 
         var textDisabled = new Choices('#choices-text-disabled', {
+          allowHTML: true,
           addItems: false,
           removeItems: false,
         }).disable();
@@ -592,12 +620,14 @@
         var textPrependAppendVal = new Choices(
           '#choices-text-prepend-append-value',
           {
+            allowHTML: true,
             prependValue: 'item-',
             appendValue: '-' + Date.now(),
           }
         ).removeActiveItems();
 
         var textPresetVal = new Choices('#choices-text-preset-values', {
+          allowHTML: true,
           items: [
             'Josh Johnson',
             {
@@ -611,10 +641,12 @@
         });
 
         var multipleDefault = new Choices(
-          document.getElementById('choices-multiple-groups')
+          document.getElementById('choices-multiple-groups'),
+          { allowHTML: true }
         );
 
         var multipleFetch = new Choices('#choices-multiple-remote-fetch', {
+          allowHTML: false,
           placeholder: true,
           placeholderValue: 'Pick an Strokes record',
           maxItemCount: 5,
@@ -635,12 +667,14 @@
         var multipleCancelButton = new Choices(
           '#choices-multiple-remove-button',
           {
+            allowHTML: true,
             removeItemButton: true,
           }
         );
 
         /* Use label on event */
         var choicesSelect = new Choices('#choices-multiple-labels', {
+          allowHTML: true,
           removeItemButton: true,
           choices: [
             { value: 'One', label: 'Label One' },
@@ -675,6 +709,7 @@
         );
 
         var singleFetch = new Choices('#choices-single-remote-fetch', {
+          allowHTML: false,
           searchPlaceholderValue: 'Search for an Arctic Monkeys record',
         })
           .setChoices(function() {
@@ -695,6 +730,7 @@
           });
 
         var singleXhrRemove = new Choices('#choices-single-remove-xhr', {
+          allowHTML: true,
           removeItemButton: true,
           searchPlaceholderValue: "Search for a Smiths' record",
         }).setChoices(function(callback) {
@@ -711,14 +747,10 @@
             });
         });
 
-        var genericExamples = new Choices('[data-trigger]', {
-          placeholderValue: 'This is a placeholder set in the config',
-          searchPlaceholderValue: 'This is a search placeholder',
-        });
-
         var singleNoSearch = new Choices('#choices-single-no-search', {
+          allowHTML: true,
           searchEnabled: false,
-          removeItemButton: true,
+            removeItemButton: true,
           choices: [
             { value: 'One', label: 'Label One' },
             { value: 'Two', label: 'Label Two', disabled: true },
@@ -736,6 +768,7 @@
         );
 
         var singlePresetOpts = new Choices('#choices-single-preset-options', {
+          allowHTML: true,
           placeholder: true,
         }).setChoices(
           [
@@ -765,6 +798,7 @@
         );
 
         var singleSelectedOpt = new Choices('#choices-single-selected-option', {
+          allowHTML: true,
           searchFields: ['label', 'value', 'customProperties.description'],
           choices: [
             { value: 'One', label: 'Label One', selected: true },
@@ -782,17 +816,21 @@
         var customChoicesPropertiesViaDataAttributes = new Choices(
           '#choices-with-custom-props-via-html',
           {
+            allowHTML: true,
             searchFields: ['label', 'value', 'customProperties'],
           }
         );
 
         var singleNoSorting = new Choices('#choices-single-no-sorting', {
+          allowHTML: true,
           shouldSort: false,
+          labelId: 'choices-single-no-sorting-label',
         });
 
-        var cities = new Choices(document.getElementById('cities'));
+        var cities = new Choices(document.getElementById('cities'), { allowHTML: true });
         var tubeStations = new Choices(
-          document.getElementById('tube-stations')
+          document.getElementById('tube-stations'),
+          { allowHTML: true }
         ).disable();
 
         cities.passedElement.element.addEventListener('change', function(e) {
@@ -806,11 +844,14 @@
         var customTemplates = new Choices(
           document.getElementById('choices-single-custom-templates'),
           {
-            callbackOnCreateTemplates: function(strToEl) {
+            allowHTML: true,
+            position: 'bottom',
+            callbackOnCreateTemplates: function(strToEl, escapeForTemplate) {
               var classNames = this.config.classNames;
               var itemSelectText = this.config.itemSelectText;
+              var allowHTML = this.config.allowHTML;
               return {
-                item: function(classNames, data) {
+                item: function({ classNames }, data) {
                   return strToEl(
                     '\
                 <div\
@@ -824,11 +865,12 @@
                       ) +
                       '"\
                   data-item\
+                  role="option"\
                   data-id="' +
                       String(data.id) +
                       '"\
                   data-value="' +
-                      String(data.value) +
+                      String(escapeForTemplate(allowHTML, data.value)) +
                       '"\
                   ' +
                       String(data.active ? 'aria-selected="true"' : '') +
@@ -838,13 +880,13 @@
                       '\
                   >\
                   <span style="margin-right:10px;">🎉</span> ' +
-                      String(data.label) +
+                      String(escapeForTemplate(allowHTML, data.label)) +
                       '\
                 </div>\
               '
                   );
                 },
-                choice: function(classNames, data) {
+                choice: function({ classNames }, data) {
                   return strToEl(
                     '\
                 <div\
@@ -874,7 +916,7 @@
                       String(data.id) +
                       '"\
                   data-value="' +
-                      String(data.value) +
+                      String(escapeForTemplate(allowHTML, data.value)) +
                       '"\
                   ' +
                       String(
@@ -883,7 +925,7 @@
                       '\
                   >\
                   <span style="margin-right:10px;">👉🏽</span> ' +
-                      String(data.label) +
+                      String(escapeForTemplate(allowHTML, data.label)) +
                       '\
                 </div>\
               '
@@ -894,9 +936,12 @@
           }
         );
 
-        var resetSimple = new Choices(document.getElementById('reset-simple'));
+        var resetSimple = new Choices(document.getElementById('reset-simple'), {
+          allowHTML: true,
+        });
 
         var resetMultiple = new Choices('#reset-multiple', {
+          allowHTML: true,
           removeItemButton: true,
         });
       });
@@ -904,6 +949,7 @@
 
     <!-- Google Analytics - Ignore me -->
     <script>
+      try {
       window.ga =
         window.ga ||
         function() {
@@ -912,6 +958,9 @@
       ga.l = +new Date();
       ga('create', 'UA-31575166-1', 'auto');
       ga('send', 'pageview');
+      } catch (e) {
+        console.log(e);
+      }
     </script>
     <script async src="https://www.google-analytics.com/analytics.js"></script>
     <!-- End Google Analytics -->

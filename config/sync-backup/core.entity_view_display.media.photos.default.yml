@@ -1,0 +1,30 @@
+uuid: 9e9da2c9-51f0-4043-9b6b-a052449a5599
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.media.photos.field_media_photos
+    - media.type.photos
+  module:
+    - photos
+_core:
+  default_config_hash: cVjBf92fsZUMbusSYoRS7sMW3wwsKliuLXYvGvWm8AU
+id: media.photos.default
+targetEntityType: media
+bundle: photos
+mode: default
+content:
+  field_media_photos:
+    type: photos_album
+    label: hidden
+    settings:
+      photos_display_type: cover
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

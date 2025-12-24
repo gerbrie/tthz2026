@@ -1,0 +1,39 @@
+label: Albums
+description: 'A list of photo albums.'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        title:
+          separator: ', '
+      title: Albums
+  page_1:
+    display_title: 'Page: Albums grid'
+  page_2:
+    display_title: 'Page: User albums'
+    display_options:
+      arguments:
+        uid:
+          exception:
+            title: All
+      header:
+        area:
+          content:
+            value: '<a href="/user/{{ raw_arguments.uid }}/photos/album-rearrange">Re-arrange albums</a>'

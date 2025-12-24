@@ -1,0 +1,18 @@
+uuid: 8aebe3a9-1293-4531-b7ca-feca43a1bc55
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_events
+id: comment.comment_node_events.created
+field_name: created
+entity_type: comment
+bundle: comment_node_events
+label: Created
+description: 'De tijd waarop de reactie is aangemaakt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

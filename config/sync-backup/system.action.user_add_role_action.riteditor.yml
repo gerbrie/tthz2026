@@ -1,0 +1,14 @@
+uuid: 90d68fe3-02a5-4b2b-a8fe-acdf0bd0fe86
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.riteditor
+  module:
+    - user
+id: user_add_role_action.riteditor
+label: 'De rol riteditor toewijzen aan de geselecteerde gebruiker(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: riteditor

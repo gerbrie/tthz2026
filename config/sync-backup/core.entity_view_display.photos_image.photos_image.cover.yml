@@ -1,0 +1,48 @@
+uuid: d3615f47-f01b-47e9-9e90-33eb5e9493ce
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.photos_image.cover
+    - field.field.photos_image.photos_image.field_comments
+    - field.field.photos_image.photos_image.field_image
+  module:
+    - ds
+    - photos
+_core:
+  default_config_hash: ySAz1Pp7gZpCksIXKar0SblEsx8H9WftUIoHke8vqbo
+id: photos_image.photos_image.cover
+targetEntityType: photos_image
+bundle: photos_image
+mode: cover
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: photomediacover
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 0
+    region: content
+  image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  album_id: true
+  created: true
+  description: true
+  field_comments: true
+  langcode: true
+  uid: true
+  weight: true

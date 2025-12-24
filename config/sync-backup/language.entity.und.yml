@@ -1,0 +1,11 @@
+uuid: aecc3996-dd5e-498a-a9f1-02fbf1e7669a
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eNX6lLCKDaY83nCMh20My---y03KbiFlv802DKCCpvg
+id: und
+label: 'Niet gespecificeerd'
+direction: ltr
+weight: 2
+locked: true

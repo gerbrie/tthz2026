@@ -1,0 +1,85 @@
+uuid: ae2b5769-ce1e-4240-8e30-96179dad2fdc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.article
+    - node.type.article_with_paragraphs
+    - node.type.calendar
+    - node.type.events
+    - node.type.externe_photoalbums
+    - node.type.lid
+    - node.type.news
+    - node.type.page
+    - node.type.sponsors
+    - node.type.webform
+  module:
+    - contextual
+    - dropzonejs
+    - eu_cookie_compliance
+    - file
+    - filter
+    - imce
+    - node
+    - system
+    - webform
+id: editor
+label: editor
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'administer imce'
+  - 'administer nodes'
+  - 'administer webform'
+  - 'administer webform element access'
+  - 'administer webform submission'
+  - 'create article content'
+  - 'create calendar content'
+  - 'create events content'
+  - 'create lid content'
+  - 'create news content'
+  - 'create page content'
+  - 'create sponsors content'
+  - 'delete any article content'
+  - 'delete any calendar content'
+  - 'delete any events content'
+  - 'delete any lid content'
+  - 'delete any news content'
+  - 'delete any sponsors content'
+  - 'delete any webform'
+  - 'delete any webform submission'
+  - 'delete own article content'
+  - 'delete own article_with_paragraphs content'
+  - 'delete own calendar content'
+  - 'delete own files'
+  - 'delete own news content'
+  - 'delete own page content'
+  - 'delete own webform'
+  - 'delete own webform submission'
+  - 'display eu cookie compliance popup'
+  - 'dropzone upload files'
+  - 'edit any article content'
+  - 'edit any article_with_paragraphs content'
+  - 'edit any calendar content'
+  - 'edit any events content'
+  - 'edit any externe_photoalbums content'
+  - 'edit any lid content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit any sponsors content'
+  - 'edit any webform content'
+  - 'edit own article content'
+  - 'edit own calendar content'
+  - 'edit own events content'
+  - 'edit own lid content'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'use text format full_html'
+  - 'view own unpublished content'
+  - 'view the administration theme'

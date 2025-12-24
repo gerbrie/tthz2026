@@ -1,0 +1,23 @@
+uuid: e9f9dd13-b762-4762-9437-148393e19e2d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_card
+    - paragraphs.paragraphs_type.w3css_card
+  module:
+    - options
+_core:
+  default_config_hash: yyrvldZRyo7CpByCX1FSD9845Ow7oa-pgDnKkzknvnI
+id: paragraph.w3css_card.w3css_display_card
+field_name: w3css_display_card
+entity_type: paragraph
+bundle: w3css_card
+label: Card
+description: 'Displaying paper-like cards for the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

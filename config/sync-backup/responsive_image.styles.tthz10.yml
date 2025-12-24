@@ -1,0 +1,46 @@
+uuid: 96185d4f-c456-483a-8306-d7b4bbb6dbae
+langcode: nl
+status: true
+dependencies:
+  config:
+    - image.style.my_large_cropstyle
+    - image.style.webp_groot
+    - image.style.webp_klein
+    - image.style.webp_middel
+  theme:
+    - tthz10
+id: tthz10
+label: tthz10
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: webp_groot
+    breakpoint_id: tthz10.wide
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: webp_groot
+    breakpoint_id: tthz10.wide
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: webp_middel
+    breakpoint_id: tthz10.narrow
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: webp_middel
+    breakpoint_id: tthz10.narrow
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: webp_klein
+    breakpoint_id: tthz10.mobile
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: webp_klein
+    breakpoint_id: tthz10.mobile
+    multiplier: 2X
+breakpoint_group: tthz10
+fallback_image_style: my_large_cropstyle

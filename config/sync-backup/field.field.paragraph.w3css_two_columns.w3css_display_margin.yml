@@ -1,0 +1,23 @@
+uuid: 88e68c4a-d447-44f3-b691-382ad418dd64
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_margin
+    - paragraphs.paragraphs_type.w3css_two_columns
+  module:
+    - options
+_core:
+  default_config_hash: SsGDCs5VAy2xkKkJ8zddtVXJw_Cjw2uW-vBdnCUR6Dw
+id: paragraph.w3css_two_columns.w3css_display_margin
+field_name: w3css_display_margin
+entity_type: paragraph
+bundle: w3css_two_columns
+label: Margin
+description: 'The w3-margin class adds a 16px margin to the child of the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

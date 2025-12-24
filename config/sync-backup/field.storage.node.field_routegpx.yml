@@ -1,0 +1,23 @@
+uuid: b4caff55-5a90-4755-ab52-5f7ebf3ad14b
+langcode: und
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_routegpx
+field_name: field_routegpx
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

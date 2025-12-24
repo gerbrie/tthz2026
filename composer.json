@@ -12,15 +12,20 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+	    "type": "composer",
+            "url": "https://asset-packagist.org"	
         }
     ],
     "require": {
+        "bower-asset/photoswipe": "^5",
         "composer/installers": "^1.9",
         "drupal/aggregator": "^2.2",
         "drupal/antibot": "^2.0",
         "drupal/asset_injector": "^2.10",
         "drupal/backup_migrate": "^5.0",
-        "drupal/blazy": "^2.22",
+        "drupal/blazy": "^3.0",
         "drupal/bootstrap": "^3.22",
         "drupal/color": "^1.0",
         "drupal/color-color": "^1.0",
@@ -31,9 +36,9 @@
         "drupal/consumers": "^1.22",
         "drupal/content_access": "^2.0",
         "drupal/cookies": "^1.0",
-        "drupal/core-composer-scaffold": "^10.2",
-        "drupal/core-project-message": "^10.2",
-        "drupal/core-recommended": "^10.1",
+        "drupal/core-composer-scaffold": "^10.6",
+        "drupal/core-project-message": "^10.6",
+        "drupal/core-recommended": "^10.6",
         "drupal/crop": "^2.3",
         "drupal/ctools": "^3.13",
         "drupal/d8w3css": "^2.0",
@@ -46,10 +51,8 @@
         "drupal/feeds": "^3.0@beta",
         "drupal/field_group": "^3.4",
         "drupal/field_permissions": "^1.3",
-        "drupal/file_mdm": "^3.0",
         "drupal/google_analytics": "^4.0",
         "drupal/honeypot": "^2.1",
-        "drupal/image_effects": "^3.6",
         "drupal/image_widget_crop": "^2.4",
         "drupal/imce": "^3.0",
         "drupal/jquery_ui": "^1.6",
@@ -60,9 +63,9 @@
         "drupal/key_value_field": "^1.3",
         "drupal/login_destination": "^2.0@beta",
         "drupal/media_bulk_upload": "^3.0",
-        "drupal/media_gallery": "^2.2",
+        "drupal/media_gallery": "^3.2",
         "drupal/media_library_form_element": "^2.0",
-        "drupal/media_library_importer": "^1.0@beta",
+        "drupal/media_library_importer": "^2.1",
         "drupal/media_library_theme_reset": "^1.3",
         "drupal/menu_per_role": "^1.5",
         "drupal/ng_lightbox": "^2.0",
@@ -70,6 +73,8 @@
         "drupal/paragraphs": "^1.17",
         "drupal/pathauto": "^1.11",
         "drupal/photos": "^6.0",
+        "drupal/photoswipe": "^5.0",
+        "drupal/queue_ui": "^3.2",
         "drupal/rdf": "^2.0",
         "drupal/recaptcha": "^3.1",
         "drupal/recaptcha_element": "^1.0",
@@ -77,8 +82,6 @@
         "drupal/redirect": "^1.9",
         "drupal/simple_gmap": "^3.1",
         "drupal/simple_oauth": "^6.1",
-        "drupal/slick": "^2.6",
-        "drupal/slick_views": "^2.6",
         "drupal/smtp": "^1.2",
         "drupal/sophron": "^2.0",
         "drupal/theme_switcher": "^2.0",
@@ -95,6 +98,7 @@
         "drupal/webform_submission_import": "^2.1",
         "drupal/webform_views": "^5.1",
         "drush/drush": "^12.4",
+        "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
 
@@ -110,6 +114,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
+            "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
             "tbachert/spi": true,
@@ -127,12 +132,19 @@
                 "web/modules/contrib/webform/composer.libraries.json"
             ]
         },
+        "installer-types": [
+             "npm-asset",
+             "bower-asset"
+             ],
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
             ],
+            "web/libraries/chosen": ["npm-asset/chosen-js"],
             "web/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:npm-asset",
+                "type:bower-asset"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"

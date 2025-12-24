@@ -1,0 +1,113 @@
+uuid: 5466988e-3e58-4ec8-85c6-14793d2066ca
+langcode: nl
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: nTRmUTOA6-hZBo8NYQMHHPhyYzy3ra9s5XuCT7wBweQ
+id: paragraph.w3css_display_active_item
+field_name: w3css_display_active_item
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: w3-is-active-red
+      label: Rood
+    -
+      value: w3-is-active-pink
+      label: Roze
+    -
+      value: w3-is-active-purple
+      label: Paars
+    -
+      value: w3-is-active-deep-purple
+      label: 'Deep Purple'
+    -
+      value: w3-is-active-indigo
+      label: Indigo
+    -
+      value: w3-is-active-blue
+      label: Blauw
+    -
+      value: w3-is-active-light-blue
+      label: Lichtblauw
+    -
+      value: w3-is-active-cyan
+      label: Cyan
+    -
+      value: w3-is-active-aqua
+      label: Aqua
+    -
+      value: w3-is-active-teal
+      label: Groenblauw
+    -
+      value: w3-is-active-green
+      label: Groen
+    -
+      value: w3-is-active-light-green
+      label: 'Light Green'
+    -
+      value: w3-is-active-lime
+      label: Limoen
+    -
+      value: w3-is-active-sand
+      label: Sand
+    -
+      value: w3-is-active-khaki
+      label: Khaki
+    -
+      value: w3-is-active-yellow
+      label: Geel
+    -
+      value: w3-is-active-amber
+      label: Amber
+    -
+      value: w3-is-active-orange
+      label: Oranje
+    -
+      value: w3-is-active-deep-orange
+      label: 'Deep Orange'
+    -
+      value: w3-is-active-blue-gray
+      label: 'Blue Gray'
+    -
+      value: w3-is-active-brown
+      label: Bruin
+    -
+      value: w3-is-active-light-gray
+      label: 'Light Gray'
+    -
+      value: w3-is-active-gray
+      label: Grijs
+    -
+      value: w3-is-active-dark-gray
+      label: 'Dark Gray'
+    -
+      value: w3-is-active-black
+      label: Zwart
+    -
+      value: w3-is-active-white
+      label: Wit
+    -
+      value: w3-is-active-pale-red
+      label: 'Pale Red'
+    -
+      value: w3-is-active-pale-yellow
+      label: 'Pale Yellow'
+    -
+      value: w3-is-active-pale-green
+      label: 'Pale Green'
+    -
+      value: w3-is-active-pale-blue
+      label: 'Pale Blue'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

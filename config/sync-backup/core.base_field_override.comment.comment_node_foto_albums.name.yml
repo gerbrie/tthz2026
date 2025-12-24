@@ -1,0 +1,20 @@
+uuid: 8450734d-6b46-4ba3-b370-b2dcc8449eaa
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_foto_albums
+id: comment.comment_node_foto_albums.name
+field_name: name
+entity_type: comment
+bundle: comment_node_foto_albums
+label: Naam
+description: 'De naam van de schrijver van de reactie.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

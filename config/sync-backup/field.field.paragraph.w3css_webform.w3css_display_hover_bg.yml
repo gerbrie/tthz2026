@@ -1,0 +1,23 @@
+uuid: a9927c48-e3af-4e74-9b6f-5e5055495566
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_hover_bg
+    - paragraphs.paragraphs_type.w3css_webform
+  module:
+    - options
+_core:
+  default_config_hash: jcUmqp_SUtk6ZKNt1xvwTMhZsdnqIBOa4yseRgUi-5s
+id: paragraph.w3css_webform.w3css_display_hover_bg
+field_name: w3css_display_hover_bg
+entity_type: paragraph
+bundle: w3css_webform
+label: 'Background Color Hover'
+description: 'The w3-hover-color classes define the background hover color for the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

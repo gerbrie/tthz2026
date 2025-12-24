@@ -1,0 +1,15 @@
+uuid: cca45997-ff9c-4878-8425-3db31f01db00
+langcode: nl
+status: true
+dependencies: {  }
+name: groot_800
+label: 'Groot 800'
+effects:
+  0d7568f4-c9d3-4419-93b4-741701a18eb2:
+    uuid: 0d7568f4-c9d3-4419-93b4-741701a18eb2
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: null
+      upscale: false

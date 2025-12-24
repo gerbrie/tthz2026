@@ -1,0 +1,30 @@
+uuid: a960c9d9-9788-4931-be2f-579092356e07
+langcode: nl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a150363f-c8b7-436a-977e-9d973357e6dc'
+  module:
+    - block_content
+    - system
+  theme:
+    - tthz10
+id: tthz10_weerplaza
+theme: tthz10
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'block_content:a150363f-c8b7-436a-977e-9d973357e6dc'
+settings:
+  id: 'block_content:a150363f-c8b7-436a-977e-9d973357e6dc'
+  label: 'Meteo Alcudia'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/mallorca2025\r\n/kalender/mallorca-zaterdag\r\n/kalender/mallorca-zondag\r\n/kalender/mallorca-maandag\r\n/kalender/mallorca-dinsdag\r\n/kalender/mallorca-woensdag\r\n/kalender/mallorca-donderdag"

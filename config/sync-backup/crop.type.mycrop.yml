@@ -1,0 +1,12 @@
+uuid: d1db45bf-bd6a-465e-a4f1-815f01786f32
+langcode: nl
+status: true
+dependencies: {  }
+label: MyCrop
+id: mycrop
+description: ''
+aspect_ratio: ''
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

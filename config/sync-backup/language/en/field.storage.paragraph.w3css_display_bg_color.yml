@@ -1,0 +1,62 @@
+settings:
+  allowed_values:
+    -
+      label: Red
+    -
+      label: Pink
+    -
+      label: Purple
+    -
+      label: 'Deep Purple'
+    -
+      label: indigo
+    -
+      label: Blue
+    -
+      label: 'Light Blue'
+    -
+      label: Cyan
+    -
+      label: Aqua
+    -
+      label: Teal
+    -
+      label: Green
+    -
+      label: 'Light Green'
+    -
+      label: Lime
+    -
+      label: Sand
+    -
+      label: Khaki
+    -
+      label: Yellow
+    -
+      label: Amber
+    -
+      label: Orange
+    -
+      label: 'Deep Orange'
+    -
+      label: 'Blue Gray'
+    -
+      label: Brown
+    -
+      label: 'Light Gray'
+    -
+      label: Gray
+    -
+      label: 'Dark Gray'
+    -
+      label: Black
+    -
+      label: White
+    -
+      label: 'Pale Red'
+    -
+      label: 'Pale Yellow'
+    -
+      label: 'Pale Green'
+    -
+      label: 'Pale Blue'

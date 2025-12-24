@@ -1,0 +1,20 @@
+uuid: 9866e4e3-4fdc-49c1-a904-4ac5bae6d550
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.uid
+field_name: uid
+entity_type: media
+bundle: document
+label: 'Geschreven door'
+description: 'Gebruikers-ID van de auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

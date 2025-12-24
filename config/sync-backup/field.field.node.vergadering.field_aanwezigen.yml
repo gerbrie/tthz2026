@@ -1,0 +1,22 @@
+uuid: 828d2f0b-847d-4453-8750-376b5a41be56
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aanwezigen
+    - node.type.vergadering
+  module:
+    - text
+id: node.vergadering.field_aanwezigen
+field_name: field_aanwezigen
+entity_type: node
+bundle: vergadering
+label: Aanwezigen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

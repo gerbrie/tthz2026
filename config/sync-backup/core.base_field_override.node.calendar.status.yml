@@ -1,0 +1,22 @@
+uuid: 5c7b706e-5daf-4b6a-a997-9fa742ef5879
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.calendar
+id: node.calendar.status
+field_name: status
+entity_type: node
+bundle: calendar
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

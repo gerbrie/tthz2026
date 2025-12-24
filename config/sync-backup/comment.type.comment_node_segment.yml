@@ -1,0 +1,8 @@
+uuid: c7d0bedc-317f-4b19-bf7c-6417bf4deb22
+langcode: nl
+status: true
+dependencies: {  }
+id: comment_node_segment
+label: 'segment comment'
+target_entity_type_id: node
+description: null

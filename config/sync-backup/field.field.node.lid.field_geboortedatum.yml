@@ -1,0 +1,21 @@
+uuid: d4c8ae29-49b8-42f1-97d8-f63ede15bcaf
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geboortedatum
+    - node.type.lid
+  module:
+    - datetime
+id: node.lid.field_geboortedatum
+field_name: field_geboortedatum
+entity_type: node
+bundle: lid
+label: Geboortedatum
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

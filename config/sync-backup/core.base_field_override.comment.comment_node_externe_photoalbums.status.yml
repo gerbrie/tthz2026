@@ -1,0 +1,22 @@
+uuid: 8d1becd1-43de-4682-a3ba-ae63dd1b9f26
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_externe_photoalbums
+id: comment.comment_node_externe_photoalbums.status
+field_name: status
+entity_type: comment
+bundle: comment_node_externe_photoalbums
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

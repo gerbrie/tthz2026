@@ -1,0 +1,23 @@
+uuid: 758036a2-c59f-400d-b26f-2ad65cc3d6ba
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_width
+    - paragraphs.paragraphs_type.w3css_hero
+  module:
+    - options
+_core:
+  default_config_hash: nKB1O_ZLqqiLxybQqj1gtjrP-nRd0oPQiLBTPbwVeOk
+id: paragraph.w3css_hero.w3css_display_width
+field_name: w3css_display_width
+entity_type: paragraph
+bundle: w3css_hero
+label: Width
+description: 'Change the HTML wrapper width for this paragraph.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

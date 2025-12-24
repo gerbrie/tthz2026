@@ -1,0 +1,23 @@
+uuid: d4fcbd81-e314-4f36-be77-cf3189cadf54
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_text_color
+    - paragraphs.paragraphs_type.w3css_hero
+  module:
+    - options
+_core:
+  default_config_hash: uWXXAlyY4DAS_4XAK52UXN05d9UbYmgcC8No-4jEwM0
+id: paragraph.w3css_hero.w3css_display_text_color
+field_name: w3css_display_text_color
+entity_type: paragraph
+bundle: w3css_hero
+label: 'Text Colors'
+description: 'The w3-text-color classes set the text color of the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

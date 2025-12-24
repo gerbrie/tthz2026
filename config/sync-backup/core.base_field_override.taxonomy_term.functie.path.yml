@@ -1,0 +1,20 @@
+uuid: 6f142f25-1156-4f1e-a2dd-a9fca1eab17c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.functie
+  module:
+    - path
+id: taxonomy_term.functie.path
+field_name: path
+entity_type: taxonomy_term
+bundle: functie
+label: URL-alias
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

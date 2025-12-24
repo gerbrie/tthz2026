@@ -1,0 +1,28 @@
+uuid: 4dc24964-32b2-49c4-9f4e-a581cfd20e4b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_calendar
+    - field.field.comment.comment_node_calendar.comment_body
+  module:
+    - text
+id: comment.comment_node_calendar.default
+targetEntityType: comment
+bundle: comment_node_calendar
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

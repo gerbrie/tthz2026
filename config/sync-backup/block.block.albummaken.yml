@@ -1,0 +1,30 @@
+uuid: 32a514e2-ad6e-4e2c-b303-067ee7d30270
+langcode: nl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e1d5b9c0-e8a1-462b-8d70-407af6ae1f94'
+  module:
+    - block_content
+    - system
+  theme:
+    - tthz10
+id: albummaken
+theme: tthz10
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'block_content:e1d5b9c0-e8a1-462b-8d70-407af6ae1f94'
+settings:
+  id: 'block_content:e1d5b9c0-e8a1-462b-8d70-407af6ae1f94'
+  label: 'Album maken'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/node/add/photos\r\n"

@@ -1,0 +1,23 @@
+uuid: 2a09ecac-3af4-4c0a-9d3a-5240aa73e5c9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_border_color
+    - paragraphs.paragraphs_type.w3css_webform
+  module:
+    - options
+_core:
+  default_config_hash: Afochr-W2TXYtn6G5XjjvhdWBMst6A-eduqBefCMc2Y
+id: paragraph.w3css_webform.w3css_display_border_color
+field_name: w3css_display_border_color
+entity_type: paragraph
+bundle: w3css_webform
+label: 'Border Colors'
+description: 'The w3-border-color classes are used to add colors to borders.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

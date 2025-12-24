@@ -1,0 +1,30 @@
+uuid: a38cacff-461f-4e38-ad7e-5c9aa81b0e3a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.photos_image.field_image
+    - media.type.photomedia
+  module:
+    - photos
+id: photos_image.photos_image.field_image
+field_name: field_image
+entity_type: photos_image
+bundle: photos_image
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      photomedia: photomedia
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

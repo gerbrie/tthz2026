@@ -1,0 +1,18 @@
+uuid: 56d86141-e25a-4250-bc29-6b9ccb8cf420
+langcode: nl
+status: true
+dependencies:
+  module:
+    - photos
+_core:
+  default_config_hash: hFmLoBaPcEfSoWCEaU_Mv1bhKI9vT8kDB6I5PHyhTXk
+id: photos
+label: 'Foto albums'
+description: 'Use photo albums as reusable media.'
+source: photos
+source_configuration:
+  source_field: field_media_photos
+queue_thumbnail_downloads: false
+new_revision: false
+field_map:
+  name: name

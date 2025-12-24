@@ -1,0 +1,23 @@
+uuid: 4f3e03fe-45aa-49db-b80c-9f68ef08d0e0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.segment
+  module:
+    - text
+id: node.segment.body
+field_name: body
+entity_type: node
+bundle: segment
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

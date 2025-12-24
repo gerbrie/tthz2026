@@ -1,0 +1,26 @@
+uuid: d9139649-eb4b-4b3f-a34b-c7756c48e898
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.w3css_shared.w3css_content_left_column
+    - field.field.paragraph.w3css_shared.w3css_content_middle_column
+    - field.field.paragraph.w3css_shared.w3css_content_right_column
+    - field.field.paragraph.w3css_shared.w3css_display_active_item
+    - field.field.paragraph.w3css_shared.w3css_display_animated_tab
+    - paragraphs.paragraphs_type.w3css_shared
+_core:
+  default_config_hash: _blZsx2PEW87CxbBmfQNjqkyFTZzY-Hmo5SK3kDkzfE
+id: paragraph.w3css_shared.default
+targetEntityType: paragraph
+bundle: w3css_shared
+mode: default
+content: {  }
+hidden:
+  created: true
+  status: true
+  w3css_content_left_column: true
+  w3css_content_middle_column: true
+  w3css_content_right_column: true
+  w3css_display_active_item: true
+  w3css_display_animated_tab: true

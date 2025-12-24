@@ -1,0 +1,18 @@
+uuid: 735eacbe-0a39-4d69-b3af-f7c24dace4be
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_calendar
+id: comment.comment_node_calendar.subject
+field_name: subject
+entity_type: comment
+bundle: comment_node_calendar
+label: Onderwerp
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

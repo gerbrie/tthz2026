@@ -1,0 +1,18 @@
+uuid: 2de8119f-84b7-4d77-ad1c-63fcdfc2f237
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_events
+id: comment.comment_node_events.changed
+field_name: changed
+entity_type: comment
+bundle: comment_node_events
+label: Gewijzigd
+description: 'Het tijdstip waarop de reactie het laatst is bewerkt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

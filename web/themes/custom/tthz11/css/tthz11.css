@@ -1,0 +1,991 @@
+root {
+  --container-size: 1140px;
+  --color-red: rgb(177, 7, 7);
+  --color-orange2: rgb(255, 165, 0);
+  --color-orange: #ff8800;
+  --color-green: rgb(16, 119, 16);
+  --color-black: #12274e;
+  --color-edit: #ffe6019f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.site-logo img {
+  width: 200px;
+}
+.path-view-frontpage .site-logo img {
+  position: absolute;
+  z-index: 501;
+  left: 1rem;
+  top: 4rem;
+  width: 150px;
+}
+.path-view-frontpage #header {
+  background-color: white!important;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+#header-inner {
+  max-width: none;
+  padding: 0;
+}
+.w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div > img {
+  height: 90%;
+}
+#w3-slideshow-50 {
+  margin-bottom: -1rem !important;
+}
+
+#block-tthz10-branding {
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.site-name-slogan {
+  display: none;
+}
+
+#block-tthz10-tthzledennieuws {
+  /* background-color: #12274e;
+  margin: 8px;
+  color: white; */
+  background-color: white !important;
+  color: black;
+  /* margin: 8px; */
+  padding: 15px;
+  text-align: center;
+  
+}
+
+#block-tthz10-tthzledennieuws h2 {
+  /* color: white; */
+  color: black;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div {
+    height: 100vh;
+  }
+  .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div > img {
+    width: 100%;
+    height: auto;
+  }
+  .path-view-frontpage .site-logo img {
+    position: absolute;
+    z-index: 501;
+    left: 6rem;
+    top: 8rem;
+    width: 300px;
+  }
+  div.w3-row.w3-hero-txt-wrapper > div > div > p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  div.w3-row.w3-hero-txt-wrapper > div > div > p:nth-child(2) > span {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.33rem;
+  }
+}
+#block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > div.view-content > div > div > div > div > div > div {
+  padding: 0 !important;
+  margin-bottom: -1rem !important;  
+}
+.nieuwsoverzicht span.quickedit-field {
+  padding: 0.5rem !important;
+}
+.w3-container .node__content {
+  padding: 1rem 0 !important;
+}
+.view .node--view-mode-teaser .node__title {
+  margin-left: 0.8rem !important;
+}
+.view .node--view-mode-teaser .node__content .field--name-field-image {
+    margin: 0 !important;
+}
+.view .node--view-mode-teaser .node__content {
+  padding: 1rem !important;
+}
+@media only screen and (max-width: 1000px) {
+   #sponsorbloknieuws img {
+    display: none;
+  }
+}
+.site-logo img:hover {
+  opacity: 100%;
+}
+#nys {
+  height: 138px;
+  width: 138px;
+  background-color: #de875a;
+}
+#zdp {
+  height: 138px;
+  width: 165px;
+}
+#sponsorbloknieuws #nys {
+  height: 165px;
+  width: 165px;
+  margin-top: 0.5rem;
+}
+#sponsorbloknieuws #zdp {
+  height: 165px;
+  width: 216px;
+  margin-top: 0.5rem;
+}
+#sponsorbloknieuws {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+}
+#sponsorbloknieuws img {
+  float: right;
+  position: relative;
+  margin: 0 0.2rem;
+}
+.topnieuwsblok .w3-panel {
+  margin-bottom: 0;
+}
+/* .node__content img {
+  padding: 1rem;
+} */
+.ledenpagina img,
+.bestuur img {
+  padding: 0.1rem 0; 
+}
+.node .field--type-image {
+  margin: 0;
+}
+.field--name-field-inloggen label {
+  background-color: #e14232;
+  color: white;
+  font-weight: 125%;
+}
+
+a.site-logo {
+  opacity: 1;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #main-navigation-inner-h {
+    display: flex;
+    flex-direction: column;
+  }
+  .layout--twocol-section {
+    display: block;
+  }
+
+  .block-system-main-block {
+    padding: 0 0.5rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .block-system-main-block {
+      padding: 0;
+    }
+    .site-logo {
+      content: url("/sites/default/files/tthzlogorechthoek.png");
+      width: 200px;
+    }
+  }
+  .block-system-main-block form.messages--status {
+    margin: -0.3rem;
+  }
+  .w3-container,
+  .w3-panelÂ  {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .topnieuwsblok {
+    margin-left: 1rem;
+  }
+  .kalender .views-row p,
+  a {
+    padding-left: 0px !important;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .node__meta .node__submitted {
+    font-size: 0.6rem !important;
+  }
+  .kalender .views-field-title a {
+    padding-left: 16px !important;
+  }
+  .datumkalender {
+    position: relative !important;
+    left: 0px !important;
+  }
+  .kalender.view-kalender .w3-panel {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .ul-parent,
+  .ul-child,
+  .li-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    list-style: none;
+  }
+  .view-frontpage .view-content .w3-panel.views-row {
+    padding: 0;
+  }
+  #block-tthz10-branding > a > img {
+    padding-bottom: 0.8rem;
+  }
+}
+#main-navigation-inner-h {
+  display: flex;
+}
+#top-container .top-box > div {
+  background-color: #dfe5e8 !important;
+  /* font-size: 120%; */
+}
+@media (max-width: 768px) {
+  .field-content.topnieuws {
+    margin-left: -1.5rem !important;
+  }
+  .field-content.topnieuwstitel,
+  .field-content.topnieuwsbody p
+   {
+    margin-left: -0.8rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-container-inner .first-sidebar {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+.layout__region {
+  padding: 0rem 1rem;
+}
+.layout__region h2 {
+  padding-left: 0 !important;
+}
+.topnieuws {
+  background-color: #3f51b5;
+  color: white;
+  font-size: smaller;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  top: -1rem;
+  margin-bottom: -1rem;
+  margin-top: 1rem;
+}
+.topnieuwstitel {
+  font-size: 1.2rem;
+  margin: 0rem 0rem 0rem 0.7rem;
+}
+#top-container-inner .field-content p {
+  margin-left: 0.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .topnieuws {
+    top: -1rem;
+    margin-bottom: -0.5rem;
+  }
+  #block-views-block-nieuws-block-1-3 > div.w3-row.element-container-wrapper > div > div.view-content > div {
+    padding-left: 1rem;
+  }
+}
+.nieuwsinhoud {
+  margin-top: -2rem;
+}
+a {
+  color: #3343a5;
+}
+#header {
+  background-color: white !important;
+  /* background-image: linear-gradient(110deg, #000000 0.56%, #4267b2 0.56%, #4267b2 22.78%, #000000 22.78%, #000000 24.44%, #b5e61d 24.44%, #b5e61d 46.67%, #000000 46.67%, #000000 47.22%, #fff 47.22%, #fff 50%, #000000 50%, #000000 50.56%, #4267b2 50.56%, #4267b2 72.78%, #000000 72.78%, #000000 74.44%, #b5e61d 74.44%, #b5e61d 96.67%, #000000 96.67%, #000000 97.22%, #fff 97.22%, #fff 100%); */
+/* background-size: 95.78px 263.14px; */
+}
+@media only screen and (min-width: 800px) {
+  #header {
+    background-image: linear-gradient(112deg, #ffffff 24.75%, #000000 24.75%, #000000 25.25%, #dfe5e8 25.25%, #dfe5e8 50%, #ffffff 50%, #ffffff 74.75%, #000000 74.75%, #000000 75.25%, #dfe5e8 75.25%, #dfe5e8 100%);
+background-size: 108.93px 269.62px;
+
+  }
+}
+
+.ledenpagina .view-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
+  grid-gap: 30px;
+  justify-content: center;
+}
+#block-views-block-kalenderblok-block-1-2 h2 {
+  background-color: #12274e;
+  color: white;
+  margin-bottom: -1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+@media only screen and (max-width: 800px) {
+  #block-views-block-kalenderblok-block-1-2 h2 {
+    margin-bottom: -1rem !important;
+    padding-left: 0.5rem !important;
+  }
+  .ul-parent-account a {
+    padding: 7px 5px !important;
+  }
+}
+#block-views-block-kalenderblok-block-1-2 .w3-panel {
+  background-color: #dfe5e8;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0;
+}
+
+#block-views-block-kalenderblok-block-1-2 > div.w3-row.element-container-wrapper > div > div.view-content > div {
+    padding-top: 0 !important;
+}
+
+#block-tthz10-aggregatorfeed h2 {
+  background-color: rgb(16, 119, 16);
+  color: #FFF;
+  margin-bottom: -1rem !important;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+@media (max-width: 768px) {
+  #block-aggregatorfeed h2 {
+    padding-left: 0.5rem !important;
+  }
+}
+#block-aggregatorfeed .more-link {
+  display: none;
+}
+
+#block-aggregatorfeed ul {
+  background-color: #dfe5e8;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+#block-aggregatorfeed li {
+  background-color: #dfe5e8;
+}
+.w3-ul li {
+  background-color: #dfe5e8;
+}
+.nieuwsoverzicht .w3-ul li {
+  background-color: #dfe5e8;
+  padding: 1rem !important;
+}
+.w3-ul.breadcrumb li {
+  padding: 0 !important;
+}
+.node__content ul.links li:last-child {
+  padding: 0.5rem !important;
+}
+
+.kalenderkop a {
+  color: blue;
+}
+.file--mime-application-octet-stream a {
+  color: blue;
+  text-decoration: underline;
+}
+.field--name-field-route a {
+  color: blue;
+  text-decoration: underline;
+}
+.overons img {
+  width: 100%;
+}
+.segment img {
+  max-width: 400px;
+}
+.segmentview > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 352px));
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  justify-content: space-around;
+}
+.makkelijk {
+  background-color: greenyellow;
+  padding-left: 5px;
+  margin-top: 0;
+  text-align: left;
+}
+.ietwat-lastig {
+  background-color: yellow;
+  margin-top: 0;
+  padding-left: 5px;
+}
+.lastig {
+  background-color: red;
+  padding-left: 5px;
+  margin-top: 0;
+  color: white;
+}
+.infosegment {
+  font-style: italic;
+}
+.fotopadding {
+  padding-top: 50px;
+}
+.segmentview .views-row {
+  background-color: #f8f9fa;
+  border: 1px solid #dfdfdf;
+}
+.partners > div {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 800px) {
+  .partners > div {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    justify-content: center;
+  }
+}
+.path-kalender .w3-card {
+  box-shadow: none;
+}
+@media only screen and (min-width: 800px) {
+.kalender > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 350px));
+  grid-gap: 50px;
+  justify-content: center;
+}
+.path-view-frontpage #block-tthz10-branding {
+  margin-top: -3rem !important;
+}
+}
+.kalender > div {
+  display: grid;
+  grid-row-gap: 2rem;
+  margin: 0.5rem;
+}
+.kalender .view-content div {
+  background-color: #dfe5e8;
+}
+.kalender .views-row {
+  padding-bottom: 1.8rem;
+}
+@media only screen and (max-width: 768px) {
+  .kalender .views-row p,
+  a {
+    padding-left: 10px;
+  }
+}
+.kalender .views-field-title a {
+  border-top: 3px solid rgb(16, 119, 16);
+  display: block;
+  margin-top: -4.2rem;
+  padding: 7px;
+  padding-left: 16px;
+  padding-top: 30px;
+  z-index: 1;
+}
+.kalender .views-field-field-vertrek,
+.kalender .views-field-body,
+.kalender .views-field-field-gpx,
+.kalender .views-field-field-route {
+    padding-left: 1rem;
+}
+.file--mime-application-octet-stream a {
+  color: #3343a5;
+}
+.datumkalender {
+  background-color: #12274e;
+  border-radius: 25px;
+  color: white;
+  position: relative;
+  left: 10px;
+  top: -1.9rem;
+  z-index: 2;
+  display: inline-block;
+  padding: 5px;
+}
+#bottom-container-inner {
+  max-width: 1200px;
+}
+.first-bottom .w3-panel {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+@media (max-width: 800px) {
+  .w3-padding-large,
+  .w3-padding {
+    padding: 0 !important;
+  }
+  .w3-padding-large h2,
+  .w3-padding h2 {
+    padding: 3px 6px !important;
+  }
+}
+.views-more-link {
+  display: block;
+  color: #3343a5;
+}
+.views-field-created {
+  font-size: 0.7rem;
+}
+#top-container .top-box > div {
+  border: 0 !important;
+  background-color: aqua;
+}
+element.style {
+  opacity: 1;
+  transition: opacity 1s linear 0s;
+}
+#top-container .top-box > div,
+#bottom-container .bottom-box > div,
+#footer-container .footer-box > div {
+  border: 1px solid #d8d7d9;
+  transition: 0.4s !important;
+}
+#page-title,
+#highlighted,
+.page-wrapper,
+#top-container,
+#footer-container,
+.search-slide-wrapper,
+#top-container .top-box > div,
+#footer-container .footer-box > div,
+#bottom-container .bottom-box > div {
+  background-color: white;
+  color: #514e52;
+}
+#top-container .top-box > div {
+  border: 0 !important;
+  background-color: white !important;
+}
+.block-field-blocknodepagebody ol {
+  margin-left: -1rem;
+}
+#fancy_login_close_button {
+  padding-left: 3px !important;
+}
+.second-footer div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.first-footer div {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+@media only screen and (min-width: 768px) {
+  #block-views-block-over-ons-block-1
+    > div.w3-row.element-container-wrapper
+    > div {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  .overons {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .ul-parent-account {
+    display: flex;
+  }
+}
+@media (max-width: 800px) {
+  .block-system-branding-block > div {
+    margin: 0 !important;
+    width: 100%;
+  }
+  #header-inner {
+    padding: 0 !important;
+  }
+  .block-system-branding-block {
+    width: 96%;
+    margin: 0 2% !important;
+  }
+  .w3-padding-16 {
+    padding-bottom: 0 !important;
+  }
+}
+#block-aggregatorfeed ul {
+  padding-left: 0;
+}
+#block-content > article > div.w3-container.node__content > div > div > section.w3-block.w3-block-wrapper.block-layout-builder.block-field-blocknodepagefield-image {
+  display: flex;
+  justify-content: center;
+}
+#search-block-form {
+  position: absolute;
+  right: 1rem;
+  top: 3rem;
+  max-width: 30%;
+}
+#edit-keys {
+  color: white;
+}
+#text {
+  display: none;
+}
+#block-content > article > div.w3-container.node__content > div > div > div > div > div.w3-panel.views-row.clearfix.row-2 > div.w3-padding.views-col.col-2 > div > div > a > div > div.w3-padding.w3-left.field.field--name-field-media-image-1.field--type-image.field--label-visually_hidden.quickedit-field {
+  display: none;
+}
+div.views-field.views-field-count.image-count > span {
+  color:rgb(179, 177, 177);
+  font-size: 0.8rem;
+}
+ h2.album-titel {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+.photoscrollÂ header{
+  display: none;
+}
+.page-node-type-photos #header {
+  display: none;
+}
+#block-views-block-kalenderblok-block-1-2 > div.w3-row.element-container-wrapper > div > div.view-content > div {
+    background-color: #dfe5e8;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.photos-link-pager {
+    margin-bottom: 1rem;
+}
+@media (max-width: 1000px) {
+  #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > div.views-element-container.w3-row.element-container-wrapper > div > div > div > div.w3-row.views-row.clearfix > div.w3-padding.views-col {
+    width: 100% !important;
+  }
+section.w3-block.w3-block-wrapper.block-layout-builder.block-extra-field-blocknodephotosphotos-album-photo-list > div > div > div > div > div.w3-row.views-row.clearfix > div.w3-padding.views-col {
+  width: 100% !important;
+}
+div.views-element-container.contextual-region.w3-row.element-container-wrapper > div > div.view-content > div > div.w3-row.views-row.clearfix > div.w3-padding.views-col {
+  width: 100% !important;
+}
+}
+ div.node__author-info > span {
+  padding-left: 0.2rem;
+  font-size: 0.7rem;
+ }
+ #footer-container-inner > div.w3-half.footer-box.third-footer > div{
+  display: flex;
+  justify-content: flex-start;
+ }
+ #block-tthz10-aggregatorfeed > div.more-link.w3-row.element-container-wrapper > a {
+  display: none;
+ }
+ @media (max-width: 1000px) {
+  #bottom-container-inner {
+    display: flex;
+  }
+  #bottom-container-inner > div.w3-half.bottom-box {
+    margin: 0;
+    padding: 0;
+  }
+  #bottom-container-inner > div.w3-half.bottom-box.first-bottom {
+    padding-left: 8px
+  }
+  #bottom-container-inner > div.w3-half.bottom-box.second-bottom {
+    padding-right: 8px;
+  }
+  #bottom-container-inner > div.w3-half.bottom-box.second-bottom div{
+    border-left: 0;
+  }
+  #bottom-container-inner {
+    background-color: white;
+  }
+}
+@media (min-width: 875px){
+  #main-container-inner > div{
+  display: flex;
+} 
+}
+@media (min-width:1001px){
+  #bottom-container .first-bottom{
+    display: none;
+  }
+  #bottom-container .second-bottom{
+    display: none;
+  }
+  #block-views-block-headersub-block-1 {
+    display: none;
+  }
+}
+#fancy_login_close_button {
+  padding-left: 7px !important;
+  padding-right: 6px !important;
+}
+#fancy-login-user-login-form > div.w3-row.item-list > ul > li {
+  display: none;
+}
+.blazy--view li > div > div > span > a > svg {
+  float: right;
+}
+.w3-active-pager.is-active.w3-light-gray {
+  background-color: #0067a7 !important;
+  color: white !important;
+}
+.w3-button.pager__item:hover {
+  background-color: #8bc34a !important;
+}
+h2#block-tthz10-account-menu-menu {
+  text-align: right;
+}
+#footer-container-inner > div.w3-half.footer-box.third-footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+div.node__author-image > article > div > a > img {
+  display: none;
+}
+@media (max-width: 800px) {
+.pager__items li {
+  padding: 0 0 0 10px;
+}
+
+}
+@media(max-width: 1000px){
+#block-views-block-headerparagraph-block-1 {
+  display: none;
+}
+}
+#block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -6rem;
+  height: 0;
+}
+#block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > footer svg {
+  height: 50px;
+  border: 2px solid #3343a5;
+  border-radius: 45%;
+  background-color: rgb(16, 119, 16);
+  display: flex;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+          /* animation-delay: 2s; */
+          animation-iteration-count: 5;
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: scale3d(.4, .4, .4);
+            transform: scale3d(.4, .4, .4);
+           
+  }
+
+  50% {
+    opacity: 0.75;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: scale3d(.4, .4, .4);
+            transform: scale3d(.4, .4, .4);
+  }
+
+  50% {
+    opacity: 0.75;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;         
+}
+ div.w3-row.field.field--name-field-media-image-1.field--type-image.field--label-visually_hidden > div > img {
+  aspect-ratio: 4/3;
+ }
+
+ #block-tthz10-editormenu-menu {
+  color: White;
+ }
+ #block-tthz10-account-menu-menu {
+  color: white;
+ }
+ h1.page-title {
+  color:rgb(16, 119, 16)!important;
+  background-color: white !important;
+ }
+ #copyright-inner > div > p > a {
+  color: black !important;
+ }
+.second-footer > div {
+  background-color: #12274e !important;
+  color: white !important;
+ }
+ #top-container-inner {
+  padding: 0;
+ }
+ #footer-container-inner {
+  padding: 0;
+ }
+ /* #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div {
+  background-color:  #dfe5e8!important;
+  border-color: #12274e !important;
+ }
+ #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div:hover {
+  background-color:  rgb(16, 119, 16) !important;
+  color: white !important;
+  border-color: #12274e !important;
+ } */
+ div.paragraph--type--w3css-webform {
+  background-color:  #dfe5e8!important;
+  border-color: rgb(16, 119, 16) !important;
+ }
+ div.paragraph--type--w3css-webform:hover {
+  background-color:  rgb(16, 119, 16) !important;
+  color: white !important;
+  border-color: #12274e !important;
+  transition: 2s;
+ }
+ /* .path-frontpage div.w3-row.field.field--name-body.field--type-text-with-summary.field--label-hidden.w3-bar-item.field__item > p {
+  padding-top: 1rem;
+ } */
+ 
+ #bottom-container-inner{
+  background-color:#ebf0fa  !important;
+ }
+ #bottom-container-inner div.w3-mobile {
+  background-color:#ebf0fa  !important;
+ }
+ .path-frontpage div.w3-row.field.field--name-field-image.field--type-image.field--label-hidden.field__item > a > img {
+  width: 100vw;
+ }
+ .path-frontpage .field__item img {
+  width: 100vw !important;
+ }
+div.layout__region.layout__region--first > section > div > a > div > img {
+  padding-top: 1rem;
+}
+div.w3-row.field.field--name-user-picture.field--type-image.field--label-hidden.field__item > a > img {
+  width: 200px;
+ }
+ div.node__author-image img {
+  width: 75px !important;
+ }
+ .path-frontpage div.node__author-image img {
+  width: 75px !important;
+ }
+ .page-node-type-photos a.blazy__colorbox.litebox.cboxElement > div > img {
+  padding: 0;
+}
+div.w3-row.field.field--name-field-aanwezigen.field--type-text.field--label-inline.clearfix > div > p {
+  margin-top: 0;
+}
+div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div {
+  font-size: 1.2rem;
+  display: block;
+  padding-top: 1rem;
+}
+div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div p {
+  font-size: 1rem;
+  display: block;
+}
+div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div > ul {
+  font-size: 1rem;
+  padding-top: 0;
+}
+div.w3-row.field.field--name-field-bijlage.field--type-file.field--label-above > label {
+  font-size: 1.5rem;
+}
+/* div.w3-section.js-form-item {
+  display: none;
+} */
+#edit-new > div > div.w3-paenl.details-description {
+  display: none;
+}
+#edit-images-0 {
+  display: none;
+}
+#edit-new > div > div.w3-section.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-title-0.form-item-title-0 {
+  display: none;
+}
+#edit-new > div > div.w3-section.js-form-item.form-item.js-form-type-textarea.form-type-textarea.js-form-item-des-0.form-item-des-0 {
+  display: none;
+}
+
+.w3-theme-l5 {color:#000 !important; background-color:#ebf0fa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#bccef0 !important}
+.w3-theme-l3 {color:#fff !important; background-color:#789de0 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#356cd1 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#214992 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#102347 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#0e1f3f !important}
+.w3-theme-d3 {color:#fff !important; background-color:#0d1c37 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#0b182f !important}
+.w3-theme-d5 {color:#fff !important; background-color:#091427 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#ebf0fa !important}
+.w3-theme-dark {color:#fff !important; background-color:#091427 !important}
+.w3-theme-action {color:#fff !important; background-color:#091427 !important}
+
+.w3-theme {color:#fff !important; background-color:#12274e !important}
+.w3-text-theme {color:#12274e !important}
+.w3-border-theme {border-color:#12274e !important}
+
+.w3-hover-theme:hover {color:#fff !important; background-color:#12274e !important}
+.w3-hover-text-theme:hover {color:#12274e !important}
+.w3-hover-border-theme:hover {border-color:#12274e !important}
+
+
+.w3-theme-l4 {color:#FFF !important; background-color:rgb(16, 119, 16) !important}
+/* .w3-theme-l5 {color:#FFF!important; background-color:#12274e !important} */
+
+
+.w3-theme-d5 {color:#000 !important; background-color: white !important}
+.w3-theme-d4 {color:#fff !important; background-color: #0d1c37 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#ebf0fa !important}
+/* .w3-theme-l5 {color:#000 !important; background-color: rgb(233, 236, 229) !important} */
+
+/* webform */
+nav.webform-submission-navigation {
+  display: none;
+}
+.webform-submission-edit-form {
+  background-color: white;
+}
+.webform-submission-information::before {
+  font-weight: bold;
+  color: navy;
+  content: "Uw inzending: U kan deze nog aanpassen tot einde indieningsperiode. ";
+}
+.highlighted-inner, .welcome-text-inner {
+  padding: 0 !important;
+}
+.av2023{
+  table-layout: fixed;
+  width: 500px !important;
+}
+@media(max-width: 800px) {
+  .av2023{
+  table-layout: auto;
+  width: 90% !important;
+  }
+}
+.path-node-953 ul.ul-1{
+ color: blue;
+}

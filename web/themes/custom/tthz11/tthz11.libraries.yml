@@ -1,0 +1,7 @@
+tthz11-global:
+  css:
+    theme:
+      css/tthz11-style.css: {}
+
+  js:
+    js/tthz11-script.js: {}

@@ -1,0 +1,33 @@
+uuid: 0a4c8786-6be5-4eee-a8de-5a632d8f6478
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.media
+  module:
+    - system
+    - user
+  theme:
+    - tthz10
+id: media_3
+theme: tthz10
+region: primary_menu
+weight: -10
+provider: null
+plugin: 'system_menu_block:media'
+settings:
+  id: 'system_menu_block:media'
+  label: Media
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

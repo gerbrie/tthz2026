@@ -1,0 +1,10 @@
+uuid: e53015f2-bac7-4e08-b190-c76d925af728
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+id: media.photomedialarge
+label: PhotoMediaLarge
+targetEntityType: media
+cache: true

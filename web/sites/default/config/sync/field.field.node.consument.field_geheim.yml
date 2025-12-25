@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geheim
+  module:
+    - text
+id: node.consument.geheim
+field_name: field_geheim
+entity_type: node
+bundle: consument
+label: Geheim
+description: ''
+required: false
+translatable: true
+default_value: []
+default_value_callback: ''
+settings: {}
+field_type: string

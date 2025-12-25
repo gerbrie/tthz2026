@@ -1,0 +1,22 @@
+uuid: a76b7ce5-f56e-4fa5-97de-b38041ce041f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.sponsors
+id: node.sponsors.promote
+field_name: promote
+entity_type: node
+bundle: sponsors
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

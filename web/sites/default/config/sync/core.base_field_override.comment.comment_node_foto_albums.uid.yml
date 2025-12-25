@@ -1,0 +1,20 @@
+uuid: 93ca248b-06ed-47eb-a1e4-29649ab880e7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_foto_albums
+id: comment.comment_node_foto_albums.uid
+field_name: uid
+entity_type: comment
+bundle: comment_node_foto_albums
+label: Gebruikers-ID
+description: 'De gebruikers-ID van de reactie-auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

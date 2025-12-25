@@ -1,0 +1,20 @@
+uuid: cea1947e-4a31-4f64-a957-48404f74d175
+langcode: nl
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: bsmBiyTTOv7O6l6UBjAhcvAYgZYmwLOFIbUyq0m77N0
+id: paragraph.w3css_display_bottom_nav
+field_name: w3css_display_bottom_nav
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

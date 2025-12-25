@@ -1,0 +1,18 @@
+uuid: cdcc26d8-8b43-487b-88c7-f5a35ee47e2c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.lid
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.lid
+target_entity_type_id: node
+target_bundle: lid
+default_langcode: site_default
+language_alterable: false

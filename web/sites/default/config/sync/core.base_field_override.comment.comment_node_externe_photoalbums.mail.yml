@@ -1,0 +1,18 @@
+uuid: 4a1a64d5-2f89-4a5b-b62a-24b6c1b97d41
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_externe_photoalbums
+id: comment.comment_node_externe_photoalbums.mail
+field_name: mail
+entity_type: comment
+bundle: comment_node_externe_photoalbums
+label: E-mail
+description: 'Het e-mailadres van de auteur van de reactie.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,26 @@
+uuid: 4458060b-732d-4b5f-a484-b209d32a25ab
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tag
+    - node.type.segment
+    - taxonomy.vocabulary.rit
+id: node.segment.field_tag
+field_name: field_tag
+entity_type: node
+bundle: segment
+label: Rit
+description: 'voer deel van naam rit in (bvb hel voor Hel van Limburg)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      rit: rit
+    sort:
+      field: _none
+field_type: entity_reference

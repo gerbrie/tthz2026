@@ -1,0 +1,14 @@
+uuid: 5ef365fb-39af-4992-a58f-1dbb930bee43
+langcode: nl
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: WRpxpwYpfcO_i0so7BV4QXxXlbPiSVppYmAV6DAz4c0
+id: sex
+label: Geslacht
+category: Demografisch
+likert: false
+options: "Mannelijk: Mannelijk\r\nVrouwelijk: Vrouwelijk\n"

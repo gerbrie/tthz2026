@@ -1,0 +1,40 @@
+uuid: c1bebbac-2d59-4eee-899d-79637370bfa4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.w3css_slideshow_section.w3css_content_slideshow_body
+    - field.field.paragraph.w3css_slideshow_section.w3css_content_slideshow_title
+    - paragraphs.paragraphs_type.w3css_slideshow_section
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 0b6JxpEzd8QbwTrCTAynx3NQCKjWVukUSFoBSQAxWzo
+id: paragraph.w3css_slideshow_section.default
+targetEntityType: paragraph
+bundle: w3css_slideshow_section
+mode: default
+content:
+  w3css_content_slideshow_body:
+    type: entity_reference_paragraphs
+    weight: 1
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+  w3css_content_slideshow_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

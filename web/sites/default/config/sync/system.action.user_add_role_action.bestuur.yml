@@ -1,0 +1,14 @@
+uuid: d863c3f3-84f7-4039-91e1-161c2de36070
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.bestuur
+  module:
+    - user
+id: user_add_role_action.bestuur
+label: 'De rol bestuur toewijzen aan de geselecteerde gebruiker(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: bestuur

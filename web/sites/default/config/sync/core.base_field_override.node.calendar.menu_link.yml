@@ -1,0 +1,20 @@
+uuid: 0c6311f6-8e0d-49d3-ad2d-92c6d42e0efa
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.calendar
+id: node.calendar.menu_link
+field_name: menu_link
+entity_type: node
+bundle: calendar
+label: Menulink
+description: 'Berekende menulink van de node (alleen beschikbaar tijdens het opslaan).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

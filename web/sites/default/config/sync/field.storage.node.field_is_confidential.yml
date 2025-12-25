@@ -1,0 +1,21 @@
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_confidential
+  module:
+    - boolean
+id: node.field_is_confidential
+entity_type: node
+field_name: field_is_confidential
+type: boolean
+settings:
+  on_label: 'Ja'
+  off_label: 'Nee'
+module: boolean
+locked: false
+cardinality: 1
+translatable: true
+indexes: []
+persist_with_no_fields: false
+custom_storage: false

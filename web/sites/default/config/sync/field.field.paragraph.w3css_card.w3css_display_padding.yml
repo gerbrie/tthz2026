@@ -1,0 +1,23 @@
+uuid: f07e6719-0d72-48a3-b162-0371d0e46948
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_padding
+    - paragraphs.paragraphs_type.w3css_card
+  module:
+    - options
+_core:
+  default_config_hash: 1y7TyTCdewYHTzpjBEG5wSv-Ph02Rgc7jh7qKVD1Bfc
+id: paragraph.w3css_card.w3css_display_padding
+field_name: w3css_display_padding
+entity_type: paragraph
+bundle: w3css_card
+label: Padding
+description: 'The w3-padding-number classes add top and bottom padding to the child of the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

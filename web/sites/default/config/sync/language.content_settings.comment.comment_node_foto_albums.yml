@@ -1,0 +1,18 @@
+uuid: d2b0bf4c-92e7-4b41-9eed-4077ab892ccc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_foto_albums
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: comment.comment_node_foto_albums
+target_entity_type_id: comment
+target_bundle: comment_node_foto_albums
+default_langcode: site_default
+language_alterable: false

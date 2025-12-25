@@ -1,0 +1,14 @@
+uuid: b352ed26-7263-4b01-995e-68ae15211209
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.gatsby_client
+  module:
+    - user
+id: user_add_role_action.gatsby_client
+label: 'De rol Gatsby Client toewijzen aan de geselecteerde gebruiker(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gatsby_client

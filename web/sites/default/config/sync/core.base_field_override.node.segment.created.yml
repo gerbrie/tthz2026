@@ -1,0 +1,18 @@
+uuid: 92a07868-ff11-4223-a3eb-d6c36ab9e870
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.segment
+id: node.segment.created
+field_name: created
+entity_type: node
+bundle: segment
+label: 'Aangemaakt op'
+description: 'Het tijdstip waarop de node is aangemaakt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

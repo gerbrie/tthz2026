@@ -1,0 +1,28 @@
+uuid: ba21ac4a-3598-4040-8a95-fef263a90ace
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_events
+    - field.field.comment.comment_node_events.comment_body
+  module:
+    - text
+id: comment.comment_node_events.default
+targetEntityType: comment
+bundle: comment_node_events
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

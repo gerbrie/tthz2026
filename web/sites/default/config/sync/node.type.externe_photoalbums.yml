@@ -1,0 +1,16 @@
+uuid: f1398afa-9662-4cd8-8104-3289ab5299e3
+langcode: nl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Externe Foto albums'
+type: externe_photoalbums
+description: 'Externe foto albums, titel album en url'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

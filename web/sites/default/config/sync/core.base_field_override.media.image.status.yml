@@ -1,0 +1,22 @@
+uuid: 6a50f2e2-cc4d-46f9-9774-eb29d2658dc0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.status
+field_name: status
+entity_type: media
+bundle: image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

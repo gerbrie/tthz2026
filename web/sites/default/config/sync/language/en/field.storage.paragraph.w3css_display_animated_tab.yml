@@ -1,0 +1,14 @@
+settings:
+  allowed_values:
+    -
+      label: 'Animated Tab Zoom'
+    -
+      label: 'Animated Tab Top'
+    -
+      label: 'Animated Tab Bottom'
+    -
+      label: 'Animated Tab Left'
+    -
+      label: 'Animated Tab Right'
+    -
+      label: 'Animated Tab Opacity'

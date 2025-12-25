@@ -1,0 +1,23 @@
+uuid: 7949fc8b-e6b0-428b-9040-8d927c290e6d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_text_color
+    - paragraphs.paragraphs_type.w3css_slideshow
+  module:
+    - options
+_core:
+  default_config_hash: pdhM_TmOLTM8RAodiV3YtbaDnHXKzq6yxIF2of_9fM0
+id: paragraph.w3css_slideshow.w3css_display_text_color
+field_name: w3css_display_text_color
+entity_type: paragraph
+bundle: w3css_slideshow
+label: 'Text Colors'
+description: 'The w3-text-color classes set the text color of the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

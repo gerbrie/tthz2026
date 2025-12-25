@@ -1,0 +1,18 @@
+uuid: cd6106e7-f6b4-40f5-97e9-b6c20a177ebe
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.product
+id: node.product.changed
+field_name: changed
+entity_type: node
+bundle: product
+label: Gewijzigd
+description: 'Het tijdstip waarop de node voor het laatst werd bewerkt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

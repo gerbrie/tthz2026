@@ -1,0 +1,18 @@
+uuid: 7bad8dbb-52de-4906-9bd6-fba4ccba0253
+langcode: nl
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_externe_photoalbums
+id: comment.comment_node_externe_photoalbums.homepage
+field_name: homepage
+entity_type: comment
+bundle: comment_node_externe_photoalbums
+label: Homepagina
+description: 'Het website-adres van de schrijver die heeft gereageerd.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

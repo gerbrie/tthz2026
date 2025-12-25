@@ -1,0 +1,58 @@
+uuid: 2c0fbd9d-1a6d-4180-b6bd-884aa78fc13e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_colorbox
+    - field.field.media.photomedia.field_media_image_1
+    - image.style.webp_middel
+    - media.type.photomedia
+  module:
+    - blazy
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: media.photomedia.media_colorbox
+targetEntityType: media
+bundle: photomedia
+mode: media_colorbox
+content:
+  field_media_image_1:
+    type: blazy
+    label: visually_hidden
+    settings:
+      caption:
+        title: '0'
+        alt: '0'
+      layout: ''
+      view_mode: ''
+      cache: 0
+      skin: ''
+      lazy: ''
+      style: ''
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      box_style: ''
+      image_style: webp_middel
+      media_switch: ''
+      ratio: ''
+      thumbnail_style: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,37 @@
+uuid: 7aa059cf-57ff-4146-8209-10c7ec06bc25
+langcode: nl
+status: true
+dependencies:
+  config:
+    - media.type.photomedia
+    - node.type.calendar
+    - node.type.photos
+  module:
+    - contextual
+    - dropzonejs
+    - eu_cookie_compliance
+    - file
+    - media
+    - node
+    - photos
+    - webform
+id: leden
+label: leden
+weight: 5
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access webform submission user'
+  - 'create calendar content'
+  - 'create photos content'
+  - 'delete own calendar content'
+  - 'delete own files'
+  - 'delete own photomedia media'
+  - 'delete own photos content'
+  - 'display eu cookie compliance popup'
+  - 'dropzone upload files'
+  - 'edit any calendar content'
+  - 'edit own calendar content'
+  - 'edit own photomedia media'
+  - 'edit own photos content'
+  - 'view photo'

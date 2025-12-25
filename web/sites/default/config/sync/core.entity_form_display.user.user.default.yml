@@ -1,0 +1,45 @@
+uuid: 3e5cb17a-f94f-4765-9813-9f79bb7c26d9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - imce
+    - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings:
+      imce:
+        enabled: true
+hidden:
+  contact: true
+  google_analytics: true
+  langcode: true
+  language: true
+  path: true
+  timezone: true

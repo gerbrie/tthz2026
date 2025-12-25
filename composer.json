@@ -91,6 +91,7 @@
         "drupal/w3css_paragraphs": "^1.0",
         "drupal/webform": "^6.3@beta",
         "drupal/webform_analysis": "^1.0@beta",
+        "drupal/webform_deprecated": "^6.3@beta",
         "drupal/webform_submission_import": "^2.1",
         "drupal/webform_views": "^5.1",
         "drush/drush": "^13",

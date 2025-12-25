@@ -1,0 +1,28 @@
+_core:
+  default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ
+langcode: nl
+definitions:
+  standard__front_page:
+    menu_name: main
+    parent: ''
+    weight: -50
+    expanded: false
+    enabled: true
+  user__page:
+    enabled: false
+    menu_name: account
+    parent: ''
+    expanded: false
+    weight: -50
+  user__logout:
+    weight: -48
+    menu_name: account
+    parent: ''
+    expanded: false
+    enabled: true
+  user_current_paths__edit_redirect:
+    enabled: false
+    menu_name: account
+    parent: ''
+    expanded: false
+    weight: -9

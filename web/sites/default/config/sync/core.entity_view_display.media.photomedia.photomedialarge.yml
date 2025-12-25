@@ -1,0 +1,38 @@
+uuid: 4ac12d72-7252-4266-a642-d70461543e32
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.photomedialarge
+    - field.field.media.photomedia.field_media_image_1
+    - image.style.webp_groot
+    - media.type.photomedia
+  module:
+    - image
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: media.photomedia.photomedialarge
+targetEntityType: media
+bundle: photomedia
+mode: photomedialarge
+content:
+  field_media_image_1:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: content
+      image_style: webp_groot
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

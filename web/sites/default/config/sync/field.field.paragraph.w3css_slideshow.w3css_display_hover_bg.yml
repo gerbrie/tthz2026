@@ -1,0 +1,23 @@
+uuid: 14d7f2dd-4cf0-4f73-a67d-1e1f79363ca3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_display_hover_bg
+    - paragraphs.paragraphs_type.w3css_slideshow
+  module:
+    - options
+_core:
+  default_config_hash: ayhSUd8nn_Imi6AbpQckFvcy6Wx6V50EfFrDRpnmt7M
+id: paragraph.w3css_slideshow.w3css_display_hover_bg
+field_name: w3css_display_hover_bg
+entity_type: paragraph
+bundle: w3css_slideshow
+label: 'Background Color Hover'
+description: 'The w3-hover-color classes define the background hover color for the main paragraph container.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,8 @@
+uuid: 90dec9df-9526-4103-bf4b-4435fa5676ef
+langcode: nl
+status: true
+dependencies: {  }
+id: comment_node_externe_photoalbums
+label: 'Externe Foto albums comment'
+target_entity_type_id: node
+description: null

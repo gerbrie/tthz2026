@@ -1,0 +1,24 @@
+uuid: 98a19103-ef8e-4ef2-8faf-27405be82482
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: zs77mS_-vNl4x7qGb4hijGAb2WFdt_y-uDUu4U5KLrY
+id: photos_album
+label: Album
+type: 'canonical_entities:node'
+pattern: 'photos/[node:title]'
+selection_criteria:
+  ebd3c918-0607-485e-82f0-d78ff55c5e0f:
+    id: node_type
+    negate: false
+    uuid: ebd3c918-0607-485e-82f0-d78ff55c5e0f
+    context_mapping:
+      node: node
+    bundles:
+      photos: photos
+selection_logic: and
+weight: -5
+relationships: {  }

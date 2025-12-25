@@ -1,0 +1,25 @@
+uuid: 88271e01-9981-4071-a5bb-e81c79ff8d70
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.w3css_content_left_column
+    - paragraphs.paragraphs_type.w3css_shared
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: QqGJuVR1EWkKNdMh1oXMwGXA6E6u26aPOOFscqeioD8
+id: paragraph.w3css_shared.w3css_content_left_column
+field_name: w3css_content_left_column
+entity_type: paragraph
+bundle: w3css_shared
+label: w3css_content_left_column
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions

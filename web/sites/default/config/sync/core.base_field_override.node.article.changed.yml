@@ -1,0 +1,18 @@
+uuid: 63a18b10-890e-4f6f-90da-80dc2316f1e3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.changed
+field_name: changed
+entity_type: node
+bundle: article
+label: Gewijzigd
+description: 'Het tijdstip waarop de node voor het laatst werd bewerkt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,12 @@
+uuid: 583741b1-fdfe-4fa8-81b0-fdaa5fd72a75
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4PUqZtoN9wYa8a3b_PzB7QY8LbzeojBX5CjC5VOBlFE
+id: w3css_shared
+label: 'w3css Shared'
+icon_uuid: null
+icon_default: null
+description: null
+behavior_plugins: {  }

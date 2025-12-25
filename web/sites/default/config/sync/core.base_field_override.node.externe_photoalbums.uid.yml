@@ -1,0 +1,20 @@
+uuid: 8cbb3851-7c81-48c4-9602-fa15a80400c7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.externe_photoalbums
+id: node.externe_photoalbums.uid
+field_name: uid
+entity_type: node
+bundle: externe_photoalbums
+label: 'Geschreven door'
+description: 'De gebruikersnaam van de auteur.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

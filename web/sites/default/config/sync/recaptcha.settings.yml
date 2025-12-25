@@ -1,0 +1,13 @@
+_core:
+  default_config_hash: eKR4FfUD7Cp3bXamsCz6GAxh0PCLIZNMa65y2kChIh0
+langcode: nl
+site_key: 6LfGv5IkAAAAAFlUdfXjXCaIplBaQXMCneaI3Iz3
+secret_key: 6LfGv5IkAAAAANSPf33XoKbxLpGhXAw2CzWsNjoB
+verify_hostname: false
+use_globally: false
+widget:
+  theme: light
+  type: image
+  size: ''
+  tabindex: 0
+  noscript: false

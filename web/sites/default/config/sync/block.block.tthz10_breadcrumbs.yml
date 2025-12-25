@@ -1,0 +1,20 @@
+uuid: 043dfa0d-9201-4c69-9a96-4b036fa1edf0
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tthz10
+id: tthz10_breadcrumbs
+theme: tthz10
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

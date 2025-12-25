@@ -1,0 +1,10 @@
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: consument
+type: consument
+name: Consument
+description: 'Contenttype voor Consument'
+title_label: Titel

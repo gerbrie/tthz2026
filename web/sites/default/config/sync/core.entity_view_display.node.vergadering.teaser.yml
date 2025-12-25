@@ -1,0 +1,38 @@
+uuid: 1c325811-e157-4f1e-bec7-ff88f518e36c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vergadering.field_aanwezigen
+    - field.field.node.vergadering.field_agendapunten
+    - field.field.node.vergadering.field_bijlage
+    - field.field.node.vergadering.field_datum
+    - node.type.vergadering
+  module:
+    - datetime
+    - user
+id: node.vergadering.teaser
+targetEntityType: node
+bundle: vergadering
+mode: teaser
+content:
+  field_datum:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_aanwezigen: true
+  field_agendapunten: true
+  field_bijlage: true
+  langcode: true

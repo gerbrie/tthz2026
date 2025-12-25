@@ -1,0 +1,33 @@
+uuid: e2a0fb73-5a5f-464c-be63-edec3ac49dba
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - image.style.leden220x220
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: leden220x220
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  member_for: true
+  photos_album_count: true
+  photos_image_count: true

@@ -1,0 +1,22 @@
+uuid: cca4f4aa-e8c9-4dae-ab95-d52f3949e416
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.externe_photoalbums
+id: node.externe_photoalbums.sticky
+field_name: sticky
+entity_type: node
+bundle: externe_photoalbums
+label: 'Vastgeplakt bovenaan de lijst'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

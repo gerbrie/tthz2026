@@ -1,0 +1,22 @@
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geheim
+  module:
+    - text
+id: node.field_geheim
+entity_type: node
+field_name: field_geheim
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: []
+persist_with_no_fields: false
+custom_storage: false

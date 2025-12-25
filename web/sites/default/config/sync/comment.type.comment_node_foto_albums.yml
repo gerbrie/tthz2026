@@ -1,0 +1,8 @@
+uuid: c3bbaf0e-397e-4975-a5be-4785de10bb06
+langcode: nl
+status: true
+dependencies: {  }
+id: comment_node_foto_albums
+label: 'Foto albums comment'
+target_entity_type_id: node
+description: null

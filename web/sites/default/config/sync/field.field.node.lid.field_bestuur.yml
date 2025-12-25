@@ -1,0 +1,21 @@
+uuid: dde28d67-27f3-47de-a234-4be8fd8762ee
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bestuur
+    - node.type.lid
+  module:
+    - options
+id: node.lid.field_bestuur
+field_name: field_bestuur
+entity_type: node
+bundle: lid
+label: Bestuur
+description: 'Is een bestuurslid'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

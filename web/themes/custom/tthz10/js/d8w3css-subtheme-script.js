@@ -56,6 +56,8 @@ function randomImageMobile() {
 }
 randomImageMobile();
 
+
+
 //  carousel();
 
 // function carousel() {

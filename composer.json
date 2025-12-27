@@ -69,7 +69,7 @@
         "drupal/one_time_login_link_admin": "^1.0",
         "drupal/paragraphs": "^1.17",
         "drupal/pathauto": "^1.11",
-        "drupal/photos": "^6.0",
+        "drupal/photos": "^6.1",
         "drupal/photoswipe": "^5.0",
         "drupal/queue_ui": "^3.2",
         "drupal/rdf": "^3.0@beta",

@@ -18,3 +18,4 @@ RewriteRule ^(.*)$ /web/$1
 RewriteCond %{HTTP_HOST} ^(www.)?tthz-cycling-team.be$
 # Change "directory" to the directory where Site is installed:
 RewriteRule ^(/)?$ web/index.php [L]
+

@@ -989,3 +989,7 @@ nav.webform-submission-navigation {
 .path-node-953 ul.ul-1{
  color: blue;
 }
+
+div.w3-row.field.field--name-field-image.field--type-entity-reference.field--label-hidden.field__items {
+  text-align: center;
+}

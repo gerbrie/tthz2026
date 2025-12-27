@@ -1,8 +1,0 @@
-uuid: cd2e841e-9d3a-4fd3-8e42-5e1c6ce52f3a
-langcode: nl
-status: true
-dependencies: {  }
-id: comment_node_webform
-label: 'Webform comment'
-target_entity_type_id: node
-description: null

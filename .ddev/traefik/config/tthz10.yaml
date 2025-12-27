@@ -1,0 +1,131 @@
+#ddev-generated
+# If you remove the ddev-generated line above you
+# are responsible for maintaining this file. DDEV will not then
+# update it, for example if you add `additional_hostnames`, etc.
+
+http:
+  routers:
+    tthz10-phpmyadmin-80-http:
+      entrypoints:
+        - http-8036
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-phpmyadmin-80"
+      ruleSyntax: v3
+      tls: false
+      # middlewares:
+      #   - "tthz10-redirectHttps"
+    tthz10-web-80-http:
+      entrypoints:
+        - http-80
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-web-80"
+      ruleSyntax: v3
+      tls: false
+      # middlewares:
+      #   - "tthz10-redirectHttps"
+    tthz10-web-8025-http:
+      entrypoints:
+        - http-8025
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-web-8025"
+      ruleSyntax: v3
+      tls: false
+      # middlewares:
+      #   - "tthz10-redirectHttps"
+    tthz10-xhgui-80-http:
+      entrypoints:
+        - http-8143
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-xhgui-80"
+      ruleSyntax: v3
+      tls: false
+      # middlewares:
+      #   - "tthz10-redirectHttps"
+    
+    
+    tthz10-phpmyadmin-80-https:
+      entrypoints:
+        - http-8037
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-phpmyadmin-80"
+      ruleSyntax: v3
+      
+      tls: true
+      
+    
+    
+    tthz10-web-80-https:
+      entrypoints:
+        - http-443
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-web-80"
+      ruleSyntax: v3
+      
+      tls: true
+      
+    tthz10-web-8025-https:
+      entrypoints:
+        - http-8026
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-web-8025"
+      ruleSyntax: v3
+      
+      tls: true
+      
+    
+    tthz10-xhgui-80-https:
+      entrypoints:
+        - http-8142
+      rule: HostRegexp(`^tthz10\.ddev\.site$`)
+      
+      service: "tthz10-xhgui-80"
+      ruleSyntax: v3
+      
+      tls: true
+      
+    
+
+  middlewares:
+    tthz10-redirectHttps:
+      redirectScheme:
+        scheme: https
+        permanent: true
+
+  services:
+    tthz10-phpmyadmin-80:
+      loadbalancer:
+        servers:
+          - url: http://ddev-tthz10-phpmyadmin:80
+        
+    
+    tthz10-web-80:
+      loadbalancer:
+        servers:
+          - url: http://ddev-tthz10-web:80
+        
+    tthz10-web-8025:
+      loadbalancer:
+        servers:
+          - url: http://ddev-tthz10-web:8025
+        
+    
+    
+    tthz10-xhgui-80:
+      loadbalancer:
+        servers:
+          - url: http://ddev-tthz10-xhgui:80
+        
+    
+    
+
+tls:
+  certificates:
+    - certFile: /mnt/ddev-global-cache/traefik/certs/tthz10.crt
+      keyFile: /mnt/ddev-global-cache/traefik/certs/tthz10.key

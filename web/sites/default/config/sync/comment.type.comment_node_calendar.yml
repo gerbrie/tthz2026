@@ -1,8 +1,0 @@
-uuid: 3dedf7c3-0e01-4197-95d4-8615724d9d64
-langcode: nl
-status: true
-dependencies: {  }
-id: comment_node_calendar
-label: 'Kalender comment'
-target_entity_type_id: node
-description: null

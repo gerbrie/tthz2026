@@ -1,8 +1,0 @@
-uuid: e5be6107-7594-4def-9aae-1ec076fe2ba7
-langcode: nl
-status: true
-dependencies: {  }
-name: Functie
-vid: functie
-description: 'Functie van de bestuursleden'
-weight: 0

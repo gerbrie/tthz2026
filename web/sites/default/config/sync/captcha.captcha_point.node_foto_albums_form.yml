@@ -1,7 +1,0 @@
-uuid: ad968950-0bed-496e-8c3d-b0cfc92934a7
-langcode: nl
-status: false
-dependencies: {  }
-formId: node_foto_albums_form
-captchaType: default
-label: node_foto_albums_form

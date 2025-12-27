@@ -1,8 +1,0 @@
-uuid: cd050b02-2e52-4468-8992-8007a10ea82a
-langcode: nl
-status: true
-dependencies: {  }
-id: comment_node_news
-label: 'Nieuws comment'
-target_entity_type_id: node
-description: null

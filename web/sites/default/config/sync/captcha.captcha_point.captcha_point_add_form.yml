@@ -1,7 +1,0 @@
-uuid: 1c4ed08f-01e4-4aaa-a563-11fef8eb0588
-langcode: nl
-status: true
-dependencies: {  }
-formId: captcha_point_add_form
-captchaType: captcha/Math
-label: captcha_point_add_form

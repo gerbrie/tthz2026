@@ -1,8 +1,0 @@
-uuid: 37babfc0-485f-4463-8d0f-d64ec963f5fa
-langcode: nl
-status: true
-dependencies: {  }
-id: recaptchav3
-label: Recaptchav3
-threshold: 1.0
-challenge: recaptcha/reCAPTCHA

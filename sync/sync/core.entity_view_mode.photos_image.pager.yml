@@ -1,0 +1,13 @@
+uuid: 15a55f81-75d0-411f-b4e9-7dd6d91ed461
+langcode: nl
+status: true
+dependencies:
+  module:
+    - photos
+_core:
+  default_config_hash: hED3chQ6ZFPZy_8Bu_29hCmujtvAftxwouZ-rtPikJ8
+id: photos_image.pager
+label: Pager
+description: ''
+targetEntityType: photos_image
+cache: true

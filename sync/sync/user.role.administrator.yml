@@ -1,0 +1,14 @@
+uuid: b07c2cea-764e-46ee-81a3-b4adad56353d
+langcode: nl
+status: true
+dependencies:
+  module:
+    - eu_cookie_compliance
+_core:
+  default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
+id: administrator
+label: administrator
+weight: 2
+is_admin: true
+permissions:
+  - 'display eu cookie compliance popup'

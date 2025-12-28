@@ -1,0 +1,14 @@
+settings:
+  allowed_values:
+    -
+      label: 'Adds a 16px margin to all sides of an element'
+    -
+      label: 'Adds a 16px top margin to an element'
+    -
+      label: 'Adds a 16px right margin to an element'
+    -
+      label: 'Adds a 16px bottom margin to an element'
+    -
+      label: 'Adds a 16px left margin to an element'
+    -
+      label: 'Adds a 16px top and bottom margin to an element'

@@ -1,0 +1,11 @@
+uuid: fe4a3cc7-b68e-4e71-b7a4-e2a94e3e6482
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+id: media.photomediacover
+label: PhotoMediaCover
+description: ''
+targetEntityType: media
+cache: true

@@ -1,0 +1,5 @@
+label: 'Bottom Navigation'
+description: 'Check this box to display bottom navigation.'
+settings:
+  on_label: 'On'
+  off_label: 'Off'

@@ -1,0 +1,22 @@
+uuid: 9d54de7d-2f47-42db-be4a-4eebd349f3de
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+id: vergaderingen
+label: Vergaderingen
+type: 'canonical_entities:node'
+pattern: 'vergaderingen/[node:title]'
+selection_criteria:
+  83d1c4c3-22b4-4958-946f-66ff0d970b40:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 83d1c4c3-22b4-4958-946f-66ff0d970b40
+    context_mapping:
+      node: node
+    bundles:
+      vergadering: vergadering
+selection_logic: and
+weight: -5
+relationships: {  }

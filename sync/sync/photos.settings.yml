@@ -1,0 +1,51 @@
+_core:
+  default_config_hash: 5kZj7c1VB3r-GpzbmrvlBc4MCW2TE7UCaaDkxYXXAhc
+album_link_override: ''
+album_photo_limit: null
+multi_upload_default_field: 'field_image:field_media_image_1:photomedia'
+node_field_album_photos_list_view: 'photos_album:block_1'
+photos_access_photos: false
+photos_additional_sizes: 5
+photos_clean_title: true
+photos_cover_imagesize: thumbnail
+photos_display_full_imagesize: large
+photos_display_full_viewnum: 10
+photos_display_imageorder: weight|asc
+photos_display_list_imagesize: large
+photos_display_page_display: 0
+photos_display_page_user: true
+photos_display_teaser_display: 0
+photos_display_teaser_imagesize: medium
+photos_display_teaser_user: true
+photos_display_teaser_viewnum: 5
+photos_display_user: false
+photos_display_view_imagesize: large
+photos_display_viewpager: 10
+photos_image_count: false
+photos_num: 1
+photos_pager_imagesize: thumbnail
+photos_plupload_status: false
+photos_size:
+  -
+    style: thumbnail
+    name: Small
+  -
+    style: large
+    name: Large
+  -
+    style: medium
+    name: Medium
+photos_size_max: ''
+photos_upzip: true
+photos_user_count_cron: true
+photos_pnum_authenticated: 100
+photos_pnum_administrator: 20
+upload_form_mode: 0
+user_albums_link_override: ''
+user_images_link_override: ''
+photos_pnum_bestuur: '20'
+photos_pnum_editor: '20'
+photos_pnum_leden: '20'
+photos_pnum_riteditor: '20'
+photos_pnum_gatsby_client: '20'
+photos_pnum_album_editor: '20'

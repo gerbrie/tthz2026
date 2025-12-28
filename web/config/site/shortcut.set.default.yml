@@ -1,8 +1,0 @@
-uuid: ca006d71-d541-4b57-80ce-031813c72d9b
-langcode: nl
-status: true
-dependencies: {  }
-_core:
-  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
-id: default
-label: Master

@@ -1,0 +1,13 @@
+uuid: 3227f880-1050-4d27-8852-fe0622b8faf1
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media_gallery
+_core:
+  default_config_hash: dvc4yxtOJem-gXzK22KyFVPch9bZrf2oozOaMFzIJK0
+id: media_gallery.full_gallery
+label: 'Full gallery'
+description: ''
+targetEntityType: media_gallery
+cache: true

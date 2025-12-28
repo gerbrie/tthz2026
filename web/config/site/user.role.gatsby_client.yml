@@ -1,9 +1,0 @@
-uuid: 0f9b17b9-33ff-427b-9cf1-341899109166
-langcode: nl
-status: true
-dependencies: {  }
-id: gatsby_client
-label: 'Gatsby Client'
-weight: 7
-is_admin: null
-permissions: {  }

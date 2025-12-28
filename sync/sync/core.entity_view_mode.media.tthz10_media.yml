@@ -1,0 +1,11 @@
+uuid: 8ed11971-d965-4f14-946d-f0d01d252100
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+id: media.tthz10_media
+label: 'TTHZ10 Media'
+description: ''
+targetEntityType: media
+cache: true

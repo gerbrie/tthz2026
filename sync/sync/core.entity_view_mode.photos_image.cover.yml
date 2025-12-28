@@ -1,0 +1,13 @@
+uuid: 90c0fb7f-bb59-4a71-928d-7e33c96364b3
+langcode: nl
+status: true
+dependencies:
+  module:
+    - photos
+_core:
+  default_config_hash: dI-Cs9PuuC4BlzY8aWZEk6CIVr2aSzDoRgp-_6ZANwM
+id: photos_image.cover
+label: 'Album cover'
+description: ''
+targetEntityType: photos_image
+cache: true

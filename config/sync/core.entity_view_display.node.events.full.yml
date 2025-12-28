@@ -113,25 +113,6 @@ third_party_settings:
                 entity: layout_builder.entity
             weight: 4
             additional: {  }
-          5285f3ee-f3ab-4c9e-880b-649d159538a6:
-            uuid: 5285f3ee-f3ab-4c9e-880b-649d159538a6
-            region: content
-            configuration:
-              id: 'field_block:node:events:field_event_img'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: image
-                label: above
-                settings:
-                  image_link: ''
-                  image_style: ''
-                  image_loading:
-                    attribute: lazy
-                third_party_settings: {  }
-            weight: 5
-            additional: {  }
         third_party_settings: {  }
 id: node.events.full
 targetEntityType: node

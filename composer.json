@@ -26,7 +26,6 @@
         "drupal/asset_injector": "^2.10",
         "drupal/backup_migrate": "^5.0",
         "drupal/blazy": "^3.0",
-        "drupal/bootstrap": "^3.22",
         "drupal/color-color": "^1.0",
         "drupal/conditional_fields": "^4.0@alpha",
         "drupal/config_perms": "^2.1",
@@ -123,6 +122,11 @@
         }
     },
     "extra": {
+        "patches": {
+            "drupal/content_access": {
+                    "Fix deprecated static trait method call": "patches/content_access-trait-fix.patch"
+            }
+        },  
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
@@ -187,6 +191,6 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    }
-    
+   
+  }
 }

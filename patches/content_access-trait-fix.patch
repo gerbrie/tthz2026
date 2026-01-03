@@ -1,0 +1,10 @@
+diff --git a/src/Form/ContentAccessRoleBasedFormTrait.php b/src/Form/ContentAccessRoleBasedFormTrait.php
+@@
+-        [
+-          '\Drupal\content_access\Form\ContentAccessRoleBasedFormTrait',
+-          'disableCheckboxes',
+-        ],
++        [
++          $this,
++          'disableCheckboxes',
++        ],

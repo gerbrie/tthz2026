@@ -356,6 +356,15 @@ display:
       display_description: ''
       display_extenders: {  }
       path: photos
+      menu:
+        type: none
+        title: Album
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:

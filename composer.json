@@ -23,7 +23,7 @@
         "composer/installers": "^1.9",
         "drupal/aggregator": "^2.2",
         "drupal/antibot": "^2.0",
-        "drupal/asset_injector": "^2.10",
+        "drupal/asset_injector": "^2.21",
         "drupal/backup_migrate": "^5.0",
         "drupal/blazy": "^3.0",
         "drupal/bootstrap": "^3.22",

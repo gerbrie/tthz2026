@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+tthz_barrioe.settings:
+  type: bootstrap_barrio.settings
+  label: 'TTHZ Barrio settings'

@@ -27,6 +27,7 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/blazy": "^3.0",
         "drupal/bootstrap": "^3.22",
+        "drupal/bootstrap_barrio": "^5.5",
         "drupal/color-color": "^1.0",
         "drupal/conditional_fields": "^4.0@alpha",
         "drupal/config_perms": "^2.1",
@@ -194,4 +195,4 @@
         }
    
   }
-}   
+}

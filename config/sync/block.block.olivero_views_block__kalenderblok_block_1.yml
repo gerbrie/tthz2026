@@ -1,0 +1,24 @@
+uuid: 0fbf30d0-cd99-4889-a229-823271ca1ba7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.kalenderblok
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__kalenderblok_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:kalenderblok-block_1'
+settings:
+  id: 'views_block:kalenderblok-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility: {  }

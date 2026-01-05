@@ -1,0 +1,30 @@
+uuid: 53880293-79d6-42ea-ad4c-652d78b7e5e1
+langcode: nl
+status: false
+dependencies:
+  config:
+    - views.view.headerparagraph
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__headerparagraph_block_1
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'views_block:headerparagraph-block_1'
+settings:
+  id: 'views_block:headerparagraph-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

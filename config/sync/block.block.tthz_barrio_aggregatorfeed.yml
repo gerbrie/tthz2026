@@ -1,0 +1,27 @@
+uuid: b2fd69dc-3ffb-43e7-9ef1-cd75684d65ff
+langcode: nl
+status: true
+dependencies:
+  module:
+    - aggregator
+    - system
+  theme:
+    - tthz_barrio
+id: tthz_barrio_aggregatorfeed
+theme: tthz_barrio
+region: sidebar_second
+weight: 0
+provider: null
+plugin: aggregator_feed_block
+settings:
+  id: aggregator_feed_block
+  label: Sporza
+  label_display: visible
+  provider: aggregator
+  block_count: 10
+  feed: '7'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

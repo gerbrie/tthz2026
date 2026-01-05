@@ -1,0 +1,25 @@
+uuid: a1b6fbf4-ec6d-4264-bea2-5e2b08e3fa50
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_voet
+theme: olivero
+region: footer_top
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Contact
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

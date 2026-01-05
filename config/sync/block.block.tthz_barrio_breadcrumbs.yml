@@ -1,0 +1,22 @@
+uuid: 82957fd7-6e4c-4a51-8fde-1f6021330f3c
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tthz_barrio
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: tthz_barrio_breadcrumbs
+theme: tthz_barrio
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

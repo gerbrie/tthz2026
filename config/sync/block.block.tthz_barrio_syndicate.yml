@@ -1,0 +1,23 @@
+uuid: 6bd2fa2e-7252-4a38-b53b-27d4c2e51b70
+langcode: nl
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - tthz_barrio
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: tthz_barrio_syndicate
+theme: tthz_barrio
+region: top_header
+weight: -9
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

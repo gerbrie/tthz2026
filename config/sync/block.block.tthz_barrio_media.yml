@@ -1,0 +1,25 @@
+uuid: 55cec085-f4b2-40aa-b2d3-99bba13a0666
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.media
+  module:
+    - system
+  theme:
+    - tthz_barrio
+id: tthz_barrio_media
+theme: tthz_barrio
+region: primary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:media'
+settings:
+  id: 'system_menu_block:media'
+  label: Media
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

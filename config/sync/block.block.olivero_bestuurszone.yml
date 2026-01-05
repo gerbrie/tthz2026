@@ -1,0 +1,25 @@
+uuid: 548a655a-2ab6-4684-b71c-5978f9155ef8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.menu-editor-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_bestuurszone
+theme: olivero
+region: footer_top
+weight: -8
+provider: null
+plugin: 'system_menu_block:menu-editor-menu'
+settings:
+  id: 'system_menu_block:menu-editor-menu'
+  label: Bestuurszone
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

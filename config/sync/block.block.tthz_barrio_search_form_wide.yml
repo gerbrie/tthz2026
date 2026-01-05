@@ -1,15 +1,15 @@
-uuid: a6e8e3a3-3dab-4765-ba25-5df28d75b6f0
+uuid: 2bb151e0-74f4-4a38-99a1-03b4fe2198ba
 langcode: nl
 status: false
 dependencies:
   module:
     - search
   theme:
-    - olivero
+    - tthz_barrio
 _core:
   default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
-id: olivero_search_form_wide
-theme: olivero
+id: tthz_barrio_search_form_wide
+theme: tthz_barrio
 region: secondary_menu
 weight: -5
 provider: null

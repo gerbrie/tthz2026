@@ -1,0 +1,25 @@
+uuid: dd477e54-1238-4db1-8110-42314af68966
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - tthz_barrio
+id: tthz_barrio_voet
+theme: tthz_barrio
+region: footer_second
+weight: -10
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Contact
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

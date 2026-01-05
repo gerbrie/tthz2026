@@ -1,0 +1,25 @@
+uuid: e4935741-c707-4cb0-9054-807a11d761c4
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tthz_barrio
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: tthz_barrio_site_branding
+theme: tthz_barrio
+region: top_header
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

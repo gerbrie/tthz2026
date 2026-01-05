@@ -1,0 +1,25 @@
+uuid: e1df5e0d-be14-49e4-ace9-4f19252a50ab
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.menu-editor-menu
+  module:
+    - system
+  theme:
+    - tthz_barrio
+id: tthz_barrio_bestuurszone
+theme: tthz_barrio
+region: footer_first
+weight: -10
+provider: null
+plugin: 'system_menu_block:menu-editor-menu'
+settings:
+  id: 'system_menu_block:menu-editor-menu'
+  label: Bestuurszone
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

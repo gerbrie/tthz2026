@@ -1,0 +1,29 @@
+uuid: 5c176b53-6dc2-4131-9bf4-2cd62d9c17f9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.kalenderblok
+  module:
+    - system
+    - views
+  theme:
+    - tthz_barrio
+id: tthz_barrio_views_block__kalenderblok_block_1
+theme: tthz_barrio
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:kalenderblok-block_1'
+settings:
+  id: 'views_block:kalenderblok-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

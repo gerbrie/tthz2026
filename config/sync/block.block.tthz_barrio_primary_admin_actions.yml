@@ -1,0 +1,20 @@
+uuid: 29ebacb3-117d-4a43-a48c-69e317a3109c
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - tthz_barrio
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: tthz_barrio_primary_admin_actions
+theme: tthz_barrio
+region: highlighted
+weight: -11
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

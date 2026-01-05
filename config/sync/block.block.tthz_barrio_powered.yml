@@ -1,16 +1,16 @@
-uuid: e2cebb7b-591d-47e1-a97d-7ff1fa398763
+uuid: 569a2497-37ad-4f8c-b61f-bd4e162952af
 langcode: nl
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - tthz_barrio
 _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
-id: olivero_powered
-theme: olivero
-region: footer_bottom
+id: tthz_barrio_powered
+theme: tthz_barrio
+region: footer_fourth
 weight: -9
 provider: null
 plugin: system_powered_by_block

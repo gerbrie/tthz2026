@@ -1,17 +1,17 @@
-uuid: e0f01f97-bf6c-4fd1-ad37-f880c2356db4
+uuid: e365d348-92ce-4080-947b-2e9fdbb2ddde
 langcode: nl
-status: false
+status: true
 dependencies:
   module:
     - search
   theme:
-    - olivero
+    - bootstrap_barrio
 _core:
-  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
-id: olivero_search_form_narrow
-theme: olivero
-region: primary_menu
-weight: -4
+  default_config_hash: _9_Hg10C5UAfNsYD1KYsa-_3Rh0eUZ2VExESW9rG5bA
+id: bootstrap_barrio_search_form_narrow
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

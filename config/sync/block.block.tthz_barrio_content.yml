@@ -1,0 +1,22 @@
+uuid: 94a81d14-6855-4678-8e6d-48f903ca56f8
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tthz_barrio
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tthz_barrio_content
+theme: tthz_barrio
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

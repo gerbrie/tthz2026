@@ -1,0 +1,25 @@
+uuid: aff2d061-753f-4715-987d-734bdfc2eb86
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.media
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_media
+theme: olivero
+region: footer_top
+weight: -7
+provider: null
+plugin: 'system_menu_block:media'
+settings:
+  id: 'system_menu_block:media'
+  label: Media
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

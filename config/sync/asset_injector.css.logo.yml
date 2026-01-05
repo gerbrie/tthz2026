@@ -1,0 +1,15 @@
+uuid: 23821b27-ea40-414a-b059-d5d8f7a6e963
+langcode: nl
+status: true
+dependencies: {  }
+id: logo
+label: logo
+code: |-
+  .logo img {
+  	width: 200px;
+  }
+media: all
+preprocess: true
+conditions: {  }
+contexts: {  }
+conditions_require_all: true

@@ -1,0 +1,21 @@
+tthz10.mobile:
+  label: small
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 2X
+tthz10.narrow:
+  label: medium
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1249px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+tthz10.wide:
+  label: large
+  mediaQuery: 'all and (min-width: 1250px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x

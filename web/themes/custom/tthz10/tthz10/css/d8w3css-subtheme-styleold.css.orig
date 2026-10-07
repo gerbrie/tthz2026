@@ -1,17 +1,19 @@
-root {
-  --container-size: 1140px;
-  --color-red: rgb(177, 7, 7);
-  --color-orange2: rgb(255, 165, 0);
-  --color-orange: #ff8800;
-  --color-green: rgb(16, 119, 16);
-  --color-black: #12274e;
-  --color-edit: #ffe6019f;
-}
+<<<<<<< HEAD
 
 html {
   scroll-behavior: smooth;
 }
+=======
+@import url("href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+/* Add your css code here */
+html {
+  scroll-behavior: smooth;
+}
 
+/* #block-tthz10-branding {
+  height: 1px;
+} */
+>>>>>>> bugfix3
 .site-logo img {
   width: 200px;
 }
@@ -19,53 +21,56 @@ html {
   position: absolute;
   z-index: 501;
   left: 1rem;
-  top: 4rem;
+  top: 2rem;
+  opacity: 60%;
   width: 150px;
 }
+<<<<<<< HEAD
 .path-view-frontpage #header {
-  background-color: white!important;
-}                                                                                                                                                                                                              
+  background-color: #fafafa !important;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+=======
+/* #w3-image-47 > div{
+  height: 150px;
+  display: flex;
+} */
+.path-view-frontpage #header {
+  background-color: #fafafa !important;
+  /* height: 100vh; */
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 
+>>>>>>> bugfix3
 #header-inner {
   max-width: none;
   padding: 0;
 }
+<<<<<<< HEAD
+=======
+
+/* .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div {
+  height: 270px;
+  width: 100%;
+} */
+>>>>>>> bugfix3
 .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div > img {
   height: 90%;
 }
-#w3-slideshow-50 {
-  margin-bottom: -1rem !important;
+.path-view-frontpage #block-tthz10-branding {
+  margin-top: -3rem !important;
 }
-
 #block-tthz10-branding {
   display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> bugfix3
 }
-
 .site-name-slogan {
   display: none;
 }
-
-#block-tthz10-tthzledennieuws {
-  /* background-color: #12274e;
-  margin: 8px;
-  color: white; */
-  background-color: white !important;
-  color: black;
-  /* margin: 8px; */
-  padding: 15px;
-  text-align: center;
-  
-}
-
-#block-tthz10-tthzledennieuws h2 {
-  /* color: white; */
-  color: black;
-  text-align: center;
-}
-
 @media (min-width: 800px) {
   .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div {
     height: 100vh;
@@ -79,30 +84,34 @@ html {
     z-index: 501;
     left: 6rem;
     top: 8rem;
+    opacity: 60%;
     width: 300px;
   }
-  div.w3-row.w3-hero-txt-wrapper > div > div > p:nth-child(1) {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 10px 0;
-  }
-  div.w3-row.w3-hero-txt-wrapper > div > div > p:nth-child(2) > span {
-    font-weight: 600;
-    font-style: italic;
-    font-size: 1.33rem;
-  }
 }
+<<<<<<< HEAD
 #block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > div.view-content > div > div > div > div > div > div {
   padding: 0 !important;
-  margin-bottom: -1rem !important;  
 }
+=======
+
+#block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > div.view-content > div > div > div > div > div > div {
+  padding: 0 !important;
+}
+
+
+>>>>>>> bugfix3
 .nieuwsoverzicht span.quickedit-field {
   padding: 0.5rem !important;
 }
 .w3-container .node__content {
   padding: 1rem 0 !important;
 }
+<<<<<<< HEAD
 .view .node--view-mode-teaser .node__title {
+=======
+.view .node--view-mode-teaser .node__title
+/* .view .node--view-mode-teaser .node__content .field--name-field-image */{
+>>>>>>> bugfix3
   margin-left: 0.8rem !important;
 }
 .view .node--view-mode-teaser .node__content .field--name-field-image {
@@ -111,10 +120,36 @@ html {
 .view .node--view-mode-teaser .node__content {
   padding: 1rem !important;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 1000px) {
    #sponsorbloknieuws img {
     display: none;
   }
+=======
+
+@media only screen and (max-width: 1000px) {
+   /* #block-tthz10-branding {
+    background-image: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  } */
+   #sponsorbloknieuws img {
+    display: none;
+  }
+  /* .site-logo img {
+    width: 100px;
+    position: absolute;
+    left: 0;
+    opacity: 60%;
+
+  } */ 
+  /* #top-container-inner > div > div {
+    box-shadow: none !important;
+    
+  } */
+>>>>>>> bugfix3
 }
 .site-logo img:hover {
   opacity: 100%;
@@ -137,7 +172,13 @@ html {
   height: 165px;
   width: 216px;
   margin-top: 0.5rem;
+<<<<<<< HEAD
 }
+=======
+  
+}
+
+>>>>>>> bugfix3
 #sponsorbloknieuws {
   display: flex;
   flex-direction: row;
@@ -148,17 +189,39 @@ html {
   float: right;
   position: relative;
   margin: 0 0.2rem;
+<<<<<<< HEAD
+=======
+  /* top: -1rem; */
+}
+.third-footer div {
+  /* display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center; */
+>>>>>>> bugfix3
 }
 .topnieuwsblok .w3-panel {
   margin-bottom: 0;
 }
-/* .node__content img {
-  padding: 1rem;
-} */
+.node__content img {
+  padding: 0.1rem 1rem;
+}
 .ledenpagina img,
 .bestuur img {
   padding: 0.1rem 0; 
 }
+.views-row img {
+  padding: 0; 
+}
+<<<<<<< HEAD
+=======
+
+/* @media only screen and (max-width: 800px) {
+  #top-container figure {
+    display: none;
+  }
+} */
+>>>>>>> bugfix3
 .node .field--type-image {
   margin: 0;
 }
@@ -178,6 +241,17 @@ a.site-logo {
     display: flex;
     flex-direction: column;
   }
+<<<<<<< HEAD
+=======
+
+  /* a.site-logo {
+    opacity: 0.6;
+  } */
+
+  /* #top-container-inner .field-content p {
+    margin-left: 0.7rem;
+  } */
+>>>>>>> bugfix3
   .layout--twocol-section {
     display: block;
   }
@@ -188,10 +262,6 @@ a.site-logo {
   @media only screen and (max-width: 768px) {
     .block-system-main-block {
       padding: 0;
-    }
-    .site-logo {
-      content: url("/sites/default/files/tthzlogorechthoek.png");
-      width: 200px;
     }
   }
   .block-system-main-block form.messages--status {
@@ -204,7 +274,6 @@ a.site-logo {
   }
   .topnieuwsblok {
     margin-left: 1rem;
-    margin-right: 1rem;
   }
   .kalender .views-row p,
   a {
@@ -237,18 +306,29 @@ a.site-logo {
   .view-frontpage .view-content .w3-panel.views-row {
     padding: 0;
   }
-  #block-tthz10-branding > a > img {
-    padding-bottom: 0.8rem;
-  }
 }
 #main-navigation-inner-h {
   display: flex;
 }
 #top-container .top-box > div {
+<<<<<<< HEAD
   background-color: #dfe5e8 !important;
-  /* font-size: 120%; */
+  font-size: 120%;
 }
 @media (max-width: 768px) {
+=======
+  /*border: 2px solid #b2ef78 !important;
+    margin-top: 10px;*/
+  background-color: #dfe5e8 !important;
+  font-size: 120%;
+  /* margin-left: -2rem; */
+  /* margin-right: -1.5rem; */
+}
+@media (max-width: 768px) {
+  /* #top-container .top-box > div {
+    margin-left: -2rem;
+  } */
+>>>>>>> bugfix3
   .field-content.topnieuws {
     margin-left: -1.5rem !important;
   }
@@ -272,10 +352,20 @@ a.site-logo {
   padding-left: 0 !important;
 }
 .topnieuws {
-  background-color: black;
+  background-color: #3f51b5;
+<<<<<<< HEAD
   color: white;
   font-size: smaller;
   display: inline-block;
+=======
+  /* background-color: #e14232; */
+  /*border-radius: 25px;*/
+  /*border: 3px solid #8bc34a;*/
+  color: white;
+  font-size: smaller;
+  display: inline-block;
+  /* padding: 5px; */
+>>>>>>> bugfix3
   padding-left: 8px;
   padding-right: 8px;
   position: relative;
@@ -284,7 +374,7 @@ a.site-logo {
   margin-top: 1rem;
 }
 .topnieuwstitel {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0rem 0rem 0rem 0.7rem;
 }
 #top-container-inner .field-content p {
@@ -296,42 +386,96 @@ a.site-logo {
     top: -1rem;
     margin-bottom: -0.5rem;
   }
-/*  #block-views-block-nieuws-block-1-3 > div.w3-row.element-container-wrapper > div > div.view-content > div {
+  #block-views-block-nieuws-block-1-3 > div.w3-row.element-container-wrapper > div > div.view-content > div {
     padding-left: 1rem;
-  }*/
+  }
 }
+<<<<<<< HEAD
 .nieuwsinhoud {
   margin-top: -2rem;
 }
 a {
   color: #3343a5;
 }
+=======
+
+.nieuwsinhoud {
+  margin-top: -2rem;
+}
+
+a {
+  color: #3343a5;
+}
+
+/* #header {
+  height: 400px; */
+  /* background-image: url("/sites/default/files/header/tthzkerkom.jpeg");
+  background-image: url("/sites/default/files/2022-06/selfie.png"); */
+  /* background-image: url("/sites/default/files/header/mallorca2022.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: start;
+} */ 
+>>>>>>> bugfix3
 #header {
-  background-color: white !important;
-  /* background-image: linear-gradient(110deg, #000000 0.56%, #4267b2 0.56%, #4267b2 22.78%, #000000 22.78%, #000000 24.44%, #b5e61d 24.44%, #b5e61d 46.67%, #000000 46.67%, #000000 47.22%, #fff 47.22%, #fff 50%, #000000 50%, #000000 50.56%, #4267b2 50.56%, #4267b2 72.78%, #000000 72.78%, #000000 74.44%, #b5e61d 74.44%, #b5e61d 96.67%, #000000 96.67%, #000000 97.22%, #fff 97.22%, #fff 100%); */
-/* background-size: 95.78px 263.14px; */
+  background-image: linear-gradient(110deg, #000000 0.56%, #4267b2 0.56%, #4267b2 22.78%, #000000 22.78%, #000000 24.44%, #b5e61d 24.44%, #b5e61d 46.67%, #000000 46.67%, #000000 47.22%, #fff 47.22%, #fff 50%, #000000 50%, #000000 50.56%, #4267b2 50.56%, #4267b2 72.78%, #000000 72.78%, #000000 74.44%, #b5e61d 74.44%, #b5e61d 96.67%, #000000 96.67%, #000000 97.22%, #fff 97.22%, #fff 100%);
+background-size: 95.78px 263.14px;
 }
-@media only screen and (min-width: 800px) {
-  #header {
-    background-image: linear-gradient(112deg, #ffffff 24.75%, #000000 24.75%, #000000 25.25%, #dfe5e8 25.25%, #dfe5e8 50%, #ffffff 50%, #ffffff 74.75%, #000000 74.75%, #000000 75.25%, #dfe5e8 75.25%, #dfe5e8 100%);
-background-size: 108.93px 269.62px;
+<<<<<<< HEAD
+=======
+/* #block-tthz-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: baseline;
+  flex-wrap: nowrap;
+}
 
+@media (min-width: 800px) and (max-width: 1200px) {
+  #block-tthz-branding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: baseline;
+    flex-wrap: nowrap;
   }
-}
+} */
 
+>>>>>>> bugfix3
 .ledenpagina .view-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
   grid-gap: 30px;
   justify-content: center;
 }
+<<<<<<< HEAD
 #block-views-block-kalenderblok-block-1-2 h2 {
-  background-color: #12274e;
+=======
+
+#block-views-block-kalenderblok-block-1-2 h2 {
+  /* background-color: #8bc34a;
+  color: black; */
+>>>>>>> bugfix3
+  background-color: #0067a7;
   color: white;
   margin-bottom: -1rem;
   font-size: 1rem;
   padding: 0.5rem;
 }
+<<<<<<< HEAD
+=======
+/* #header-inner {
+  position: absolute;
+  left: 0;
+  top: 4rem;
+} */
+>>>>>>> bugfix3
 @media only screen and (max-width: 800px) {
   #block-views-block-kalenderblok-block-1-2 h2 {
     margin-bottom: -1rem !important;
@@ -340,7 +484,80 @@ background-size: 108.93px 269.62px;
   .ul-parent-account a {
     padding: 7px 5px !important;
   }
+<<<<<<< HEAD
 }
+=======
+  #header {
+    /* height: 480px; */
+    /* background-image: url("/sites/default/files/header/tthzkerkommobile2.jpeg"); */
+    /* background-image: url("/sites/default/files/header/mallorca2022.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    align-content: stretch; */
+  }
+}
+ /* @media only screen and (max-width: 550px){
+#header img {
+  position: relative;
+  left: 1rem;
+  bottom: -2rem;
+  height: 100px;
+  width: 200px;
+}
+}
+@media only screen and (min-width: 550px) and (max-width: 800px) {
+  #header img {
+      position: relative;
+      bottom: -3rem;
+      left: -9rem;
+    }
+  }
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  #header img {
+      position: relative;
+      bottom: -6rem;
+      left: 1rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1550px) {
+#header img {
+  position: relative;
+  /* top: 10rem; */
+   /* bottom: -4rem;
+  left: 1rem;
+  height: 150px;
+  width: 300px;
+    }
+  }
+
+  @media only screen and (min-width: 1550px) {
+    #header img {
+      position: relative;
+      /* top: 10rem; */
+       /* bottom: -6rem;
+      left: 1rem; 
+        } 
+    #header {
+      background-image: url("/sites/default/files/header/mallorca2022.jpg");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: -4rem;
+      background-size: cover;
+      display: grid;
+      align-items: center;
+      justify-content: start;
+    } 
+      } 
+
+#header img:hover {
+  transform: scale(1.2); 
+} */
+>>>>>>> bugfix3
 #block-views-block-kalenderblok-block-1-2 .w3-panel {
   background-color: #dfe5e8;
   margin-bottom: 1rem;
@@ -353,8 +570,8 @@ background-size: 108.93px 269.62px;
 }
 
 #block-tthz10-aggregatorfeed h2 {
-  background-color: rgb(16, 119, 16);
-  color: #FFF;
+  background-color: #8bc34a;
+  color: black;
   margin-bottom: -1rem !important;
   font-size: 1rem;
   padding: 0.5rem;
@@ -378,8 +595,15 @@ background-size: 108.93px 269.62px;
 #block-aggregatorfeed li {
   background-color: #dfe5e8;
 }
+<<<<<<< HEAD
 .w3-ul li {
   background-color: #dfe5e8;
+=======
+
+.w3-ul li {
+  background-color: #dfe5e8;
+  /* padding: 1rem !important; */
+>>>>>>> bugfix3
 }
 .nieuwsoverzicht .w3-ul li {
   background-color: #dfe5e8;
@@ -395,20 +619,40 @@ background-size: 108.93px 269.62px;
 .kalenderkop a {
   color: blue;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 .file--mime-application-octet-stream a {
   color: blue;
   text-decoration: underline;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 .field--name-field-route a {
   color: blue;
   text-decoration: underline;
 }
+<<<<<<< HEAD
 .overons img {
   width: 100%;
 }
 .segment img {
   max-width: 400px;
 }
+=======
+
+.overons img {
+  width: 100%;
+}
+
+.segment img {
+  max-width: 400px;
+}
+
+>>>>>>> bugfix3
 .segmentview > div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 352px));
@@ -416,33 +660,61 @@ background-size: 108.93px 269.62px;
   grid-row-gap: 40px;
   justify-content: space-around;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 .makkelijk {
   background-color: greenyellow;
   padding-left: 5px;
   margin-top: 0;
   text-align: left;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 .ietwat-lastig {
   background-color: yellow;
   margin-top: 0;
   padding-left: 5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 .lastig {
   background-color: red;
   padding-left: 5px;
   margin-top: 0;
   color: white;
 }
+<<<<<<< HEAD
 .infosegment {
   font-style: italic;
 }
 .fotopadding {
   padding-top: 50px;
 }
+=======
+
+.infosegment {
+  font-style: italic;
+}
+
+.fotopadding {
+  padding-top: 50px;
+}
+
+>>>>>>> bugfix3
 .segmentview .views-row {
   background-color: #f8f9fa;
   border: 1px solid #dfdfdf;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 .partners > div {
   display: flex;
   justify-content: space-around;
@@ -455,9 +727,17 @@ background-size: 108.93px 269.62px;
     justify-content: center;
   }
 }
+<<<<<<< HEAD
 .path-kalender .w3-card {
   box-shadow: none;
 }
+=======
+
+.path-kalender .w3-card {
+  box-shadow: none;
+}
+
+>>>>>>> bugfix3
 @media only screen and (min-width: 800px) {
 .kalender > div {
   display: grid;
@@ -465,48 +745,90 @@ background-size: 108.93px 269.62px;
   grid-gap: 50px;
   justify-content: center;
 }
-.path-view-frontpage #block-tthz10-branding {
-  margin-top: -3rem !important;
-}
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 }
 .kalender > div {
   display: grid;
   grid-row-gap: 2rem;
   margin: 0.5rem;
 }
+<<<<<<< HEAD
 .kalender .view-content div {
   background-color: #dfe5e8;
 }
 .kalender .views-row {
   padding-bottom: 1.8rem;
 }
+=======
+
+
+.kalender .view-content div {
+  background-color: #dfe5e8;
+}
+
+.kalender .views-row {
+  /*outline: 1px solid #3f51b5;*/
+  padding-bottom: 1.8rem;
+}
+
+>>>>>>> bugfix3
 @media only screen and (max-width: 768px) {
   .kalender .views-row p,
   a {
     padding-left: 10px;
   }
 }
+<<<<<<< HEAD
 .kalender .views-field-title a {
-  border-top: 3px solid rgb(16, 119, 16);
+  border-top: 3px solid #8bc34a;
+=======
+
+.kalender .views-field-title a {
+  /*background-color: #b2ef78;*/
+  border-top: 3px solid #8bc34a;
+  /*outline: 1px solid #8bc34a;*/
+>>>>>>> bugfix3
   display: block;
   margin-top: -4.2rem;
   padding: 7px;
   padding-left: 16px;
   padding-top: 30px;
   z-index: 1;
+<<<<<<< HEAD
 }
+=======
+  /*text-align: center;*/
+}
+
+>>>>>>> bugfix3
 .kalender .views-field-field-vertrek,
 .kalender .views-field-body,
 .kalender .views-field-field-gpx,
 .kalender .views-field-field-route {
     padding-left: 1rem;
 }
+<<<<<<< HEAD
 .file--mime-application-octet-stream a {
   color: #3343a5;
 }
 .datumkalender {
-  background-color: #12274e;
+  background-color: #0067a7;
   border-radius: 25px;
+=======
+
+.file--mime-application-octet-stream a {
+  color: #3343a5;
+}
+
+.datumkalender {
+  /* background-color: #3f51b5; */
+  background-color: #0067a7;
+  border-radius: 25px;
+  /*border: 3px solid #8bc34a;*/
+>>>>>>> bugfix3
   color: white;
   position: relative;
   left: 10px;
@@ -515,9 +837,17 @@ background-size: 108.93px 269.62px;
   display: inline-block;
   padding: 5px;
 }
+<<<<<<< HEAD
 #bottom-container-inner {
   max-width: 1200px;
 }
+=======
+
+#bottom-container-inner {
+  max-width: 1200px;
+}
+
+>>>>>>> bugfix3
 .first-bottom .w3-panel {
   margin: 0;
   display: flex;
@@ -541,10 +871,20 @@ background-size: 108.93px 269.62px;
 .views-field-created {
   font-size: 0.7rem;
 }
+<<<<<<< HEAD
+=======
+/* #top-container-inner {
+  background-color: #dfe5e8;
+} */
+>>>>>>> bugfix3
 #top-container .top-box > div {
   border: 0 !important;
   background-color: aqua;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 element.style {
   opacity: 1;
   transition: opacity 1s linear 0s;
@@ -587,6 +927,10 @@ element.style {
   align-items: center;
   text-align: left;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 @media only screen and (min-width: 768px) {
   #block-views-block-over-ons-block-1
     > div.w3-row.element-container-wrapper
@@ -640,10 +984,18 @@ element.style {
 #block-content > article > div.w3-container.node__content > div > div > div > div > div.w3-panel.views-row.clearfix.row-2 > div.w3-padding.views-col.col-2 > div > div > a > div > div.w3-padding.w3-left.field.field--name-field-media-image-1.field--type-image.field--label-visually_hidden.quickedit-field {
   display: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 div.views-field.views-field-count.image-count > span {
   color:rgb(179, 177, 177);
   font-size: 0.8rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
  h2.album-titel {
   margin-bottom: 0;
   font-size: 1.2rem;
@@ -666,6 +1018,11 @@ div.views-field.views-field-count.image-count > span {
   #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > div.views-element-container.w3-row.element-container-wrapper > div > div > div > div.w3-row.views-row.clearfix > div.w3-padding.views-col {
     width: 100% !important;
   }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bugfix3
 section.w3-block.w3-block-wrapper.block-layout-builder.block-extra-field-blocknodephotosphotos-album-photo-list > div > div > div > div > div.w3-row.views-row.clearfix > div.w3-padding.views-col {
   width: 100% !important;
 }
@@ -688,6 +1045,16 @@ div.views-element-container.contextual-region.w3-row.element-container-wrapper >
   #bottom-container-inner {
     display: flex;
   }
+<<<<<<< HEAD
+=======
+  /* #zdp {
+    height: 138px;
+  }
+  #nys {
+    height: 138px;
+    width: 138px;
+  } */
+>>>>>>> bugfix3
   #bottom-container-inner > div.w3-half.bottom-box {
     margin: 0;
     padding: 0;
@@ -731,6 +1098,13 @@ div.views-element-container.contextual-region.w3-row.element-container-wrapper >
 .blazy--view li > div > div > span > a > svg {
   float: right;
 }
+<<<<<<< HEAD
+=======
+
+/* .blazy--view li > div > div > span > div > div > a {
+  display: none;
+} */
+>>>>>>> bugfix3
 .w3-active-pager.is-active.w3-light-gray {
   background-color: #0067a7 !important;
   color: white !important;
@@ -738,24 +1112,45 @@ div.views-element-container.contextual-region.w3-row.element-container-wrapper >
 .w3-button.pager__item:hover {
   background-color: #8bc34a !important;
 }
+<<<<<<< HEAD
 h2#block-tthz10-account-menu-menu {
   text-align: right;
 }
+=======
+/* @media (min-width: 875px){
+#top-container .top-box > div {
+  background-color: #dfe5e8 !important;
+}
+} */
+h2#block-tthz10-account-menu-menu {
+  text-align: right;
+}
+/* .third-footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+} */
+>>>>>>> bugfix3
 #footer-container-inner > div.w3-half.footer-box.third-footer > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-end;
 }
-div.node__author-image > article > div > a > img {
-  display: none;
-}
 @media (max-width: 800px) {
 .pager__items li {
   padding: 0 0 0 10px;
 }
-
 }
+<<<<<<< HEAD
+=======
+
+/* #header-inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+>>>>>>> bugfix3
 @media(max-width: 1000px){
 #block-views-block-headerparagraph-block-1 {
   display: none;
@@ -769,257 +1164,49 @@ div.node__author-image > article > div > a > img {
   height: 0;
 }
 #block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > footer svg {
-  height: 50px;
-  border: 2px solid #3343a5;
-  border-radius: 45%;
-  background-color: rgb(16, 119, 16);
-  display: flex;
+  height: 75px;
 }
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-          /* animation-delay: 2s; */
-          animation-iteration-count: 5;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bugfix3
 @-webkit-keyframes zoomIn {
   0% {
-    opacity: 0.5;
+    opacity: 0;
     -webkit-transform: scale3d(.4, .4, .4);
             transform: scale3d(.4, .4, .4);
-           
   }
 
   50% {
-    opacity: 0.75;
+    opacity: 0.5;
   }
   
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 @keyframes zoomIn {
   0% {
-    opacity: 0.5;
+    opacity: 0;
     -webkit-transform: scale3d(.4, .4, .4);
             transform: scale3d(.4, .4, .4);
   }
 
   50% {
-    opacity: 0.75;
+    opacity: 0.5;
   }
   
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 .zoomIn {
   -webkit-animation-name: zoomIn;
-          animation-name: zoomIn;         
-}
- div.w3-row.field.field--name-field-media-image-1.field--type-image.field--label-visually_hidden > div > img {
-  aspect-ratio: 4/3;
- }
-
- #block-tthz10-editormenu-menu {
-  color: White;
- }
- #block-tthz10-account-menu-menu {
-  color: white;
- }
- h1.page-title {
-  color:rgb(16, 119, 16)!important;
-  background-color: white !important;
- }
- #copyright-inner > div > p > a {
-  color: black !important;
- }
-.second-footer > div {
-  background-color: #12274e !important;
-  color: white !important;
- }
- #top-container-inner {
-  padding: 0;
- }
- #footer-container-inner {
-  padding: 0;
- }
- /* #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div {
-  background-color:  #dfe5e8!important;
-  border-color: #12274e !important;
- }
- #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div:hover {
-  background-color:  rgb(16, 119, 16) !important;
-  color: white !important;
-  border-color: #12274e !important;
- } */
- div.paragraph--type--w3css-webform {
-  background-color:  #dfe5e8!important;
-  border-color: rgb(16, 119, 16) !important;
- }
- div.paragraph--type--w3css-webform:hover {
-  background-color:  rgb(16, 119, 16) !important;
-  color: white !important;
-  border-color: #12274e !important;
-  transition: 2s;
- }
- /* .path-frontpage div.w3-row.field.field--name-body.field--type-text-with-summary.field--label-hidden.w3-bar-item.field__item > p {
-  padding-top: 1rem;
- } */
- 
- #bottom-container-inner{
-  background-color:#ebf0fa  !important;
- }
- #bottom-container-inner div.w3-mobile {
-  background-color:#ebf0fa  !important;
- }
- .path-frontpage div.w3-row.field.field--name-field-image.field--type-image.field--label-hidden.field__item > a > img {
-  width: 100vw;
- }
- .path-frontpage .field__item img {
-  width: 100vw !important;
- }
-div.layout__region.layout__region--first > section > div > a > div > img {
-  padding-top: 1rem;
-}
-div.w3-row.field.field--name-user-picture.field--type-image.field--label-hidden.field__item > a > img {
-  width: 200px;
- }
- div.node__author-image img {
-  width: 75px !important;
- }
- .path-frontpage div.node__author-image img {
-  width: 75px !important;
- }
- .page-node-type-photos a.blazy__colorbox.litebox.cboxElement > div > img {
-  padding: 0;
-}
-div.w3-row.field.field--name-field-aanwezigen.field--type-text.field--label-inline.clearfix > div > p {
-  margin-top: 0;
-}
-div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div {
-  font-size: 1.2rem;
-  display: block;
-  padding-top: 1rem;
-}
-div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div p {
-  font-size: 1rem;
-  display: block;
-}
-div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div > ul {
-  font-size: 1rem;
-  padding-top: 0;
-}
-div.w3-row.field.field--name-field-bijlage.field--type-file.field--label-above > label {
-  font-size: 1.5rem;
-}
-/* div.w3-section.js-form-item {
-  display: none;
-} */
-#edit-new > div > div.w3-paenl.details-description {
-  display: none;
-}
-#edit-images-0 {
-  display: none;
-}
-#edit-new > div > div.w3-section.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-title-0.form-item-title-0 {
-  display: none;
-}
-#edit-new > div > div.w3-section.js-form-item.form-item.js-form-type-textarea.form-type-textarea.js-form-item-des-0.form-item-des-0 {
-  display: none;
-}
-
-.w3-theme-l5 {color:#000 !important; background-color:#ebf0fa !important}
-.w3-theme-l4 {color:#000 !important; background-color:#bccef0 !important}
-.w3-theme-l3 {color:#fff !important; background-color:#789de0 !important}
-.w3-theme-l2 {color:#fff !important; background-color:#356cd1 !important}
-.w3-theme-l1 {color:#fff !important; background-color:#214992 !important}
-.w3-theme-d1 {color:#fff !important; background-color:#102347 !important}
-.w3-theme-d2 {color:#fff !important; background-color:#0e1f3f !important}
-.w3-theme-d3 {color:#fff !important; background-color:#0d1c37 !important}
-.w3-theme-d4 {color:#fff !important; background-color:#0b182f !important}
-.w3-theme-d5 {color:#fff !important; background-color:#091427 !important}
-
-.w3-theme-light {color:#000 !important; background-color:#ebf0fa !important}
-.w3-theme-dark {color:#fff !important; background-color:#091427 !important}
-.w3-theme-action {color:#fff !important; background-color:#091427 !important}
-
-.w3-theme {color:#fff !important; background-color:#12274e !important}
-.w3-text-theme {color:#12274e !important}
-.w3-border-theme {border-color:#12274e !important}
-
-.w3-hover-theme:hover {color:#fff !important; background-color:#12274e !important}
-.w3-hover-text-theme:hover {color:#12274e !important}
-.w3-hover-border-theme:hover {border-color:#12274e !important}
-
-
-.w3-theme-l4 {color:#FFF !important; background-color:rgb(16, 119, 16) !important}
-/* .w3-theme-l5 {color:#FFF!important; background-color:#12274e !important} */
-
-
-.w3-theme-d5 {color:#000 !important; background-color: white !important}
-.w3-theme-d4 {color:#fff !important; background-color: #0d1c37 !important}
-.w3-theme-d3 {color:#fff !important; background-color:#ebf0fa !important}
-/* .w3-theme-l5 {color:#000 !important; background-color: rgb(233, 236, 229) !important} */
-
-/* webform */
-nav.webform-submission-navigation {
-  display: none;
-}
-.webform-submission-edit-form {
-  background-color: white;
-}
-.webform-submission-information::before {
-  font-weight: bold;
-  color: navy;
-  content: "Uw inzending: U kan deze nog aanpassen tot einde indieningsperiode. ";
-}
-.highlighted-inner, .welcome-text-inner {
-  padding: 0 !important;
-}
-.av2023{
-  table-layout: fixed;
-  width: 500px !important;
-}
-@media(max-width: 800px) {
-  .av2023{
-  table-layout: auto;
-  width: 90% !important;
-  }
-}
-.path-node-953 ul.ul-1{
- color: blue;
-}
-#main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div > section.w3-block.w3-block-wrapper.block-layout-builder.block-field-blocknodeeventsbody > div > ul li a{
-    text-decoration: underline;
-    color: blue;
-}
-
-#top-container.w3-theme-l4 {
-    background-color: black !important;
-}
-.gert {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-.gert img {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-
-.gert div {
-    flex: 1;
-}
-
-@media(max-width: 768px){
-    .gert {
-    flex-direction: column;
-    align-items: center;
-    }
-   
+          animation-name: zoomIn;
 }

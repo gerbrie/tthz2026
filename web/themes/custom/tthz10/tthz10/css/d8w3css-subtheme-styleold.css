@@ -1,17 +1,7 @@
-root {
-  --container-size: 1140px;
-  --color-red: rgb(177, 7, 7);
-  --color-orange2: rgb(255, 165, 0);
-  --color-orange: #ff8800;
-  --color-green: rgb(16, 119, 16);
-  --color-black: #12274e;
-  --color-edit: #ffe6019f;
-}
 
 html {
   scroll-behavior: smooth;
 }
-
 .site-logo img {
   width: 200px;
 }
@@ -19,13 +9,13 @@ html {
   position: absolute;
   z-index: 501;
   left: 1rem;
-  top: 4rem;
+  top: 2rem;
+  opacity: 60%;
   width: 150px;
 }
 .path-view-frontpage #header {
-  background-color: white!important;
-}                                                                                                                                                                                                              
-
+  background-color: #fafafa !important;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 #header-inner {
   max-width: none;
   padding: 0;
@@ -33,39 +23,18 @@ html {
 .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div > img {
   height: 90%;
 }
-#w3-slideshow-50 {
-  margin-bottom: -1rem !important;
+.path-view-frontpage #block-tthz10-branding {
+  margin-top: -3rem !important;
 }
-
 #block-tthz10-branding {
   display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
 }
-
 .site-name-slogan {
   display: none;
 }
-
-#block-tthz10-tthzledennieuws {
-  /* background-color: #12274e;
-  margin: 8px;
-  color: white; */
-  background-color: white !important;
-  color: black;
-  /* margin: 8px; */
-  padding: 15px;
-  text-align: center;
-  
-}
-
-#block-tthz10-tthzledennieuws h2 {
-  /* color: white; */
-  color: black;
-  text-align: center;
-}
-
 @media (min-width: 800px) {
   .w3-row.field.field--name-w3css-media-image.field--type-image.field--label-visually_hidden > div {
     height: 100vh;
@@ -79,22 +48,12 @@ html {
     z-index: 501;
     left: 6rem;
     top: 8rem;
+    opacity: 60%;
     width: 300px;
-  }
-  div.w3-row.w3-hero-txt-wrapper > div > div > p:nth-child(1) {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 10px 0;
-  }
-  div.w3-row.w3-hero-txt-wrapper > div > div > p:nth-child(2) > span {
-    font-weight: 600;
-    font-style: italic;
-    font-size: 1.33rem;
   }
 }
 #block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > div.view-content > div > div > div > div > div > div {
   padding: 0 !important;
-  margin-bottom: -1rem !important;  
 }
 .nieuwsoverzicht span.quickedit-field {
   padding: 0.5rem !important;
@@ -152,12 +111,15 @@ html {
 .topnieuwsblok .w3-panel {
   margin-bottom: 0;
 }
-/* .node__content img {
-  padding: 1rem;
-} */
+.node__content img {
+  padding: 0.1rem 1rem;
+}
 .ledenpagina img,
 .bestuur img {
   padding: 0.1rem 0; 
+}
+.views-row img {
+  padding: 0; 
 }
 .node .field--type-image {
   margin: 0;
@@ -189,10 +151,6 @@ a.site-logo {
     .block-system-main-block {
       padding: 0;
     }
-    .site-logo {
-      content: url("/sites/default/files/tthzlogorechthoek.png");
-      width: 200px;
-    }
   }
   .block-system-main-block form.messages--status {
     margin: -0.3rem;
@@ -204,7 +162,6 @@ a.site-logo {
   }
   .topnieuwsblok {
     margin-left: 1rem;
-    margin-right: 1rem;
   }
   .kalender .views-row p,
   a {
@@ -237,16 +194,13 @@ a.site-logo {
   .view-frontpage .view-content .w3-panel.views-row {
     padding: 0;
   }
-  #block-tthz10-branding > a > img {
-    padding-bottom: 0.8rem;
-  }
 }
 #main-navigation-inner-h {
   display: flex;
 }
 #top-container .top-box > div {
   background-color: #dfe5e8 !important;
-  /* font-size: 120%; */
+  font-size: 120%;
 }
 @media (max-width: 768px) {
   .field-content.topnieuws {
@@ -272,7 +226,7 @@ a.site-logo {
   padding-left: 0 !important;
 }
 .topnieuws {
-  background-color: black;
+  background-color: #3f51b5;
   color: white;
   font-size: smaller;
   display: inline-block;
@@ -284,7 +238,7 @@ a.site-logo {
   margin-top: 1rem;
 }
 .topnieuwstitel {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0rem 0rem 0rem 0.7rem;
 }
 #top-container-inner .field-content p {
@@ -296,9 +250,9 @@ a.site-logo {
     top: -1rem;
     margin-bottom: -0.5rem;
   }
-/*  #block-views-block-nieuws-block-1-3 > div.w3-row.element-container-wrapper > div > div.view-content > div {
+  #block-views-block-nieuws-block-1-3 > div.w3-row.element-container-wrapper > div > div.view-content > div {
     padding-left: 1rem;
-  }*/
+  }
 }
 .nieuwsinhoud {
   margin-top: -2rem;
@@ -307,18 +261,9 @@ a {
   color: #3343a5;
 }
 #header {
-  background-color: white !important;
-  /* background-image: linear-gradient(110deg, #000000 0.56%, #4267b2 0.56%, #4267b2 22.78%, #000000 22.78%, #000000 24.44%, #b5e61d 24.44%, #b5e61d 46.67%, #000000 46.67%, #000000 47.22%, #fff 47.22%, #fff 50%, #000000 50%, #000000 50.56%, #4267b2 50.56%, #4267b2 72.78%, #000000 72.78%, #000000 74.44%, #b5e61d 74.44%, #b5e61d 96.67%, #000000 96.67%, #000000 97.22%, #fff 97.22%, #fff 100%); */
-/* background-size: 95.78px 263.14px; */
+  background-image: linear-gradient(110deg, #000000 0.56%, #4267b2 0.56%, #4267b2 22.78%, #000000 22.78%, #000000 24.44%, #b5e61d 24.44%, #b5e61d 46.67%, #000000 46.67%, #000000 47.22%, #fff 47.22%, #fff 50%, #000000 50%, #000000 50.56%, #4267b2 50.56%, #4267b2 72.78%, #000000 72.78%, #000000 74.44%, #b5e61d 74.44%, #b5e61d 96.67%, #000000 96.67%, #000000 97.22%, #fff 97.22%, #fff 100%);
+background-size: 95.78px 263.14px;
 }
-@media only screen and (min-width: 800px) {
-  #header {
-    background-image: linear-gradient(112deg, #ffffff 24.75%, #000000 24.75%, #000000 25.25%, #dfe5e8 25.25%, #dfe5e8 50%, #ffffff 50%, #ffffff 74.75%, #000000 74.75%, #000000 75.25%, #dfe5e8 75.25%, #dfe5e8 100%);
-background-size: 108.93px 269.62px;
-
-  }
-}
-
 .ledenpagina .view-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
@@ -326,7 +271,7 @@ background-size: 108.93px 269.62px;
   justify-content: center;
 }
 #block-views-block-kalenderblok-block-1-2 h2 {
-  background-color: #12274e;
+  background-color: #0067a7;
   color: white;
   margin-bottom: -1rem;
   font-size: 1rem;
@@ -353,8 +298,8 @@ background-size: 108.93px 269.62px;
 }
 
 #block-tthz10-aggregatorfeed h2 {
-  background-color: rgb(16, 119, 16);
-  color: #FFF;
+  background-color: #8bc34a;
+  color: black;
   margin-bottom: -1rem !important;
   font-size: 1rem;
   padding: 0.5rem;
@@ -465,9 +410,6 @@ background-size: 108.93px 269.62px;
   grid-gap: 50px;
   justify-content: center;
 }
-.path-view-frontpage #block-tthz10-branding {
-  margin-top: -3rem !important;
-}
 }
 .kalender > div {
   display: grid;
@@ -487,7 +429,7 @@ background-size: 108.93px 269.62px;
   }
 }
 .kalender .views-field-title a {
-  border-top: 3px solid rgb(16, 119, 16);
+  border-top: 3px solid #8bc34a;
   display: block;
   margin-top: -4.2rem;
   padding: 7px;
@@ -505,7 +447,7 @@ background-size: 108.93px 269.62px;
   color: #3343a5;
 }
 .datumkalender {
-  background-color: #12274e;
+  background-color: #0067a7;
   border-radius: 25px;
   color: white;
   position: relative;
@@ -747,14 +689,10 @@ h2#block-tthz10-account-menu-menu {
   justify-content: flex-end;
   align-items: flex-end;
 }
-div.node__author-image > article > div > a > img {
-  display: none;
-}
 @media (max-width: 800px) {
 .pager__items li {
   padding: 0 0 0 10px;
 }
-
 }
 @media(max-width: 1000px){
 #block-views-block-headerparagraph-block-1 {
@@ -769,257 +707,45 @@ div.node__author-image > article > div > a > img {
   height: 0;
 }
 #block-views-block-headerparagraph-block-1 > div.w3-row.element-container-wrapper > div > footer svg {
-  height: 50px;
-  border: 2px solid #3343a5;
-  border-radius: 45%;
-  background-color: rgb(16, 119, 16);
-  display: flex;
+  height: 75px;
 }
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-          /* animation-delay: 2s; */
-          animation-iteration-count: 5;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 @-webkit-keyframes zoomIn {
   0% {
-    opacity: 0.5;
+    opacity: 0;
     -webkit-transform: scale3d(.4, .4, .4);
             transform: scale3d(.4, .4, .4);
-           
   }
 
   50% {
-    opacity: 0.75;
+    opacity: 0.5;
   }
   
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 @keyframes zoomIn {
   0% {
-    opacity: 0.5;
+    opacity: 0;
     -webkit-transform: scale3d(.4, .4, .4);
             transform: scale3d(.4, .4, .4);
   }
 
   50% {
-    opacity: 0.75;
+    opacity: 0.5;
   }
   
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 .zoomIn {
   -webkit-animation-name: zoomIn;
-          animation-name: zoomIn;         
-}
- div.w3-row.field.field--name-field-media-image-1.field--type-image.field--label-visually_hidden > div > img {
-  aspect-ratio: 4/3;
- }
-
- #block-tthz10-editormenu-menu {
-  color: White;
- }
- #block-tthz10-account-menu-menu {
-  color: white;
- }
- h1.page-title {
-  color:rgb(16, 119, 16)!important;
-  background-color: white !important;
- }
- #copyright-inner > div > p > a {
-  color: black !important;
- }
-.second-footer > div {
-  background-color: #12274e !important;
-  color: white !important;
- }
- #top-container-inner {
-  padding: 0;
- }
- #footer-container-inner {
-  padding: 0;
- }
- /* #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div {
-  background-color:  #dfe5e8!important;
-  border-color: #12274e !important;
- }
- #main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div:hover {
-  background-color:  rgb(16, 119, 16) !important;
-  color: white !important;
-  border-color: #12274e !important;
- } */
- div.paragraph--type--w3css-webform {
-  background-color:  #dfe5e8!important;
-  border-color: rgb(16, 119, 16) !important;
- }
- div.paragraph--type--w3css-webform:hover {
-  background-color:  rgb(16, 119, 16) !important;
-  color: white !important;
-  border-color: #12274e !important;
-  transition: 2s;
- }
- /* .path-frontpage div.w3-row.field.field--name-body.field--type-text-with-summary.field--label-hidden.w3-bar-item.field__item > p {
-  padding-top: 1rem;
- } */
- 
- #bottom-container-inner{
-  background-color:#ebf0fa  !important;
- }
- #bottom-container-inner div.w3-mobile {
-  background-color:#ebf0fa  !important;
- }
- .path-frontpage div.w3-row.field.field--name-field-image.field--type-image.field--label-hidden.field__item > a > img {
-  width: 100vw;
- }
- .path-frontpage .field__item img {
-  width: 100vw !important;
- }
-div.layout__region.layout__region--first > section > div > a > div > img {
-  padding-top: 1rem;
-}
-div.w3-row.field.field--name-user-picture.field--type-image.field--label-hidden.field__item > a > img {
-  width: 200px;
- }
- div.node__author-image img {
-  width: 75px !important;
- }
- .path-frontpage div.node__author-image img {
-  width: 75px !important;
- }
- .page-node-type-photos a.blazy__colorbox.litebox.cboxElement > div > img {
-  padding: 0;
-}
-div.w3-row.field.field--name-field-aanwezigen.field--type-text.field--label-inline.clearfix > div > p {
-  margin-top: 0;
-}
-div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div {
-  font-size: 1.2rem;
-  display: block;
-  padding-top: 1rem;
-}
-div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div p {
-  font-size: 1rem;
-  display: block;
-}
-div.w3-row.field.field--name-field-agendapunten.field--type-key-value-long.field--label-hidden.field__items > div > ul {
-  font-size: 1rem;
-  padding-top: 0;
-}
-div.w3-row.field.field--name-field-bijlage.field--type-file.field--label-above > label {
-  font-size: 1.5rem;
-}
-/* div.w3-section.js-form-item {
-  display: none;
-} */
-#edit-new > div > div.w3-paenl.details-description {
-  display: none;
-}
-#edit-images-0 {
-  display: none;
-}
-#edit-new > div > div.w3-section.js-form-item.form-item.js-form-type-textfield.form-type-textfield.js-form-item-title-0.form-item-title-0 {
-  display: none;
-}
-#edit-new > div > div.w3-section.js-form-item.form-item.js-form-type-textarea.form-type-textarea.js-form-item-des-0.form-item-des-0 {
-  display: none;
-}
-
-.w3-theme-l5 {color:#000 !important; background-color:#ebf0fa !important}
-.w3-theme-l4 {color:#000 !important; background-color:#bccef0 !important}
-.w3-theme-l3 {color:#fff !important; background-color:#789de0 !important}
-.w3-theme-l2 {color:#fff !important; background-color:#356cd1 !important}
-.w3-theme-l1 {color:#fff !important; background-color:#214992 !important}
-.w3-theme-d1 {color:#fff !important; background-color:#102347 !important}
-.w3-theme-d2 {color:#fff !important; background-color:#0e1f3f !important}
-.w3-theme-d3 {color:#fff !important; background-color:#0d1c37 !important}
-.w3-theme-d4 {color:#fff !important; background-color:#0b182f !important}
-.w3-theme-d5 {color:#fff !important; background-color:#091427 !important}
-
-.w3-theme-light {color:#000 !important; background-color:#ebf0fa !important}
-.w3-theme-dark {color:#fff !important; background-color:#091427 !important}
-.w3-theme-action {color:#fff !important; background-color:#091427 !important}
-
-.w3-theme {color:#fff !important; background-color:#12274e !important}
-.w3-text-theme {color:#12274e !important}
-.w3-border-theme {border-color:#12274e !important}
-
-.w3-hover-theme:hover {color:#fff !important; background-color:#12274e !important}
-.w3-hover-text-theme:hover {color:#12274e !important}
-.w3-hover-border-theme:hover {border-color:#12274e !important}
-
-
-.w3-theme-l4 {color:#FFF !important; background-color:rgb(16, 119, 16) !important}
-/* .w3-theme-l5 {color:#FFF!important; background-color:#12274e !important} */
-
-
-.w3-theme-d5 {color:#000 !important; background-color: white !important}
-.w3-theme-d4 {color:#fff !important; background-color: #0d1c37 !important}
-.w3-theme-d3 {color:#fff !important; background-color:#ebf0fa !important}
-/* .w3-theme-l5 {color:#000 !important; background-color: rgb(233, 236, 229) !important} */
-
-/* webform */
-nav.webform-submission-navigation {
-  display: none;
-}
-.webform-submission-edit-form {
-  background-color: white;
-}
-.webform-submission-information::before {
-  font-weight: bold;
-  color: navy;
-  content: "Uw inzending: U kan deze nog aanpassen tot einde indieningsperiode. ";
-}
-.highlighted-inner, .welcome-text-inner {
-  padding: 0 !important;
-}
-.av2023{
-  table-layout: fixed;
-  width: 500px !important;
-}
-@media(max-width: 800px) {
-  .av2023{
-  table-layout: auto;
-  width: 90% !important;
-  }
-}
-.path-node-953 ul.ul-1{
- color: blue;
-}
-#main-container-inner > div.w3-col.w3-clear.w3-row-padding > div > div > article > div > div > div > section.w3-block.w3-block-wrapper.block-layout-builder.block-field-blocknodeeventsbody > div > ul li a{
-    text-decoration: underline;
-    color: blue;
-}
-
-#top-container.w3-theme-l4 {
-    background-color: black !important;
-}
-.gert {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-.gert img {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-
-.gert div {
-    flex: 1;
-}
-
-@media(max-width: 768px){
-    .gert {
-    flex-direction: column;
-    align-items: center;
-    }
-   
+          animation-name: zoomIn;
 }

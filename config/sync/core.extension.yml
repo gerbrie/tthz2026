@@ -130,6 +130,10 @@ module:
   paragraphs: 11
   standard: 1000
   eu_cookie_compliance: 1001
+  media_library_importer: 0
+  queue_ui: 0
+  simple_oauth: 0
+  smtp: 0
 theme:
   drupal8_w3css_theme: 0
   tthz10: 0

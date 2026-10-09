@@ -29,6 +29,7 @@
         "drupal/captcha": "^2.0",
         "drupal/color": "^2.0@alpha",
         "drupal/color-color": "^1.0",
+        "drupal/colorbox": "^2.2",
         "drupal/conditional_fields": "^4.0@alpha",
         "drupal/config_perms": "^2.1",
         "drupal/consumers": "^1.22",

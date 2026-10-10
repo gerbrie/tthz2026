@@ -1035,3 +1035,6 @@ nav.webform-submission-navigation {
     background: transparent !important;
 }
 
+#cboxCurrent {
+  bottom: -2px!important;
+}

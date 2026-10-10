@@ -1023,3 +1023,14 @@ nav.webform-submission-navigation {
     }
    
 }
+
+#colorbox #cboxTitle,
+#cboxWrapper #cboxTitle {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Achtergrond van de titel verwijderen */
+#cboxTitle {
+    background: transparent !important;
+}

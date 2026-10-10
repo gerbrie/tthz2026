@@ -1,0 +1,8 @@
+name: 'Photos Colorbox Gallery'
+type: module
+description: 'Colorbox navigation across paginated Photos album images.'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:views
+  - colorbox:colorbox

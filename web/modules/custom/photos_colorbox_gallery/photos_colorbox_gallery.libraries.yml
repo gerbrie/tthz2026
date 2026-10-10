@@ -1,0 +1,10 @@
+full_gallery:
+  js:
+    js/full-gallery.js: {}
+  css:
+    theme:
+      css/full-gallery.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once

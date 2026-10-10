@@ -6,3 +6,10 @@ d8w3css-subtheme-global:
 
   js:
     js/d8w3css-subtheme-script.js: {}
+
+  
+    js/colorbox-gallery.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - colorbox/colorbox

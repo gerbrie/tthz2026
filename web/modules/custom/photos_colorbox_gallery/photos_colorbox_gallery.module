@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Full Colorbox gallery for paginated Photos albums.
+ */
+
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_ENTITY_TYPE_view() for nodes.
+ */
+function photos_colorbox_gallery_node_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode): void {
+  if ($entity->bundle() !== 'photos' || $view_mode !== 'full') {
+    return;
+  }
+
+  $build['photos_colorbox_gallery_all'] = [
+    '#type' => 'container',
+    '#attributes' => [
+      'class' => ['photos-colorbox-gallery-all'],
+      'data-photos-colorbox-album' => (string) $entity->id(),
+    ],
+    'view' => [
+      '#type' => 'view',
+      '#name' => 'photos_album',
+      '#display_id' => 'block_colorbox_all',
+      '#arguments' => [$entity->id()],
+    ],
+    '#weight' => 1000,
+  ];
+  $build['#attached']['library'][] = 'photos_colorbox_gallery/full_gallery';
+  $build['#cache']['tags'] = array_unique(array_merge($build['#cache']['tags'] ?? [], $entity->getCacheTags()));
+}

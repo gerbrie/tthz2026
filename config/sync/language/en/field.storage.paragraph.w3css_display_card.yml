@@ -1,6 +1,0 @@
-settings:
-  allowed_values:
-    -
-      label: '2px bordered shadow'
-    -
-      label: '4px bordered shadow'

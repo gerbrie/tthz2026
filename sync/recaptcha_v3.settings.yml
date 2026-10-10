@@ -1,9 +1,0 @@
-_core:
-  default_config_hash: jv0PKCJEOq2bOwY9RspuPZCf67ifVJ4tfTk-BfZMw8k
-langcode: nl
-site_key: 6Lf_ZiggAAAAAFFF2jjOjE-DDPTQP4zxh9dECCdt
-secret_key: 6Lf_ZiggAAAAAAUZ7meKid-kREVRIP0UOFzCB5KO
-verify_hostname: false
-default_challenge: recaptcha/reCAPTCHA
-error_message: 'Antibot verification failed.'
-cacheable: false

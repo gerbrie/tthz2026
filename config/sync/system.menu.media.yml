@@ -1,8 +1,0 @@
-uuid: 2ac69ba8-c308-4ba9-ae5c-a5f123fbb875
-langcode: nl
-status: true
-dependencies: {  }
-id: media
-label: Media
-description: ''
-locked: false

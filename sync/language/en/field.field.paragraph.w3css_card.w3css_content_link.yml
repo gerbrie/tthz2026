@@ -1,2 +1,0 @@
-label: Link
-description: 'This is the wrapper link and it is applied to the whole card (to the content title, image and body fields). If you add a new link in the body field, the wrapper link will be applied only to the image. I set it up this way because you cannot nest links.'

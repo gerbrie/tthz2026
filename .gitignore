@@ -1,173 +1,108 @@
-# -----------------------------
-# Drupal 11 .gitignore
-# Composer setup with docroot = web/
-# -----------------------------
 
-# -----------------------------
-# Composer-managed dependencies
-# -----------------------------
-/vendor
+# Drupal 11 - Composer project
+# Document root: web/
+
+# Composer dependencies
+/vendor/
 /composer.phar
 
-# -----------------------------
-# Drupal core (installed in web/)
-# -----------------------------
-/web/core
+# Drupal core
+/web/core/
 
-# -----------------------------
-# Contrib modules, themes, profiles
-# (managed by Composer)
-# -----------------------------
-/web/modules/contrib
-/web/themes/contrib
-/web/profiles/contrib
+# Composer-managed contributed modules, themes and profiles
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
 
-# -----------------------------
-# User-generated & runtime files
-# -----------------------------
-/web/sites/*/files
-/web/sites/*/private
-/web/sites/*/tmp
-/web/sites/*/php
-/web/sites/*/translations
+# Drupal runtime and uploaded files
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/tmp/
+/web/sites/*/php/
+/web/sites/*/translations/
 
-# -----------------------------
-# Sensitive configuration
-# -----------------------------
+# Sensitive Drupal settings
 /web/sites/*/settings.php
 /web/sites/*/settings.local.php
 /web/sites/*/services.yml
 /web/sites/*/services.local.yml
 /web/sites/*/development.services.yml
 
-# -----------------------------
-# Environment-specific config sync
-# (keep shared config, ignore local overrides)
-# -----------------------------
-/config/*/local
+# Private keys and local configuration
+/keys/
+/config/*/local/
 
-# -----------------------------
 # Drush
-# -----------------------------
-/drush/contrib
-/drush/sites
+/drush/contrib/
+/drush/sites/
 
-# -----------------------------
-# Frontend tooling (if used)
-# -----------------------------
-/node_modules
+# Frontend dependencies and generated output
+/node_modules/
 /npm-debug.log*
 /yarn-error.log*
 /pnpm-debug.log*
-/dist
-/build
+/dist/
+/build/
 
-# -----------------------------
 # Testing
-# -----------------------------
 /phpunit.xml
 /.phpunit.result.cache
-/test-output
+/test-output/
 
-# -----------------------------
-# IDEs & OS files
-# -----------------------------
-.idea
-.vscode
+# IDE and operating system files
+.idea/
+.vscode/
 *.swp
 *.swo
 *.sublime-*
 .DS_Store
 Thumbs.db
 
-# -----------------------------
+# Editor backups
+*~
+*.un~
+
+# NFS temporary files
+.nfs*
+
 # Environment variables
-# -----------------------------
 .env
 .env.*
+!.env.example
 
-# -----------------------------
-# Backups & archives
-# -----------------------------
+# Database backups and archives
 *.sql
 *.sql.gz
 *.tar.gz
 *.zip
 
-# -----------------------------
 # Composer cache
-# -----------------------------
-.cache
+.cache/
 
-# -----------------------------
-# Files you WANT in Git
-# -----------------------------
+# Project-specific files that should remain tracked
 !/composer.json
 !/composer.lock
 !/web/.htaccess
 !/web/sites/*/settings.example.php
-!/web/modules/custom
-!/web/themes/custom
-!/web/profiles/custom
-!/config/sync
 
-Last login: Mon Oct 12 21:19:49 on ttys000
-koen ➜  ~ ssh tthz-cycling-team.be@ssh.tthz-cycling-team.bee
-ssh: Could not resolve hostname ssh.tthz-cycling-team.bee: nodename nor servname provided, or not known
-koen ➜  ~ ssh tthz-cycling-team.be@ssh.tthz-cycling-team.be 
-tthz-cycling-team.be@ssh.tthz-cycling-team.be's password: 
-Welcome to the one.com SSH service.
-
-This service offers an environment for you to interact with the files in your
-web space, either directly using your shell, or by using secure file transfer
-protocols such as SFTP, SCP or RSYNC over SSH. Your work environment in this
-service contains many typical Unix tools for editing files, changing
-permissions, and much more. It also features a few script interpreters for you
-to automate complex maintenance tasks.
-
-To improve performance and stability of your web site, One.com uses web
-accelerator servers that cache your static content. If you change your data, and
-need to purge this cache, you can use the tool `cache-purge`.
-
-Please note that your session and network traffic are logged while using this
-service.
-
-For MySQL access, use the hostname defined by $MYSQL_HOST, as connections to
-localhost are only supported in php.
-
-Your web space data can be found in /www/.
-
-tthz-cycling-team.be@tthz-cycling-team:~$ cd /www
-tthz-cycling-team.be@tthz-cycling-team:/www$ vi .gitignore
-
-
+# Custom Drupal modules, themes and profiles
+!/web/modules/custom/
 !/web/themes/custom/
-
-# Custom Drupal profiles
 !/web/profiles/custom/
 
 # Drupal configuration export
 !/config/sync/
 
-# Project dependency definitions
-!/composer.json
-!/composer.lock
+# Custom and legacy themes
+# Keep web/themes/d8w3css in Git if required by your theme.
 
-# Drupal web server configuration
-!/web/.htaccess
+# Drupal recipes
+# Keep project-owned recipes in Git.
 
-# Example settings
-!/web/sites/*/settings.example.php
+# Manually managed frontend libraries
+# Do not ignore /web/libraries/ globally unless
+# all libraries are installed automatically by Composer.
 
-# --------------------------------------------------
-# Project-specific directories
-# --------------------------------------------------
+# Git attributes
+# Keep .gitattributes tracked for consistent line endings.
 
-# Legacy D8W3CSS base theme required by tthz10:
-#  web/themes/d8w3css/
-# Keep tracked until its dependency is resolved.
-
-# Drupal recipes:
-# recipes/
-# Keep project-owned recipes tracked.
-/.gitattributes

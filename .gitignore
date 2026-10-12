@@ -111,4 +111,63 @@ Thumbs.db
 !/web/profiles/custom
 !/config/sync
 
+Last login: Mon Oct 12 21:19:49 on ttys000
+koen ➜  ~ ssh tthz-cycling-team.be@ssh.tthz-cycling-team.bee
+ssh: Could not resolve hostname ssh.tthz-cycling-team.bee: nodename nor servname provided, or not known
+koen ➜  ~ ssh tthz-cycling-team.be@ssh.tthz-cycling-team.be 
+tthz-cycling-team.be@ssh.tthz-cycling-team.be's password: 
+Welcome to the one.com SSH service.
+
+This service offers an environment for you to interact with the files in your
+web space, either directly using your shell, or by using secure file transfer
+protocols such as SFTP, SCP or RSYNC over SSH. Your work environment in this
+service contains many typical Unix tools for editing files, changing
+permissions, and much more. It also features a few script interpreters for you
+to automate complex maintenance tasks.
+
+To improve performance and stability of your web site, One.com uses web
+accelerator servers that cache your static content. If you change your data, and
+need to purge this cache, you can use the tool `cache-purge`.
+
+Please note that your session and network traffic are logged while using this
+service.
+
+For MySQL access, use the hostname defined by $MYSQL_HOST, as connections to
+localhost are only supported in php.
+
+Your web space data can be found in /www/.
+
+tthz-cycling-team.be@tthz-cycling-team:~$ cd /www
+tthz-cycling-team.be@tthz-cycling-team:/www$ vi .gitignore
+
+
+!/web/themes/custom/
+
+# Custom Drupal profiles
+!/web/profiles/custom/
+
+# Drupal configuration export
+!/config/sync/
+
+# Project dependency definitions
+!/composer.json
+!/composer.lock
+
+# Drupal web server configuration
+!/web/.htaccess
+
+# Example settings
+!/web/sites/*/settings.example.php
+
+# --------------------------------------------------
+# Project-specific directories
+# --------------------------------------------------
+
+# Legacy D8W3CSS base theme required by tthz10:
+#  web/themes/d8w3css/
+# Keep tracked until its dependency is resolved.
+
+# Drupal recipes:
+# recipes/
+# Keep project-owned recipes tracked.
 /.gitattributes
